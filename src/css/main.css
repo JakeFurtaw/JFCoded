@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+/*Page Layout Code Below, setting sizes of different page 
+section*/
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.fixedHeader, .fixedFooter {
+  width: 100%;
+  position: fixed;
+  background: #333;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.fixedFooter {
+  bottom: 0;
+}
+
+.fixedHeader {
+  top: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*--------------------------------------------------------------- */
+/*Header Code Below */
+header {
+  padding-left: 4rem;
+  padding-top: 2rem;
+  width: 100%;
+  height: 7rem;
+  font-size: 50px;
+  background-color: rgb(83, 82, 82);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.logo {
+  position: flex;
+  width: 30%;
+  left: 10%;
+  bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: #fff;
+}
+.logo img {
+  padding-left: 20px;
+}
+
+nav {
+  position: absolute;
+  left: 40%;
+  bottom: 1rem;
+  width: 50%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+nav ul li a:active {
+  color: rgb(20, 3, 78);
+}
+
+nav ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+nav ul li a:hover:after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+/*--------------------------------------------------------------- */
+/*Footer Code Starts Below*/
+footer {
+  position: fixed;
+  padding-top: 0.5rem;
+  width: 100%;
+  height: 3rem;
+  background-color: rgb(83, 82, 82);
+  color: #fff;
+}
+
+.footermeesage1 {
+  position: absolute;
+  width: 20%;
+  bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/* Icon bar Code*/
+.iconBarFooter {
+  left: 90%;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 30%;
+}
+
+.iconBarFooter a {
+  display: inline;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.iconBarFooter a:hover {
+  background-color: rgb(107, 105, 105);
+  padding: 16px;
+  transition: all 0.3s ease;
+}
+
+/*Code for the fullPage.js scroll feature.*/
+.fp-slidesNav.fp-bottom {
+  margin-left: 50% !important;
+  margin-bottom: 5vh !important;
+}
+
+/* This is the start of langing Page Code */
+#landingpage {
+  background-color: rgb(172, 168, 168);
+  display: flex;
+}
+
+#text {
+  float: left;
+  padding-top: 10rem;
+  width: 20%;
+}
+
+#Welcome, #briefIntro, #scrollMore, #socials {
+  padding-left: 2rem;
+}
+#Welcome h1, #briefIntro h1, #scrollMore h1, #socials h1 {
+  text-decoration: underline;
+}
+#Welcome h2, #briefIntro h2, #scrollMore h2, #socials h2 {
+  padding-bottom: 5px;
+}
+
+#Welcome {
+  padding-bottom: 2rem;
+}
+#Welcome h1 {
+  padding-bottom: 0.4rem;
+}
+
+#briefIntro ul {
+  padding-left: 1rem;
+}
+#briefIntro ul, #briefIntro li {
+  padding-top: 0.3rem;
+  list-style-type: square;
+}
+
+/* Icon bar Code*/
+#socials {
+  padding-bottom: 3rem;
+}
+
+.iconBarLP {
+  position: flex;
+  top: 90%;
+  padding-left: 8rem;
+  padding-top: 15rem;
+  transform: translateY(-50%);
+}
+
+.iconBarLP a {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+}
+
+.iconBarLP a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+#gif {
+  float: right;
+  border: #333;
+  border-style: solid;
+  border-width: 2mm;
+  height: 100vh;
+  width: 75%;
+  background-image: url("/src/pictures/bg1.gif");
+  background-size: cover;
+}
+
+/* This is the start of Education Page Code */
+#education {
+  background-color: rgb(223, 219, 219);
+  display: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+#education .split {
+  display: inline;
+}
+#education .split p {
+  text-align: center;
+  font-size: 20px;
+  padding: 4rem 2rem 2rem;
+}
+#education .split img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+#education .split .splitleft {
+  float: left;
+  margin-left: 2rem;
+  width: 45%;
+  background-color: rgba(228, 95, 95, 0.3);
+  height: 67vh;
+}
+#education .split .splitleft:hover {
+  background-color: rgb(190, 48, 84);
+  width: 48%;
+  border: 2mm solid #000;
+  height: 72vh;
+}
+#education .split .splitright {
+  float: right;
+  margin-right: 2rem;
+  width: 45%;
+  background-color: rgba(212, 187, 76, 0.3);
+  height: 67vh;
+}
+#education .split .splitright:hover {
+  background-color: rgb(212, 187, 76);
+  width: 48%;
+  border: 2mm solid #000;
+  height: 72vh;
+}
+#education #titleEdu {
+  text-align: center;
+  height: 10%;
+}
+#education #titleEdu h1 {
+  font-size: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  text-decoration: underline;
+}
+
+/*------------------------------------------------------------------*/
+/*Project Page Layout starts Here.*/
+.s1 .imgHP {
+  position: absolute;
+  opacity: 70%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-image: url("/src/pictures/bg1.png");
+  background-size: cover;
+}
+
+.textHP {
+  text-align: center;
+  color: rgb(185, 197, 79);
+}
+
+#projects .s2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/src/pictures/parkinggaragejaunt.jpg");
+  background-size: cover;
+}
+
+/*------------------------------------------------------------------*/
+/*Skills Page Layout starts Here.*/
+/*------------------------------------------------------------------*/
+/*About Me Page Layout starts Here.*//*# sourceMappingURL=main.css.map */
