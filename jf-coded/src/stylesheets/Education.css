@@ -9,6 +9,7 @@
 }
 .education-sections{
     display: flex;
+    flex-wrap: wrap;
 }
 .education{
     border: 1px solid #fff;
