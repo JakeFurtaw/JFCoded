@@ -1,0 +1,23 @@
+footer {
+    border-top: #ffffff 2px solid;
+    background-color: #0f0e0e;
+    padding: 5px;
+    text-align: center;
+  }
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+p{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
