@@ -7,8 +7,9 @@ const Homepage = () => {
             <h1>Welcome to JFCoded</h1>
             <p>This website serves as a resume and project depot for any employers or investors.</p>
             <div>
-                <Link to="/about">About</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/projects'>Projects</Link>
+                <Link to='/contact'>Contact</Link>
             </div>
         </div>
     );
