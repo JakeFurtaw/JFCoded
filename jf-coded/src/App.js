@@ -11,9 +11,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Homepage />} />
-          <Route path='/Employer.jsx' element={<Employer/>} />
-          <Route path='/Projects.jsx' element={<Projects/>} />
-          <Route path='/*' element={<h1>404 Error. Page not found....</h1>} />
+          <Route path='/Employer' element={<Employer/>} />
+          <Route path='/Projects' element={<Projects/>} />
+          <Route path='/*' element={<h1>Under Construction. Come Back Soon!</h1>} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -38,7 +38,7 @@ const Homepage = () => {
                 <h1 className='link-title'>Are you an...</h1>
                     <div className='homepage-link-section'>
                         <div className='link-cell'>
-                            <Link to='./Employer.jsx' className='link-options'>Employer</Link>
+                            <Link to='./Employer' className='link-options'>Employer</Link>
                             <img style={{width: 204, height: 306}} src={EmployerImg} alt="" />
                         </div>
                         <div className='link-cell'>
