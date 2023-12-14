@@ -19,7 +19,7 @@ const Projects = () => {
 
                 <div className='project'>
                     <h3>Using an ASTNN to Equivalently Sort Mutants</h3>
-                    <Link style={{color:'#7da7f5'}} to='https://gitlab.com/JakeFurtaw/ASTNN-COSC490'>Github Link</Link>
+                    <Link style={{color:'#7da7f5'}} to='https://gitlab.com/JakeFurtaw/ASTNN-COSC490'>Gitlab Link</Link>
                     <h5>Project Description</h5>
                     <p>Description: For my Software Project Practicum class at towson were given an outdated Abstract Syntax Tree Neural Network.
                         We were tasked with updating the ASTNN to run on python 3.5 and to use the latest version of Tensorflow at the time.
