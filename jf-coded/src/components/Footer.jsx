@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../stylesheets/Footer.css';
+import gitImg from '../images/code.jpg';
 
 const Footer = () => {
     return (
@@ -14,6 +15,7 @@ const Footer = () => {
                         <Link to="/about">About Me</Link>
                     </li>
                     <li>
+                        <img src={gitImg} alt="" />
                         <Link to="https://github.com/JakeFurtaw">My Github</Link>
                     </li>
                 </ul>

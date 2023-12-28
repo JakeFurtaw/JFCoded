@@ -22,7 +22,7 @@ const Projects = () => {
                     <Link style={{color:'#7da7f5'}} to='https://gitlab.com/JakeFurtaw/ASTNN-COSC490'>Gitlab Link</Link>
                     <h5>Project Description</h5>
                     <p>Description: For my Software Project Practicum class at towson were given an outdated Abstract Syntax Tree Neural Network.
-                        We were tasked with updating the ASTNN to run on python 3.5 and to use the latest version of Tensorflow at the time.
+                        We were tasked with updating the ASTNN to run on python 3.10, implimenting Code2Vec, adding a learning rate hyperparameter, and getting the model to produce decent results.
                     </p>
                     
                 </div>

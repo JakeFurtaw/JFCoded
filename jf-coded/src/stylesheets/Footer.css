@@ -1,8 +1,14 @@
+/* body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+} */
 footer {
     border-top: #ffffff 2px solid;
     background-color: #0f0e0e;
     padding: 5px;
     text-align: center;
+    margin-top: auto;
   }
   
 nav ul {

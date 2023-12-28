@@ -12,6 +12,10 @@ import Footer from '../components/Footer';
 // **---------------------------------------------------------**
 const Homepage = () => {
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
 
     const [typedText, setTypedText] = useState('');
     const fullText = 'This website serves as a Resume and Project Repository for future employers and investors to checkout and see what'+ 
