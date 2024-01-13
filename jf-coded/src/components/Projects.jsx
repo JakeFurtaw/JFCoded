@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <div className='project-container'>
-            <h3>Projects</h3>
+            
             <div className='projects'>
+            <h3>Projects</h3>
                 <div className='project'>
                     <h3>Oceans</h3>
                     <Link style={{color:'#7da7f5'}} to='https://oceans-prod-v1.vercel.app/'>Link to Oceans</Link>
