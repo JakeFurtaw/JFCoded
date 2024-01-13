@@ -15,7 +15,6 @@ const Footer = () => {
                         <Link to="/about">About Me</Link>
                     </li>
                     <li>
-                        <img src={gitImg} alt="" />
                         <Link to="https://github.com/JakeFurtaw">My Github</Link>
                     </li>
                 </ul>
