@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../stylesheets/Footer.css';
-import gitImg from '../images/code.jpg';
 
 const Footer = () => {
     return (

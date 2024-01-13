@@ -11,7 +11,7 @@ const Projects = () => {
                     <h3>Oceans</h3>
                     <Link style={{color:'#7da7f5'}} to='https://oceans-prod-v1.vercel.app/'>Link to Oceans</Link>
                     <h5>Project Description</h5>
-                    <p>Oceans was built in using the MERN stack. Over the course of a semester we built and deployed a full stack web application.
+                    <p>Description: Oceans was built in using the MERN stack. Over the course of a semester we built and deployed a full stack web application.
                         Oceans is a social media platform that allows users to limit their exposure to information to whatever they want to see, not what they're forced to see. Users can create an account, post content, and interact with other users.
                     </p>
 
