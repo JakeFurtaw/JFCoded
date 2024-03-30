@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Footer from '../components/Footer';
-import '../stylesheets/Employer.css';
+import '../stylesheets/AboutMe.css';
 import Education from '../components/Education';
 import Projects from '../components/Projects';
 import {useState, useEffect} from 'react';
