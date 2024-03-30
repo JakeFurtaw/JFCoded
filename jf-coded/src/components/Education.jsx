@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/Education.css';
-import TowsonIMG from '../images/towson.jpg';
+import TowsonIMG from '../images/tu logo.png';
 import HCCIMG from '../images/hcc.jpg';
 
 const Education = () => {
