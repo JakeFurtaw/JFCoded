@@ -25,7 +25,7 @@ const Projects = () => {
                     <p className="project-description">
                     For the Software Project Practicum class at Towson University, our team was assigned to work on an outdated Abstract Syntax Tree Neural Network (ASTNN) project. The ASTNN was originally designed to automatically identify equivalent mutants, which are slight variations of a program that produce the same output as the original program.
                     </p>
-                    <p><strong>Our primary objectives were:</strong><br/></p>
+                    <p><strong>Our Primary Objectives:</strong><br/></p>
                     <p className="project-description">
                         <ul>
                             <li>
