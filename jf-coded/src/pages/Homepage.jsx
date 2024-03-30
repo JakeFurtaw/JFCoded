@@ -6,7 +6,6 @@ import EmployerImg from '../images/employerImg.jpg';
 import InvestorImg from '../images/investor.jpg';
 import CuriousImg from '../images/curious.jpg';
 import Footer from '../components/Footer';
-import { Analytics } from "@vercel/analytics/react"
 
 // **---------------------------------------------------------**
 // **----------------------Homepage Code----------------------**
@@ -57,7 +56,6 @@ const Homepage = () => {
                 </div>
             </div>
             <Footer />
-            <Analytics />
         </Fragment>
         
     );
