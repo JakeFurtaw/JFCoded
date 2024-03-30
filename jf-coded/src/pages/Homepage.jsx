@@ -50,7 +50,7 @@ const Homepage = () => {
                             <img style={{width: 204, height: 306}} src={InvestorImg} alt="" />
                         </div>
                         <div className='link-cell'>
-                        <Link to='' className='link-options'>Just Curious</Link>
+                        <Link to='./AboutMe' className='link-options'>Just Curious</Link>
                             <img style={{width: 204, height: 306}} src={CuriousImg} alt="" />
                         </div>
                     </div>
