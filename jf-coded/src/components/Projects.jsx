@@ -7,7 +7,7 @@ const Projects = () => {
         <div className='project-container'>
             
             <div className='projects'>
-            <h2 style={{ textAlign: 'center', textDecoration: 'none' }}>Projects</h2>
+            <h2 style={{ textAlign: 'center !important', textDecoration: 'none' }}>Projects</h2>
                 <div className='project'>
                     <h3>Using an ASTNN to Equivalently Sort Mutants</h3>
                     <Link style={{color:'#7da7f5'}} to='https://gitlab.com/JakeFurtaw/ASTNN-COSC490'>Gitlab Link</Link>
