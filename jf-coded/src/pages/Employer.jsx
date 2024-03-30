@@ -28,7 +28,7 @@ function Employer() {
                 </div>
                 <div className='resume'>
                     <h2>My Resume</h2>
-                    <a href={resumeFile} download style={{textAlign: 'center'}}>Click Here to Download My Resume</a>
+                    <a style={{textAlign: 'center', textDecoration: 'underline'}} href={resumeFile} download>Click Here to Download My Resume</a>
                     <Education/>
                     <Projects/>
                 </div>
