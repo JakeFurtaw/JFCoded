@@ -23,9 +23,7 @@ const Footer = () => {
                         <Link to="https://www.linkedin.com/in/jacob-furtaw-5b5b4b1b2/">My LinkedIn</Link>
                     </li>
                 </ul>
-                <p>Coded By: Jacob Furtaw & Copilot
-                    <br />
-                Created: December 2023
+                <p>Coded By: Jacob Furtaw
                 </p>
                 <p></p>
             </nav>
