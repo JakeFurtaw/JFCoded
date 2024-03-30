@@ -23,7 +23,7 @@ const Projects = () => {
                     <Link style={{color:'#7da7f5'}} to='https://gitlab.com/JakeFurtaw/ASTNN-COSC490'>Gitlab Link</Link>
                     <h4>Project Description</h4>
                     <p className="project-description">
-                    <strong>Description:</strong> For the Software Project Practicum class at Towson University, our team was assigned to work on an outdated Abstract Syntax Tree Neural Network (ASTNN) project. The ASTNN was originally designed to automatically identify equivalent mutants, which are slight variations of a program that produce the same output as the original program.
+                    For the Software Project Practicum class at Towson University, our team was assigned to work on an outdated Abstract Syntax Tree Neural Network (ASTNN) project. The ASTNN was originally designed to automatically identify equivalent mutants, which are slight variations of a program that produce the same output as the original program.
                     </p>
                     <p><strong>Our primary objectives were:</strong><br/></p>
                     <p className="project-description">
@@ -42,7 +42,7 @@ const Projects = () => {
                     <Link style={{color:'#7da7f5'}} to='https://oceans-prod-v1.vercel.app/'>Link to Oceans</Link>
                     <h4>Project Description</h4>
                     <p className="project-description">
-                    <strong>Description:</strong> Oceans is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, developed over the course of a semester-long project. The primary goal of Oceans is to provide a social media platform that empowers users to curate their online experience by limiting their exposure to information they choose to engage with, rather than being overwhelmed by a constant barrage of content they may not be interested in.<br/><br/>
+                    Oceans is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, developed over the course of a semester-long project. The primary goal of Oceans is to provide a social media platform that empowers users to curate their online experience by limiting their exposure to information they choose to engage with, rather than being overwhelmed by a constant barrage of content they may not be interested in.<br/><br/>
                     </p>
                     <p><strong>Key Features:</strong><br/></p>
                     <p className="project-description">
