@@ -32,7 +32,6 @@ function Employer() {
                 <div className='resume'>
                     <h2>My Resume</h2>
                     <Education/>
-                    <h2>Projects</h2>
                     <Projects/>
                     
                 </div>
