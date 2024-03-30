@@ -46,7 +46,7 @@ const Homepage = () => {
                             <img style={{width: 204, height: 306}} src={EmployerImg} alt="" />
                         </div>
                         <div className='link-cell'>
-                        <Link to='' className='link-options'>Investor</Link>
+                        <Link to='http://www.surgepointsoftware.com/lander' className='link-options'>Investor</Link>
                             <img style={{width: 204, height: 306}} src={InvestorImg} alt="" />
                         </div>
                         <div className='link-cell'>
