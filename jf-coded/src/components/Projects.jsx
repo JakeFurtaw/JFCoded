@@ -9,11 +9,11 @@ const Projects = () => {
             <h2>Projects</h2>
             <div className='projects'>
                 <div className='project'>
-                    <h3>Using an ASTNN to Equivalently Sort Mutants</h3>
-                    <Link style={{color:'#7da7f5'}} to='https://gitlab.com/JakeFurtaw/ASTNN-COSC490'>Gitlab Link</Link>
+                    <h3>Creating an AI Assistant using Llama 2 and RAG</h3>
+                    <Link style={{color:'#7da7f5'}} to='https://github.com/JakeFurtaw/LangchainRAG-Chatbot'>Gitlab Link</Link>
                     <h4>Project Description</h4>
-                    <p><strong>Description:</strong> For my Software Project Practicum class at Towson we were given an outdated Abstract Syntax Tree Neural Network that was built to automatically identify equivalent mutants.
-                        We were tasked with updating the ASTNN to run on python 3.10, implimenting Code2Vec, adding a learning rate hyperparameter, and getting the model to produce decent results.
+                    <p className="project-description"> I am developing a conversational AI assistant specifically for new and existing students at universities. This chatbot will be accessible via website and mobile app, allowing students to interact with it from anywhere to get the information they need. At its core is a custom dataset I've carefully curated with a wide range of relevant topics like course offerings, teacher information, enrollment procedures, campus resources, and more.
+                    To power the chatbot, I'm implementing a Retrieval-Augmented Generation (RAG) pipline and using Meta's Llama2 7B model. This combines retrieving pertinent info from the custom dataset with Llama2's fluent text generation abilities. The RAG model allows the chatbot to efficiently locate relevant data and generate natural, contextual responses tailored to each student's query. By deploying it on website and app, I aim to provide an easily accessible resource to enhance the overall student experience, facilitating smoother transitions and navigation through academia. 
                     </p>
                 </div>
 
