@@ -7,7 +7,7 @@ const Projects = () => {
         <div className='project-container'>
             
             <div className='projects'>
-            <h2>Projects</h2>
+            <h2 style={{ textAlign: 'center', textDecoration: 'none' }}>Projects</h2>
                 <div className='project'>
                     <h3>Using an ASTNN to Equivalently Sort Mutants</h3>
                     <Link style={{color:'#7da7f5'}} to='https://gitlab.com/JakeFurtaw/ASTNN-COSC490'>Gitlab Link</Link>
@@ -40,7 +40,7 @@ const Projects = () => {
                 <div className='project'>
                     <h3>Oceans</h3>
                     <Link style={{color:'#7da7f5'}} to='https://oceans-prod-v1.vercel.app/'>Link to Oceans</Link>
-                    <h5>Project Description</h5>
+                    <h4>Project Description</h4>
                     <p><strong>Description:</strong> Oceans was built in using the MERN stack. Over the course of a semester we built and deployed a full stack web application.
                         Oceans is a social media platform that allows users to limit their exposure to information to whatever they want to see, not what they're forced to see. Users can create an account, post content, and interact with other users.
                     </p>
