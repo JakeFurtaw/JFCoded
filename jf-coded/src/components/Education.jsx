@@ -12,13 +12,13 @@ const Education = () => {
                     <h3>Howard Community College</h3>
                     <img style={{width: 70, height: 90}} src={HCCIMG} alt="" />
                     <p>Graduated: December 2021</p>
-                    <p>Assocaites of Science in Computer Science</p>
+                    <p>Assocaite of Science in Computer Science</p>
                 </div>
                 <div id='tu' className='education'>
                     <h3>Towson University</h3>
                     <img style={{width: 70, height: 90}} src={TowsonIMG} alt="" />
                     <p>Graduated: December 2023</p>
-                    <p>Bachelors of Science in Computer Science</p>
+                    <p>Bachelor of Science in Computer Science</p>
                 </div>
             </div>
 
