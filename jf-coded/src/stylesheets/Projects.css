@@ -1,4 +1,6 @@
-
+#li{
+    text-align: left;
+}
 .project-container{
     display: flex;
     flex-direction: column;
