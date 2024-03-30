@@ -10,7 +10,7 @@ const Projects = () => {
             <div className='projects'>
                 <div className='project'>
                     <h3>Creating an AI Assistant using Llama 2 and RAG</h3>
-                    <Link style={{color:'#7da7f5'}} to='https://github.com/JakeFurtaw/LangchainRAG-Chatbot'>Gitlab Link</Link>
+                    <Link style={{color:'#7da7f5'}} to='https://github.com/JakeFurtaw/LangchainRAG-Chatbot'>Project's Github Link</Link>
                     <h4>Project Description</h4>
                     <p className="project-description"> I am developing a conversational AI assistant specifically for new and existing students at universities. This chatbot will be accessible via website and mobile app, allowing students to interact with it from anywhere to get the information they need. At its core is a custom dataset I've carefully curated with a wide range of relevant topics like course offerings, teacher information, enrollment procedures, campus resources, and more.
                     To power the chatbot, I'm implementing a Retrieval-Augmented Generation (RAG) pipline and using Meta's Llama2 7B model. This combines retrieving pertinent info from the custom dataset with Llama2's fluent text generation abilities. The RAG model allows the chatbot to efficiently locate relevant data and generate natural, contextual responses tailored to each student's query. By deploying it on website and app, I aim to provide an easily accessible resource to enhance the overall student experience, facilitating smoother transitions and navigation through academia. 
@@ -20,7 +20,7 @@ const Projects = () => {
 
                 <div className='project'>
                     <h3>Using Machine Learning to Automatically Sort Equivalent Mutants</h3>
-                    <Link style={{color:'#7da7f5'}} to='https://gitlab.com/JakeFurtaw/ASTNN-COSC490'>Gitlab Link</Link>
+                    <Link style={{color:'#7da7f5'}} to='https://gitlab.com/JakeFurtaw/ASTNN-COSC490'>Project's Gitlab Link</Link>
                     <h4>Project Description</h4>
                     <p className="project-description">
                     For the Software Project Practicum class at Towson University, our team was assigned to work on an outdated Abstract Syntax Tree Neural Network (ASTNN) project. The ASTNN was originally designed to automatically identify equivalent mutants, which are slight variations of a program that produce the same output as the original program.
@@ -49,7 +49,7 @@ const Projects = () => {
 
                 <div className='project'>
                     <h3>Oceans</h3>
-                    <Link style={{color:'#7da7f5'}} to='https://oceans-prod-v1.vercel.app/'>Link to Oceans</Link>
+                    <Link style={{color:'#7da7f5'}} to='https://oceans-prod-v1.vercel.app/'>Link to Oceans Website</Link>
                     <h4>Project Description</h4>
                     <p className="project-description">
                     Oceans is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, developed over the course of a semester-long project. The primary goal of Oceans is to provide a social media platform that empowers users to curate their online experience by limiting their exposure to information they choose to engage with, rather than being overwhelmed by a constant barrage of content they may not be interested in.<br/><br/>
