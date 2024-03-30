@@ -6,6 +6,7 @@ import EmployerImg from '../images/employerImg.jpg';
 import InvestorImg from '../images/investor.jpg';
 import CuriousImg from '../images/curious.jpg';
 import Footer from '../components/Footer';
+import { Analytics } from "@vercel/analytics/react"
 
 // **---------------------------------------------------------**
 // **----------------------Homepage Code----------------------**
@@ -33,6 +34,7 @@ const Homepage = () => {
 
     return (
         <Fragment className='homepage-container'>
+            <Analytics />
             <div className='homepage-container'>
                 <h1>Welcome to JFCoded!</h1>
                 <img className='jfcoded-img' style={{width: 300, height: 300}} src={JFCoded} alt="Loading SVG" />

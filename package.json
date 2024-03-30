@@ -1,10 +1,9 @@
 {
   "dependencies": {
+    "@vercel/analytics": "^1.2.2",
     "react-router-dom": "^6.20.1"
   },
   "scripts": {
     "start": "node App.js"
-}
-
-
+  }
 }
