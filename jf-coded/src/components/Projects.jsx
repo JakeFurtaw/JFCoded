@@ -25,8 +25,8 @@ const Projects = () => {
                     <p className="project-description">
                     <strong>Description:</strong> For the Software Project Practicum class at Towson University, our team was assigned to work on an outdated Abstract Syntax Tree Neural Network (ASTNN) project. The ASTNN was originally designed to automatically identify equivalent mutants, which are slight variations of a program that produce the same output as the original program.
                     </p>
+                    <p><strong>Our primary objectives were:</strong><br/></p>
                     <p className="project-description">
-                        <strong>Our primary objectives were:</strong><br/>
                         <strong>Python 3.10 Compatibility:</strong> Upgrade the existing ASTNN codebase to ensure compatibility with Python 3.10, the latest version of Python at the time.<br/>
                         <strong>Code2Vec Integration:</strong> Implement Code2Vec, a neural machine translation model that represents code as continuous distributed vectors. This would enhance the ASTNN's ability to understand and process code samples more effectively.<br/>
                         <strong>Learning Rate Hyperparameter:</strong> Introduce a learning rate hyperparameter to the ASTNN's training process. The learning rate controls the step size at which the model's weights are updated during training, allowing for better optimization and convergence.<br/>
