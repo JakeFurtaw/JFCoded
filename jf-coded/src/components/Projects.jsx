@@ -19,7 +19,7 @@ const Projects = () => {
 
 
                 <div className='project'>
-                    <h2>Using Machine Learning to Automatically Sort Equivalent Mutants</h2>
+                    <h3>Using Machine Learning to Automatically Sort Equivalent Mutants</h3>
                     <Link style={{color:'#7da7f5'}} to='https://gitlab.com/JakeFurtaw/ASTNN-COSC490'>Gitlab Link</Link>
                     <h4>Project Description</h4>
                     <p className="project-description">
@@ -38,7 +38,7 @@ const Projects = () => {
                 </div>
 
                 <div className='project'>
-                    <h2>Oceans</h2>
+                    <h3>Oceans</h3>
                     <Link style={{color:'#7da7f5'}} to='https://oceans-prod-v1.vercel.app/'>Link to Oceans</Link>
                     <h4>Project Description</h4>
                     <p className="project-description">
