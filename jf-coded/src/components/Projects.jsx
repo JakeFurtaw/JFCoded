@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
+        
         <div className='project-container'>
-            <h2 style={{ textAlign: 'center !important', textDecoration: 'none' }}>Projects</h2>
+            <h2>Projects</h2>
             <div className='projects'>
                 <div className='project'>
                     <h3>Using an ASTNN to Equivalently Sort Mutants</h3>
