@@ -41,14 +41,14 @@ const Projects = () => {
                     <h3>Oceans</h3>
                     <Link style={{color:'#7da7f5'}} to='https://oceans-prod-v1.vercel.app/'>Link to Oceans</Link>
                     <h4>Project Description</h4>
-                    <p><strong>Description:</strong> Oceans is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, developed over the course of a semester-long project. The primary goal of Oceans is to provide a social media platform that empowers users to curate their online experience by limiting their exposure to information they choose to engage with, rather than being overwhelmed by a constant barrage of content they may not be interested in.
-                    Key Features:
+                    <p><strong>Description:</strong> Oceans is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, developed over the course of a semester-long project. The primary goal of Oceans is to provide a social media platform that empowers users to curate their online experience by limiting their exposure to information they choose to engage with, rather than being overwhelmed by a constant barrage of content they may not be interested in.<br/><br/>
+                    <strong>Key Features:</strong><br/>
 
                     <strong>User Authentication:</strong> Users can create secure accounts, ensuring their data and interactions remain private and protected.<br/>
                     <strong>Content Creation:</strong> Registered users can create and publish various types of content, such as text posts, images, videos, and more, allowing them to share their thoughts, experiences, and creations with the Oceans community.<br/>
                     <strong>Customizable Feed:</strong> Users have complete control over their news feed, enabling them to follow specific topics, interests, or other users they find valuable. This curated feed ensures that users only see content relevant to their preferences, reducing information overload and enhancing their overall experience.<br/>
                     <strong>Social Interactions:</strong> Oceans facilitates social interactions by allowing users to comment, like, and share posts from their feed. Users can also send direct messages to connect with others, fostering meaningful conversations and connections within the platform.<br/>
-                    <strong>User Profiles:</strong> Each user has a personalized profile page where they can showcase their content, share information about themselves, and manage their account settings and preferences.<br/>
+                    <strong>User Profiles:</strong> Each user has a personalized profile page where they can showcase their content, share information about themselves, and manage their account settings and preferences.<br/><br/>
                     Throughout the development process, our team followed best practices in web development, focusing on creating a responsive and user-friendly interface, implementing secure authentication and authorization mechanisms, and optimizing the application for performance and scalability.<br/>
                     The application was successfully deployed and made available for public use, allowing users to experience the power of a social media platform that prioritizes their control over the content they consume.
                     </p>
