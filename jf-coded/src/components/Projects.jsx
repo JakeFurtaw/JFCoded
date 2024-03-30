@@ -19,7 +19,7 @@ const Projects = () => {
 
 
                 <div className='project'>
-                    <h3>Using Machine Learning to Automatically Sort Mutants</h3>
+                    <h3>Using Machine Learning to Automatically Sort Equivalent Mutants</h3>
                     <Link style={{color:'#7da7f5'}} to='https://gitlab.com/JakeFurtaw/ASTNN-COSC490'>Gitlab Link</Link>
                     <h5>Project Description</h5>
                     <p>
