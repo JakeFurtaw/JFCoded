@@ -4,6 +4,7 @@ import '../stylesheets/Employer.css';
 import Education from '../components/Education';
 import Projects from '../components/Projects';
 import {useState, useEffect} from 'react';
+import resumeFile from '../files/Jacob_Furtaw_Resume.pdf';
 
 function Employer() {
     const [typedText, setTypedText] = useState('');
@@ -27,6 +28,7 @@ function Employer() {
                 </div>
                 <div className='resume'>
                     <h2>My Resume</h2>
+                    <a href={resumeFile} download>Click Here to Download My Resume</a>
                     <Education/>
                     <Projects/>
                 </div>
