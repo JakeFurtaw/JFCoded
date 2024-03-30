@@ -34,7 +34,6 @@ const Homepage = () => {
 
     return (
         <Fragment className='homepage-container'>
-            <Analytics />
             <div className='homepage-container'>
                 <h1>Welcome to JFCoded!</h1>
                 <img className='jfcoded-img' style={{width: 300, height: 300}} src={JFCoded} alt="Loading SVG" />
@@ -58,7 +57,9 @@ const Homepage = () => {
                 </div>
             </div>
             <Footer />
+            <Analytics />
         </Fragment>
+        
     );
 };
 
