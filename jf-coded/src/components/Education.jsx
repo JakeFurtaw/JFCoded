@@ -9,7 +9,7 @@ const Education = () => {
                 <div id='tu' className='education'>
                     <h3>Towson University</h3>
                     <p>Graduated: December 2023</p>
-                    <p>Bachelors of Science in Computer Science <br/> Focus on Software Engineering</p>
+                    <p>Bachelors of Science in Computer Science</p>
                 </div>
 
                 <div id='hcc' className='education'>
