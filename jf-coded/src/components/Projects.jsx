@@ -27,7 +27,7 @@ const Projects = () => {
                     </p>
                     <p>
                         <strong>Our primary objectives were:</strong>
-                        <ul>
+                        <ul style={{ whiteSpace: 'pre-wrap' }}>
                             <li>
                                 <strong>Python 3.10 Compatibility:</strong> Upgrade the existing ASTNN codebase to ensure compatibility with Python 3.10, the latest version of Python at the time.
                             </li>
