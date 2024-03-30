@@ -25,7 +25,7 @@ function Employer() {
                 <div className='intro'>
                     <h2>About Me</h2>
                     <p style={{padding: 30, fontSize: 'large', textEmphasis: 'bold'}}>{typedText}</p>
-                    <p style={{textEmphasis: 'bold', textDecoration: 'underline', fontSize: 20}}><a href={resumeFile} download>Click Here to Download My Resume</a></p>
+                    <p style={{color:'#7da7f5',textEmphasis: 'bold', textDecoration: 'underline', fontSize: 20}}><a href={resumeFile} download>Click Here to Download My Resume</a></p>
                 </div>
                 <div className='resume'>
                     <h2>My Resume</h2>
