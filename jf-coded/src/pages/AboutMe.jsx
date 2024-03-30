@@ -6,6 +6,9 @@ import Projects from '../components/Projects';
 import {useState, useEffect} from 'react';
 
 function AboutMe() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     const [typedText, setTypedText] = useState('');
     const fullText = 'Hello, my name\'s Jacob Furtaw, I am a Towson University graduate. I earned myself a Bachelors of Science in Computer Science with a Focus on Software Engineering. I am currently looking for a Software Engineering job. My main intrests are Machine Learning, Data Science, and Prompt Engineering. I have an unmatched work ethic, insane ability to learn new skills quickly, and I love to code. Get me on the phone and lets talk about how I can help your company today!!';
