@@ -27,20 +27,10 @@ const Projects = () => {
                     </p>
                     <p>
                         <strong>Our primary objectives were:</strong>
-                        <ul style={{ whiteSpace: 'pre-wrap' }}>
-                            <li>
-                                <strong>Python 3.10 Compatibility:</strong> Upgrade the existing ASTNN codebase to ensure compatibility with Python 3.10, the latest version of Python at the time.
-                            </li>
-                            <li>
-                                <strong>Code2Vec Integration:</strong> Implement Code2Vec, a neural machine translation model that represents code as continuous distributed vectors. This would enhance the ASTNN's ability to understand and process code samples more effectively.
-                            </li>
-                            <li>
-                                <strong>Learning Rate Hyperparameter:</strong> Introduce a learning rate hyperparameter to the ASTNN's training process. The learning rate controls the step size at which the model's weights are updated during training, allowing for better optimization and convergence.
-                            </li>
-                            <li>
-                                <strong>Improved Performance:</strong> Refine the ASTNN model and its training process to achieve decent results in accurately identifying equivalent mutants, ultimately improving the model's predictive capability and practical utility.
-                            </li>
-                        </ul>
+                        <strong>Python 3.10 Compatibility:</strong> Upgrade the existing ASTNN codebase to ensure compatibility with Python 3.10, the latest version of Python at the time.
+                        <strong>Code2Vec Integration:</strong> Implement Code2Vec, a neural machine translation model that represents code as continuous distributed vectors. This would enhance the ASTNN's ability to understand and process code samples more effectively.
+                        <strong>Learning Rate Hyperparameter:</strong> Introduce a learning rate hyperparameter to the ASTNN's training process. The learning rate controls the step size at which the model's weights are updated during training, allowing for better optimization and convergence.
+                        <strong>Improved Performance:</strong> Refine the ASTNN model and its training process to achieve decent results in accurately identifying equivalent mutants, ultimately improving the model's predictive capability and practical utility.
                     </p>
                     <p>
                     Throughout the project, our team worked on resolving compatibility issues, integrating new techniques like Code2Vec, fine-tuning hyperparameters, and conducting extensive experiments to evaluate the ASTNN's performance. The goal was to deliver an updated and enhanced version of the ASTNN that could effectively tackle the challenge of equivalent mutant identification, while leveraging modern techniques and tools in the field of machine learning for code analysis.
