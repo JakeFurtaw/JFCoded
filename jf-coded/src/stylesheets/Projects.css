@@ -18,9 +18,9 @@
     color: #ffffff;
     text-align: center;
 }
-.projects:hover{
+/* .projects:hover{
     background-color: #444141;
-}
+} */
 .project{
     border: 1px solid #ffffff;
     align-items: center;
