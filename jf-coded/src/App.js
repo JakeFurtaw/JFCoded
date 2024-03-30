@@ -15,7 +15,7 @@ function App() {
           <Route path='/Employer' element={<Employer/>} />
           <Route path='/Projects' element={<Projects/>} />
           <Route path='/About' element={<AboutMe/>} />
-          <Route path='/*' element={<h1>404 Error. This Page doesnt exist!</h1>} />
+          <Route path='/*' element={<h1>404 Error. This page doesnt exist!</h1>} />
         </Routes>
       </BrowserRouter>
     </div>
