@@ -1,3 +1,7 @@
+body{
+    padding-bottom: 50px;
+}
+
 .project-container{
     display: flex;
     flex-direction: column;
@@ -5,7 +9,7 @@
     justify-content: center;
     margin: 0 auto;
     padding: 0 20px;
-    padding-bottom: 200px;
+    padding-bottom: 30px;
 }
 
 .projects{
