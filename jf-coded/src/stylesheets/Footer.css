@@ -1,12 +1,18 @@
-html, body {
-  height: 100vh;
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
 
 #root {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  flex-grow: 1;
 }
 
 footer {
