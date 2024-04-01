@@ -1,14 +1,9 @@
-/* body{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-} */
 footer {
     border-top: #ffffff 2px solid;
     background-color: #0f0e0e;
     padding: 5px;
     text-align: center;
-    /* position: fixed; */
+    position: fixed;
     bottom: 0;
     width: 100vw;
     /* margin-top: auto; */
