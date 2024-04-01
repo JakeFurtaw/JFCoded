@@ -6,7 +6,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    /* margin-top: auto; */
+    margin-top: auto;
   }
   
 nav ul {
