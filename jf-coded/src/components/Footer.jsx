@@ -22,7 +22,6 @@ const Footer = () => {
             </li>
           </ul>
           <p>Coded By: Jacob Furtaw</p>
-          <p></p>
         </nav>
       </footer>
     </div>

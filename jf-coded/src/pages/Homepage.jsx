@@ -18,7 +18,7 @@ const Homepage = () => {
 
 
     const [typedText, setTypedText] = useState('');
-    const fullText = 'This website serves as a Resume and Project Repository for future employers and investors to checkout and see what'+ 
+    const fullText = 'This website serves as a Resume and Project Repository for future employers and investors to check and see what'+ 
     ' I bring to the table. Please click the button that applies to you..';
 
     useEffect(() => {
