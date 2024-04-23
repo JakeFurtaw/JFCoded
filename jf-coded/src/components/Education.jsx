@@ -6,7 +6,7 @@ import HCCIMG from '../images/hcc.jpg';
 const Education = () => {
     return (
         <div className='education-container'>
-            <h3>Education</h3>
+            <h2>Education</h2>
             <div className='education-sections'>
                 <div id='hcc' className='education'>
                     <h3>Howard Community College</h3>

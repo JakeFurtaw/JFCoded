@@ -29,7 +29,7 @@ function AboutMe() {
                     <p style={{padding: 30, fontSize: 'large', textEmphasis: 'bold'}}>{typedText}</p>
                 </div>
                 <div className='resume'>
-                    <h2>My Resume</h2>
+                    <h1>My Resume</h1>
                     <Education/>
                     <Projects/>
                 </div>

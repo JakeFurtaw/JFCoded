@@ -23,7 +23,7 @@ function Employer() {
             <div>
                 <h1>Welcome Employers</h1>
                 <div className='intro'>
-                    <h2>About Me</h2>
+                    <h1>About Me</h1>
                     <p style={{padding: 30, fontSize: 'large', textEmphasis: 'bold'}}>{typedText}</p>
                 </div>
                 <div className='resume'>
