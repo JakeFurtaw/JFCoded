@@ -8,7 +8,7 @@ import resumeFile from '../files/Jacob_Furtaw_Resume.pdf';
 
 function Employer() {
     const [typedText, setTypedText] = useState('');
-    const fullText = 'Hello, my name\'s Jacob Furtaw, I am a Towson University graduate. I earned myself a Bachelors of Science in Computer Science with a Focus on Software Engineering. I am currently looking for a Software Engineering job. My main inetrests are Machine Learning, Data Science, and Prompt Engineering. I have an unmatched work ethic, insane ability to learn new skills quickly, and I love to code. Get me on the phone and lets talk about how I can help your company today!!';
+    const fullText = 'Hello, my name\'s Jacob Furtaw, I am a Towson University graduate. I earned myself a Bachelor of Science in Computer Science with a Focus on Software Engineering. I am currently looking for a Software Engineering job. My main interests are Machine Learning, Data Science, and Prompt Engineering. I have an unmatched work ethic and, an insane ability to learn new skills quickly, and I love to code. Get me on the phone and let\'s talk about how I can help your company today!!';
     useEffect(() => {
     let i = 0;
     const typeWriterInterval = setInterval(() => {
@@ -23,12 +23,12 @@ function Employer() {
             <div>
                 <h1>Welcome Employers</h1>
                 <div className='intro'>
-                    <h2>About Me</h2>
+                    <h1>About Me</h1>
                     <p style={{padding: 30, fontSize: 'large', textEmphasis: 'bold'}}>{typedText}</p>
-                    <p style={{color:'#7da7f5',textEmphasis: 'bold', textDecoration: 'underline', fontSize: 20}}><a href={resumeFile} download>Click Here to Download My Resume</a></p>
                 </div>
                 <div className='resume'>
                     <h2>My Resume</h2>
+                    <p style={{color:'#7da7f5',textEmphasis: 'bold', textDecoration: 'underline', fontSize: 20}}><a href={resumeFile} download>Click Here to Download My Resume</a></p>
                     <Education/>
                     <Projects/>
                 </div>
