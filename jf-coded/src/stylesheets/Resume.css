@@ -1,14 +1,15 @@
-body {
+html, body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    min-height: 100vh; /* Allow body to expand with content */
     display: flex;
-    flex-direction: column; /* Ensure the items stack vertically */
-    justify-content: flex-start; /* Align items at the start of the container */
+    flex-direction: column;
+    justify-content: flex-start;
     background: radial-gradient(#416e8a, #000000);
     font-family: Arial, sans-serif;
     color: white;
     overflow-x: hidden;
+    overflow-y: auto; /* Ensure vertical overflow is handled */
 }
 
 
@@ -32,13 +33,13 @@ body {
 }
 
 .container {
-    height: fit-content;
+    height: auto; /* Allow container to expand with content */
     width: 80vw;
     padding: 20px;
     background: radial-gradient(#15232c, #000000);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-top: 50px; /* Increase top margin to ensure visibility */
+    margin-top: 50px;
 }
 
 header {

@@ -5,8 +5,9 @@ import Navbar from '../components/Navbar';
 const Resume = () => {
     return (
         <Fragment>
+        <Navbar />
         <div className="container">
-            <Navbar />
+
             <header>
                 <h1>Jacob Furtaw</h1>
                 <p>Machine Learning Engineer</p>
