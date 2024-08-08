@@ -2,9 +2,9 @@
 import React from 'react';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
-import Employer from './pages/Employer';
-import Projects from '../src/components/Projects';
-import AboutMe from '../src/pages/AboutMe';
+import Projects from './pages/Projects';
+import VirtualResume from './pages/Resume';
+
 
 function App() {
   return (
@@ -12,9 +12,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Homepage/>} />
-          <Route path='/Employer' element={<Employer/>} />
-          <Route path='/Projects' element={<Projects/>} />
-          <Route path='/About' element={<AboutMe/>} />
+          <Route path='/projects' element={<Projects/>} />
+          <Route path='/resume' element={<VirtualResume/>} />
           <Route path='/*' element={<h1>404 Error. This page doesnt exist!</h1>} />
         </Routes>
       </BrowserRouter>

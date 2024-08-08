@@ -1,64 +1,80 @@
 body {
     margin: 0;
+    padding: 0;
     height: 100vh;
-    background: linear-gradient(135deg, #3b5cbf, #0e0b0b);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:radial-gradient(#416e8a, #000000);
+}
+
+.container {
+    text-align: center;
+    height: 100%;
+    width: 80vw;
+    padding: 20px;
+    background:radial-gradient(#15232c, #000000);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.link-container {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.link {
+    text-align: center;
+    text-decoration: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-.homepage-container {
-    width: 80vw;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    backdrop-filter: blur(10px);
-    text-align: center;
+.button {
+    background-color: #072a62;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
 }
 
-.jfcoded-img, .link-cell img {
-    border-radius: 15px;
+.button:hover {
+    background-color: #fefefe;
+    color: #000000;
 }
 
-.homepage-link-section {
-    margin: 20px 0;
-    padding: 20px;
+.social-links {
+    margin-top: 30px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
+    gap: 20px; /* Reduced gap to fit within the container */
+    flex-wrap: wrap; /* Ensure the items wrap to the next line if they exceed the container width */
+    max-width: 100%; /* Ensure the social links container doesn't exceed the main container */
 }
 
-.link-options, .link-cell {
-    margin: 10px;
-    padding: 15px;
-    border: 2px solid #fff;
-    border-radius: 15px;
-    text-decoration: none;
-    color: #e0e0e0;
-    transition: background 0.3s ease, color 0.3s ease;
+.social-icon {
+    color: white;
+    font-size: 3rem;
+    transition: color 0.3s ease;
 }
 
-.link-options:hover, .link-cell:hover {
-    background: #fff;
-    color: #000;
+.social-icon:hover {
+    color: #072a62;
 }
-
-.link-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-a:visited, a:link {
-    color: inherit;
-    text-decoration: none;
-}
-
-
 
