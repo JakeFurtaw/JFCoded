@@ -32,7 +32,7 @@ const Homepage = () => {
             <div className="container">
             <Navbar />
                 <h1>Welcome to JFCoded</h1>
-                <img src={JFCoded} style={{ width: 300, height: 300 }} alt="jfcoded pic" />
+                <img src={JFCoded} style={{ width: 300, height: 300}} alt="jfcoded pic" />
                 <p style={{ padding: 30, fontSize: 'large', textEmphasis: 'bold' }}>{typedText}</p>
                 <Link className="button" to={resumeFile} download>Click Here to Download My Current PDF Resume</Link>
                     <div className="social-links">
