@@ -1,8 +1,15 @@
-
-.container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.projects-container {
+    text-align: center;
+    height: 100%;
+    width: 80vw;
+    padding: 20px;
+    background:radial-gradient(#15232c, #000000);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .project-container {

@@ -61,7 +61,7 @@ const Projects = () => {
     ];
 
     return (
-        <div className='container'>
+        <div className='projects-container'>
             <Navbar />
             <h1>Projects</h1>
             <div className='highlighted-projects'>

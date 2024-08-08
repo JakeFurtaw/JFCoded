@@ -13,7 +13,7 @@ const Resume = () => {
     return (
         <Fragment>
 
-        <div className="container">
+        <div className="resume-container">
         <Navbar />
             <header>
                 <h1>Jacob Furtaw</h1>

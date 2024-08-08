@@ -46,9 +46,10 @@ html, body {
     color: #072a62;
 }
 
-.container {
+.resume-container {
     width: 80vw;
     padding: 20px;
+    text-align: center;
     background: radial-gradient(#15232c, #000000);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

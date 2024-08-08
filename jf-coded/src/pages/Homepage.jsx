@@ -29,7 +29,7 @@ const Homepage = () => {
     }, []);
     return (
         <Fragment>
-            <div className="container">
+            <div className="home-container">
             <Navbar />
                 <h1>Welcome to JFCoded</h1>
                 <img src={JFCoded} style={{ width: 300, height: 300}} alt="jfcoded pic" />
