@@ -16,8 +16,7 @@ const Homepage = () => {
 
 
     const [typedText, setTypedText] = useState('');
-    const fullText = 'This website serves as a Resume and Project Repository for future employers and investors to check and see what'+ 
-    ' I bring to the table. Please click the button that applies to you..';
+    const fullText = "Welcome! I'm Jake, and this website serves as a comprehensive showcase of my professional journey, skills, and projects. Whether you're a potential employer, investor, or collaborator, you'll find a detailed portfolio that highlights what I bring to the table. Explore my resume, discover my latest projects, and get to know how my expertise can benefit your endeavors..";
 
     useEffect(() => {
     let i = 0;
@@ -30,24 +29,12 @@ const Homepage = () => {
     }, []);
     return (
         <Fragment>
-            <Navbar />
             <div className="container">
+            <Navbar />
                 <h1>Welcome to JFCoded</h1>
                 <img src={JFCoded} style={{ width: 300, height: 300 }} alt="jfcoded pic" />
                 <p style={{ padding: 30, fontSize: 'large', textEmphasis: 'bold' }}>{typedText}</p>
-                <Link className="button" to={resumeFile} download>Click Here to Download My Current Resume</Link>
-                <div className="link-wrapper">
-                    <div className="link-container">
-                        <div className="link">
-                            <Link to="./resume" className="button">Virutal Resume</Link>
-                        </div>
-                        <div className="link">
-                            <Link to="./projects" className="button">Projects Page</Link>
-                        </div>
-                        <div className="link">
-                            <Link to='http://www.surgepointsoftware.com/lander' className='button'>Current Employer</Link>
-                        </div>
-                    </div>
+                <Link className="button" to={resumeFile} download>Click Here to Download My Current PDF Resume</Link>
                     <div className="social-links">
                         <a href="https://www.linkedin.com/in/jacob-furtaw/" target="_blank" rel="noopener noreferrer" className="social-icon">
                             <i className="fab fa-linkedin"></i>
@@ -55,11 +42,13 @@ const Homepage = () => {
                         <a href="https://www.github.com/JakeFurtaw" target="_blank" rel="noopener noreferrer" className="social-icon">
                             <i className="fab fa-github"></i>
                         </a>
+                        <a href="https://gitlab.com/JakeFurtaw" target="_blank" rel="noopener noreferrer" className="social-icon">
+                            <i className="fab fa-gitlab"></i>
+                        </a>
                         <a href="mailto:jfurtaw97@gmail.com" className="social-icon">
                             <i className="fas fa-envelope"></i>
                         </a>
                     </div>
-                </div>
             </div>
         </Fragment>
     );

@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Ensure the items stack vertically */
+    justify-content: flex-start; /* Align items at the start of the container */
+    background: radial-gradient(#416e8a, #000000);
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+.social-links {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Reduced gap to fit within the container */
+    flex-wrap: wrap; /* Ensure the items wrap to the next line if they exceed the container width */
+    max-width: 100%; /* Ensure the social links container doesn't exceed the main container */
+}
+
+.social-icon {
+    color: white;
+    font-size: 3rem;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #072a62;
+}
+
+.container {
+    height: fit-content;
+    width: 80vw;
+    padding: 20px;
+    background: radial-gradient(#15232c, #000000);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px; /* Increase top margin to ensure visibility */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px 10px 0 10px; /* Adjust padding to ensure proper spacing */
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p a {
+    color: #fefefe;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header p a:hover {
+    color: #072a62;
+}
+
+section {
+    margin-bottom: 30px;
+    border: 2px solid #072a62;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+section div {
+    margin-bottom: 20px;
+}
+
+section div h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+section div p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90vw;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section div h3 {
+        font-size: 1.2rem;
+    }
+
+    section ul li, section div p {
+        font-size: 1rem;
+    }
+}
