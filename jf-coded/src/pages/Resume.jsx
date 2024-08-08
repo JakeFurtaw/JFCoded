@@ -1,6 +1,13 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
+
 import "../stylesheets/Resume.css";
+
 import Navbar from '../components/Navbar';
+import TULogo from '../images/tulogo.png';
+import HCCLogo from '../images/hcc.jpg';
+
+import resumeFile from '../files/Jacob_Furtaw_Resume.pdf';
 
 const Resume = () => {
     return (
@@ -10,8 +17,7 @@ const Resume = () => {
         <Navbar />
             <header>
                 <h1>Jacob Furtaw</h1>
-                <p>Machine Learning Engineer</p>
-                
+                <Link className="button" to={resumeFile} download>Click Here to Download My Current PDF Resume</Link>
             </header>
             <section>
                 <h2>Skills</h2>
@@ -26,10 +32,12 @@ const Resume = () => {
             <section>
                 <h2>Education</h2>
                 <div>
+                    <img style={{width: 200, height: 200}} src={TULogo} alt="towson Logo" />
                     <h3>Bachelor of Science in Computer Science, Software Engineering Concentration</h3>
                     <p>Towson University, Towson, MD | Jan 2022 - Dec 2023</p>
                 </div>
                 <div>
+                    <img style={{width: 200, height: 200}}src={HCCLogo} alt="" />
                     <h3>Associate of Science in Computer Science</h3>
                     <p>Howard Community College, Columbia, MD | Aug 2019 - Dec 2021</p>
                 </div>
@@ -87,6 +95,20 @@ const Resume = () => {
                     <li>Towson Startup: Secured $1,000 at the Towson College Cup Startup Pitch Competition, Awarded $10,000 and a spot on the Summer 2024 Startup Incubator</li>
                 </ul>
             </section>
+            <div className="social-links">
+                <a href="https://www.linkedin.com/in/jacob-furtaw/" target="_blank" rel="noopener noreferrer" className="social-icon">
+                    <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.github.com/JakeFurtaw" target="_blank" rel="noopener noreferrer" className="social-icon">
+                    <i className="fab fa-github"></i>
+                </a>
+                <a href="https://gitlab.com/JakeFurtaw" target="_blank" rel="noopener noreferrer" className="social-icon">
+                    <i className="fab fa-gitlab"></i>
+                </a>
+                <a href="mailto:jfurtaw97@gmail.com" className="social-icon">
+                    <i className="fas fa-envelope"></i>
+                </a>
+            </div>
         </div>
         </Fragment>
     );

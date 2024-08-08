@@ -2,7 +2,10 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@vercel/analytics": "^1.2.2",
-    "emailjs-com": "^3.2.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14",
     "react-router-dom": "^6.20.1"
   },
   "scripts": {

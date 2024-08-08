@@ -11,10 +11,24 @@ html, body {
     overflow-x: hidden;
     overflow-y: auto; /* Ensure vertical overflow is handled */
 }
+.button {
+    background-color: #072a62;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
 
+.button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
 
 .social-links {
     margin-bottom: 30px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     gap: 20px; /* Reduced gap to fit within the container */
@@ -39,6 +53,7 @@ html, body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 header {
@@ -49,7 +64,7 @@ header {
 
 header h1 {
     font-size: 3rem;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 header p a {
