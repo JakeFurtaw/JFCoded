@@ -12,6 +12,7 @@ body {
 
 .contact-container {
     width: 80vw;
+    height: 100vh;
     padding: 20px;
     background: radial-gradient(#15232c, #000000);
     border-radius: 10px;

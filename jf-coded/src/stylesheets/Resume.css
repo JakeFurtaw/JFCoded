@@ -33,7 +33,6 @@ html, body {
 }
 
 .container {
-    height: auto; /* Allow container to expand with content */
     width: 80vw;
     padding: 20px;
     background: radial-gradient(#15232c, #000000);
