@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
+import { useInView } from 'react-intersection-observer';
 
 import "../stylesheets/Resume.css";
 
@@ -8,6 +9,19 @@ import TULogo from '../images/tulogo.png';
 import HCCLogo from '../images/hcc.jpg';
 
 import resumeFile from '../files/Jacob_Furtaw_Resume.pdf';
+
+const AnimatedSection = ({ children, threshold = 0.1 }) => {
+    const [ref, inView] = useInView({
+        threshold,
+        triggerOnce: true
+    });
+
+    return (
+        <section ref={ref} className={`animated-section ${inView ? 'fade-in' : ''}`}>
+            {children}
+        </section>
+    );
+};
 
 const Resume = () => {
     return (
@@ -19,7 +33,7 @@ const Resume = () => {
                 <h1>Jacob Furtaw</h1>
                 <Link className="button" to={resumeFile} download>Download My Current Resume</Link>
             </header>
-            <section>
+            <AnimatedSection>
                 <h2>Skills</h2>
                 <ul>
                     <li><strong>Machine Learning/Data Science:</strong> Python, PyTorch, TensorFlow, Langchain, Llama-Index, Ollama, Scikit-Learn, Pandas, Numpy, HuggingFace, Transformers, Data Preprocessing, BeautifulSoup, Synthetic Data Creation, Hyperparameter Tuning</li>
@@ -27,9 +41,9 @@ const Resume = () => {
                     <li><strong>Familiar With:</strong> C++, Javascript(Node.js), React, MongoDB, SQL, Flutter</li>
                     <li><strong>Personal:</strong> Problem Solver, Team-player, Self-starter, Innovator, Outgoing, Forward Thinker</li>
                 </ul>
-            </section>
+            </AnimatedSection>
 
-            <section>
+            <AnimatedSection>
                 <h2>Education</h2>
                 <div>
                     <img style={{width: 200, height: 200}} src={TULogo} alt="towson Logo" />
@@ -41,9 +55,9 @@ const Resume = () => {
                     <h3>Associate of Science in Computer Science</h3>
                     <p>Howard Community College, Columbia, MD | Aug 2019 - Dec 2021</p>
                 </div>
-            </section>
+            </AnimatedSection>
 
-            <section>
+            <AnimatedSection>
                 <h2>Work Experience</h2>
                 <div>
                     <h3>Machine Learning Engineer</h3>
@@ -64,9 +78,9 @@ const Resume = () => {
                         <li>Receiving an award for Top Performing ARA at our location every quarter and was in the top 3% in our District and Region</li>
                     </ul>
                 </div>
-            </section>
+            </AnimatedSection>
 
-            <section>
+            <AnimatedSection>
                 <h2>Academic Experience</h2>
                 <div>
                     <h3>Machine Learning Project</h3>
@@ -87,14 +101,14 @@ const Resume = () => {
                         <li>Orchestrated weekly meetings and feature implementations with the use of sprints and Trello boards</li>
                     </ul>
                 </div>
-            </section>
+            </AnimatedSection>
 
-            <section>
+            <AnimatedSection>
                 <h2>Awards</h2>
                 <ul>
                     <li>Towson Startup: Secured $1,000 at the Towson College Cup Startup Pitch Competition, Awarded $10,000 and a spot on the Summer 2024 Startup Incubator</li>
                 </ul>
-            </section>
+            </AnimatedSection>
             <div className="social-links">
                 <a href="https://www.linkedin.com/in/jacob-furtaw/" target="_blank" rel="noopener noreferrer" className="social-icon">
                     <i className="fab fa-linkedin"></i>
