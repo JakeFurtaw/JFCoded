@@ -50,7 +50,7 @@ const Projects = () => {
 
     const mlProjects = [
         {
-            name: 'HealthG Demo',
+            name: 'HealthG',
             description: 'HealthG is an intelligent health chatbot that provides personalized health-related information through natural language interactions. It uses advanced language models to deliver responsive and context-aware answers, while a user-friendly interface allows easy communication. The system manages chat histories efficiently, ensuring continuity in conversations and preserving interactions for future reference.',
             images: [HealthGImg1, HealthGImg2, HealthGImg3],
             githubLink: 'https://github.com/JakeFurtaw/HealthReelDemo'
