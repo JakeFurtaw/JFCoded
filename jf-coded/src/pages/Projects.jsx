@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import '../stylesheets/Projects.css';
 
@@ -22,12 +22,42 @@ import HealthGImg3 from '../images/projectImages/HealthG-Demo/ChatbotWMemory.png
 
 
 const Project = ({ name, description, images, githubLink }) => {
+    const galleryRef = useRef(null);
+    const [isHovering, setIsHovering] = useState(false);
+
+    useEffect(() => {
+        const gallery = galleryRef.current;
+        let scrollAmount = 0;
+        let scrollInterval;
+
+        const scrollGallery = () => {
+            const scrollMax = gallery.scrollWidth - gallery.clientWidth;
+            gallery.scrollLeft = scrollAmount;
+            scrollAmount += 1.5; // Adjust for speed
+            if (scrollAmount >= scrollMax) {
+                scrollAmount = 0;
+            }
+        };
+
+        if (isHovering) {
+            scrollInterval = setInterval(scrollGallery, 20); // Adjust interval for speed
+        }
+
+        return () => {
+            if (scrollInterval) clearInterval(scrollInterval);
+        };
+    }, [isHovering]);
+
     return (
-        <div className='project-container'>
+        <div 
+            className='project-container'
+            onMouseEnter={() => setIsHovering(true)}
+            onMouseLeave={() => setIsHovering(false)}
+        >
             <h3>{name}</h3>
             <p>{description}</p>
             <a href={githubLink} target='_blank' rel='noopener noreferrer' className='button'>View on GitHub</a>
-            <div className='image-gallery'>
+            <div className='image-gallery' ref={galleryRef}>
                 {images.map((image, index) => (
                     <img key={index} src={image} alt={`${name} screenshot ${index + 1}`} />
                 ))}

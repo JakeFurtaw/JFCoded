@@ -19,6 +19,13 @@
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    transition: all 0.7s ease;
+}
+
+.project-container:hover {
+    background:radial-gradient(#15232c, #000000);
+    transform: scale(1.1);
+    border: #072a62 6px solid;
 }
 
 .project-container h2 {
@@ -32,13 +39,21 @@
 .image-gallery {
     margin-top: 20px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.image-gallery::-webkit-scrollbar {
+    display: none;
 }
 
 .image-gallery img {
     max-height: 500px;
     border-radius: 10px;
+    margin-right: 10px;
 }
 
 .project-container p{
