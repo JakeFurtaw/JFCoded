@@ -101,7 +101,7 @@ const Projects = () => {
                     <Project key={index} {...project} />
                 ))}
             </div>
-            <h4>Last Updated 8/8/24 check my GitHub for latest project updates. More projects coming soon!</h4>
+            <h4>Last Updated 8/8/24 check my GitHub for my latest project updates. More projects coming soon!</h4>
             <h4>Link Below!</h4>
             <div className="social-links">
                 <a href="https://www.linkedin.com/in/jacob-furtaw/" target="_blank" rel="noopener noreferrer" className="social-icon">
