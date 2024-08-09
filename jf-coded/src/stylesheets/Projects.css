@@ -30,13 +30,14 @@
 }
 
 .image-gallery {
+    margin-top: 20px;
     display: flex;
     gap: 10px;
     overflow-x: scroll;
 }
 
 .image-gallery img {
-    max-height: 200px;
+    max-height: 500px;
     border-radius: 10px;
 }
 
