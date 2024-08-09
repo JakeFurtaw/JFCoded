@@ -73,7 +73,7 @@ const Projects = () => {
         },
         {
             name: 'JFCoded',
-            description: 'This Website!.',
+            description: 'This Website!',
             images: [JFCodedImg1, JFCodedImg3, JFCodedImg2],
             githubLink: 'https://github.com/JakeFurtaw/JFCoded'
         }
