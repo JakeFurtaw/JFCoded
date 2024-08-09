@@ -53,6 +53,10 @@
 }
 
 .highlighted-projects, .ML-projects, .web-projects {
-    border: 2px solid #072a62;
+    border: 8px solid #072a62;
     border-radius: 10px;
+}
+
+.highlighted-projects, .ML-projects{
+    margin-bottom: 40px;
 }
