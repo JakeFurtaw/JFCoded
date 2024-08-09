@@ -40,10 +40,10 @@ const Projects = () => {
 
     const highlightedProjects = [
         {
-            name: 'Code-RAG',
-            description: 'Code-RAG is a tool I am creating that works a lot like ChatSys but with a twist. It allows users to choose different local models in a dropdown menu and upload documents from their devices. Using Retrieval-Augmented Generation, the model ingests the documents, allowing the user to use the model to converse with/about the document(s). I use this a lot for coding, writing quick paragraphs for documents, and many other things.',
+            name: 'Chat-RAG',
+            description: 'Chat-RAG is an AI-powered chatbot that facilitates conversational interactions, leveraging different machine learning models. It supports Retrieval-Augmented Generation (RAG), allowing the chatbot to enhance its responses by retrieving relevant information from a set of documents. Users can switch between models depending on the context, and a user-friendly interface ensures smooth communication. The system efficiently manages input and output in real-time, making it suitable for various information retrieval and conversational tasks.',
             images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3],
-            githubLink: 'https://github.com/username/repo1'
+            githubLink: 'https://github.com/JakeFurtaw/Chat-RAG'
         },
         // Add more highlighted projects here
     ];
@@ -51,15 +51,15 @@ const Projects = () => {
     const mlProjects = [
         {
             name: 'HealthG Demo',
-            description: 'Description for ML project 1.',
+            description: 'HealthG is an intelligent health chatbot that provides personalized health-related information through natural language interactions. It uses advanced language models to deliver responsive and context-aware answers, while a user-friendly interface allows easy communication. The system manages chat histories efficiently, ensuring continuity in conversations and preserving interactions for future reference.',
             images: [HealthGImg1, HealthGImg2, HealthGImg3],
-            githubLink: 'https://github.com/username/repo2'
+            githubLink: 'https://github.com/JakeFurtaw/HealthReelDemo'
         },
         {
-            name: 'Code-RAG',
-            description: 'Code-RAG is a tool I am creating that works a lot like ChatSys but with a twist. It allows users to choose different local models in a dropdown menu and upload documents from their devices. Using Retrieval-Augmented Generation, the model ingests the documents, allowing the user to use the model to converse with/about the document(s). I use this a lot for coding, writing quick paragraphs for documents, and many other things.',
+            name: 'Chat-RAG',
+            description: 'Chat-RAG is an AI-powered chatbot that facilitates conversational interactions, leveraging different machine learning models. It supports Retrieval-Augmented Generation (RAG), allowing the chatbot to enhance its responses by retrieving relevant information from a set of documents. Users can switch between models depending on the context, and a user-friendly interface ensures smooth communication. The system efficiently manages input and output in real-time, making it suitable for various information retrieval and conversational tasks.',
             images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3],
-            githubLink: 'https://github.com/username/repo2'
+            githubLink: 'https://github.com/JakeFurtaw/Chat-RAG'
         }
         // Add more ML projects here
     ];
