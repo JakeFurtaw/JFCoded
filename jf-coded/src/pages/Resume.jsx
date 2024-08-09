@@ -17,7 +17,7 @@ const Resume = () => {
         <Navbar />
             <header>
                 <h1>Jacob Furtaw</h1>
-                <Link className="button" to={resumeFile} download>Click Here to Download My Current PDF Resume</Link>
+                <Link className="button" to={resumeFile} download>Download My Current Resume</Link>
             </header>
             <section>
                 <h2>Skills</h2>
