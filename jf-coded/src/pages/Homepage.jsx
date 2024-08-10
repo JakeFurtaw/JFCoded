@@ -34,7 +34,7 @@ const Homepage = () => {
                 <h1>Welcome to JFCoded</h1>
                 <img src={JFCoded} style={{ width: 300, height: 300}} alt="jfcoded pic" />
                 <p style={{ padding: 30, fontSize: 'large', textEmphasis: 'bold' }}>{typedText}</p>
-                <Link className="button" to={resumeFile} download>Download My Current Resume</Link>
+                <a className="button" href={resumeFile} download>Download My Resume</a>
                     <div className="social-links">
                         <a href="https://www.linkedin.com/in/jacob-furtaw/" target="_blank" rel="noopener noreferrer" className="social-icon">
                             <i className="fab fa-linkedin"></i>
