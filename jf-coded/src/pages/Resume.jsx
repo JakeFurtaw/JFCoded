@@ -65,7 +65,7 @@ const Resume = () => {
                     <ul>
                         <li>Developing an innovative AI Assistant using cutting-edge open-source LLMs like Mistral 7B, NeMo 12B, and Llama 3.1 8B</li>
                         <li>Utilizing self-taught data engineering and data preprocessing skills to craft a 13-million-line dataset of web-scraped data</li>
-                        <li>Implementing Retrieval-Augmented Generation to inject my dataset and increase semantic relevance scores to combat model hallucination</li>
+                        <li>Implementing Retrieval-Augmented Generation to inject my dataset and increase semantic relevance scores to combat model hallucinations</li>
                         <li>Leveraging self-taught prompt engineering skills to ensure the model has a well-structured prompt and enough context to clearly and concisely answer any query a user might input</li>
                     </ul>
                 </div>
