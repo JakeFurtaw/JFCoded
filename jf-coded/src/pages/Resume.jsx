@@ -38,7 +38,7 @@ const Resume = () => {
                 <ul>
                     <li><strong>Machine Learning/Data Science:</strong> Python, PyTorch, TensorFlow, Langchain, Llama-Index, Ollama, Scikit-Learn, Pandas, Numpy, HuggingFace, Transformers, Data Preprocessing, BeautifulSoup, Synthetic Data Creation, Hyperparameter Tuning</li>
                     <li><strong>Environment/Version Control:</strong> Git, SVN, Conda, Docker, Linux, Virtual Machines, Jupyter, VS Code, PyCharm, Nvidia AI Workbench</li>
-                    <li><strong>Familiar With:</strong> C++, Javascript(Node.js), React, MongoDB, SQL, Flutter</li>
+                    <li><strong>Familiar With:</strong> C++, Javascript(Node.js, React), MongoDB, SQL, Flutter</li>
                     <li><strong>Personal:</strong> Problem Solver, Team-player, Self-starter, Innovator, Outgoing, Forward Thinker</li>
                 </ul>
             </AnimatedSection>
