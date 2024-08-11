@@ -14,7 +14,7 @@ import JFCodedImg3 from '../images/projectImages/JFCoded/Resume-Page.png';
 
 import ChatRAGImg1 from '../images/projectImages/Chat-RAG/start_state.png';
 import ChatRAGImg2 from '../images/projectImages/Chat-RAG/model_dropdown.png';
-import ChatRAGImg3 from '../images/projectImages/Chat-RAG/gemma_question.png';
+import ChatRAGImg3 from '../images/projectImages/Chat-RAG/RAGQuestion.png';
 
 import HealthGImg1 from '../images/projectImages/HealthG-Demo/ChatWindow.png';
 import HealthGImg2 from '../images/projectImages/HealthG-Demo/WIthQuestionsAsked.png';
@@ -131,7 +131,7 @@ const Projects = () => {
                     <Project key={index} {...project} />
                 ))}
             </div>
-            <h4>Last Updated 8/8/24 check my GitHub for my latest project updates. More projects coming soon!</h4>
+            <h4>Last Updated 8/11/24 check my GitHub for my latest project updates. More projects coming soon!</h4>
             <h4>Link Below!</h4>
             <div className="social-links">
                 <a href="https://www.linkedin.com/in/jacob-furtaw/" target="_blank" rel="noopener noreferrer" className="social-icon">
