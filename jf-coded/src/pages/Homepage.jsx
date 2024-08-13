@@ -1,5 +1,4 @@
 import {React, useState, useEffect, Fragment} from 'react';
-import { Link } from 'react-router-dom';
 
 import JFCoded from '../images/JFCoded.jpg';
 import resumeFile from '../files/Jacob_Furtaw_Resume.pdf';
