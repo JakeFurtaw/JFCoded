@@ -73,7 +73,7 @@ const Projects = () => {
         {
             name: 'Chat-RAG',
             description: 'Chat-RAG is an AI-powered chatbot that facilitates conversational interactions, leveraging different machine learning models. It supports Retrieval-Augmented Generation (RAG), allowing the chatbot to enhance its responses by retrieving relevant information from a set of documents. Users can switch between models depending on the context, and a user-friendly interface ensures smooth communication. The system efficiently manages input and output in real-time, making it suitable for various information retrieval and conversational tasks.',
-            images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3],
+            images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg4, ChatRAGImg3],
             githubLink: 'https://github.com/JakeFurtaw/Chat-RAG'
         },
         // Add more highlighted projects here
