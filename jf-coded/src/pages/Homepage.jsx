@@ -6,6 +6,7 @@ import resumeFile from '../files/Jacob_Furtaw_Resume.pdf';
 import '../stylesheets/Homepage.css';
 
 import Navbar from '../components/Navbar';
+import SocialLinks from '../components/SocialLinks';
 
 
 const Homepage = () => {
@@ -34,20 +35,7 @@ const Homepage = () => {
                 <img src={JFCoded} style={{ width: 300, height: 300}} alt="jfcoded pic" />
                 <p style={{ padding: 30, fontSize: 'large', textEmphasis: 'bold' }}>{typedText}</p>
                 <a className="button" href={resumeFile} download>Download My Resume</a>
-                    <div className="social-links">
-                        <a href="https://www.linkedin.com/in/jacob-furtaw/" target="_blank" rel="noopener noreferrer" className="social-icon">
-                            <i className="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://www.github.com/JakeFurtaw" target="_blank" rel="noopener noreferrer" className="social-icon">
-                            <i className="fab fa-github"></i>
-                        </a>
-                        <a href="https://gitlab.com/JakeFurtaw" target="_blank" rel="noopener noreferrer" className="social-icon">
-                            <i className="fab fa-gitlab"></i>
-                        </a>
-                        <a href="mailto:jfurtaw97@gmail.com" className="social-icon">
-                            <i className="fas fa-envelope"></i>
-                        </a>
-                    </div>
+                <SocialLinks />
             </div>
         </Fragment>
     );

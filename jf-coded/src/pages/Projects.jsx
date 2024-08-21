@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
+import SocialLinks from '../components/SocialLinks';
 import '../stylesheets/Projects.css';
 
 import OceansImg1 from '../images/projectImages/Oceans/Oceans-Create-Account-Page.png';
@@ -134,20 +135,7 @@ const Projects = () => {
             </div>
             <h4>Last Updated 8/17/24 check my GitHub for my latest project updates. More projects coming soon!</h4>
             <h4>Link Below!</h4>
-            <div className="social-links">
-                <a href="https://www.linkedin.com/in/jacob-furtaw/" target="_blank" rel="noopener noreferrer" className="social-icon">
-                    <i className="fab fa-linkedin"></i>
-                </a>
-                <a href="https://www.github.com/JakeFurtaw" target="_blank" rel="noopener noreferrer" className="social-icon">
-                    <i className="fab fa-github"></i>
-                </a>
-                <a href="https://gitlab.com/JakeFurtaw" target="_blank" rel="noopener noreferrer" className="social-icon">
-                    <i className="fab fa-gitlab"></i>
-                </a>
-                <a href="mailto:jfurtaw97@gmail.com" className="social-icon">
-                    <i className="fas fa-envelope"></i>
-                </a>
-            </div>
+            <SocialLinks />
         </div>
     );
 };

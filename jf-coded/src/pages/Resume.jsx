@@ -6,6 +6,7 @@ import "../stylesheets/Resume.css";
 import Navbar from '../components/Navbar';
 import TULogo from '../images/tulogo.png';
 import HCCLogo from '../images/hcc.jpg';
+import SocialLinks from '../components/SocialLinks';
 
 import resumeFile from '../files/Jacob_Furtaw_Resume.pdf';
 
@@ -108,20 +109,7 @@ const Resume = () => {
                     <li>Towson Startup: Secured $1,000 at the Towson College Cup Startup Pitch Competition, Awarded $10,000 and a spot on the Summer 2024 Startup Incubator</li>
                 </ul>
             </AnimatedSection>
-            <div className="social-links">
-                <a href="https://www.linkedin.com/in/jacob-furtaw/" target="_blank" rel="noopener noreferrer" className="social-icon">
-                    <i className="fab fa-linkedin"></i>
-                </a>
-                <a href="https://www.github.com/JakeFurtaw" target="_blank" rel="noopener noreferrer" className="social-icon">
-                    <i className="fab fa-github"></i>
-                </a>
-                <a href="https://gitlab.com/JakeFurtaw" target="_blank" rel="noopener noreferrer" className="social-icon">
-                    <i className="fab fa-gitlab"></i>
-                </a>
-                <a href="mailto:jfurtaw97@gmail.com" className="social-icon">
-                    <i className="fas fa-envelope"></i>
-                </a>
-            </div>
+            <SocialLinks />
         </div>
         </Fragment>
     );

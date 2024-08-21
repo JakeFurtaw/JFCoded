@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "../stylesheets/ContactMe.css";
 import Navbar from '../components/Navbar';
+import SocialLinks from '../components/SocialLinks';
 
 
 
@@ -29,20 +30,7 @@ const ContactMe = () => {
             <p style={{ padding: 30, fontSize: 'large', textEmphasis: 'bold' }}>{typedText}</p>
             <div className='wrapper'>
                 <h2>Professional Socials</h2>
-                <div className="social-links">
-                    <a href="https://www.linkedin.com/in/jacob-furtaw/" target="_blank" rel="noopener noreferrer" className="social-icon">
-                        <i className="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://www.github.com/JakeFurtaw" target="_blank" rel="noopener noreferrer" className="social-icon">
-                        <i className="fab fa-github"></i>
-                    </a>
-                    <a href="https://gitlab.com/JakeFurtaw" target="_blank" rel="noopener noreferrer" className="social-icon">
-                        <i className="fab fa-gitlab"></i>
-                    </a>
-                    <a href="mailto:jfurtaw97@gmail.com" className="social-icon">
-                        <i className="fas fa-envelope"></i>
-                    </a>
-                </div>
+                <SocialLinks />
             </div>
 
         </div>
