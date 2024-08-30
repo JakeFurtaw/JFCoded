@@ -10,13 +10,14 @@ import OceansImg4 from '../images/projectImages/Oceans/Oceans-Landing-Page.png';
 import OceansImg5 from '../images/projectImages/Oceans/Oceans-WebDev-Ocean-Page.png';
 
 import JFCodedImg1 from '../images/projectImages/JFCoded/Homepage.png';
-import JFCodedImg2 from '../images/projectImages/JFCoded/Contact-Page.png';
-import JFCodedImg3 from '../images/projectImages/JFCoded/Resume-Page.png';
+import JFCodedImg2 from '../images/projectImages/JFCoded/Resume-Page.png';
+import JFCodedImg3 from '../images/projectImages/JFCoded/Contact-Page.png';
+
 
 import ChatRAGImg1 from '../images/projectImages/Chat-RAG/start_state.png';
 import ChatRAGImg2 from '../images/projectImages/Chat-RAG/model_dropdown.png';
-import ChatRAGImg3 from '../images/projectImages/Chat-RAG/RAGQuestion.png';
-import ChatRAGImg4 from '../images/projectImages/Chat-RAG/Llama_Query.png';
+import ChatRAGImg3 from '../images/projectImages/Chat-RAG/query.png';
+import ChatRAGImg4 from '../images/projectImages/Chat-RAG/RAG_Query.png';
 
 import HealthGImg1 from '../images/projectImages/HealthG-Demo/ChatWindow.png';
 import HealthGImg2 from '../images/projectImages/HealthG-Demo/WIthQuestionsAsked.png';
@@ -74,7 +75,7 @@ const Projects = () => {
         {
             name: 'Chat RAG',
             description: 'Chat-RAG is an AI-powered chatbot that facilitates conversational interactions, leveraging different machine learning models. It supports Retrieval-Augmented Generation (RAG), allowing the chatbot to enhance its responses by retrieving relevant information from a set of documents. Users can switch between models depending on the context, and a user-friendly interface ensures smooth communication. The system efficiently manages input and output in real-time, making it suitable for various information retrieval and conversational tasks.',
-            images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg4, ChatRAGImg3],
+            images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3, ChatRAGImg4],
             githubLink: 'https://github.com/JakeFurtaw/Chat-RAG'
         },
         // Add more highlighted projects here
@@ -90,7 +91,7 @@ const Projects = () => {
         {
             name: 'Chat RAG',
             description: 'Chat-RAG is an AI-powered chatbot that facilitates conversational interactions, leveraging different machine learning models. It supports Retrieval-Augmented Generation (RAG), allowing the chatbot to enhance its responses by retrieving relevant information from a set of documents. Users can switch between models depending on the context, and a user-friendly interface ensures smooth communication. The system efficiently manages input and output in real-time, making it suitable for various information retrieval and conversational tasks.',
-            images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg4, ChatRAGImg3],
+            images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3, ChatRAGImg4],
             githubLink: 'https://github.com/JakeFurtaw/Chat-RAG'
         }
         // Add more ML projects here
@@ -133,7 +134,7 @@ const Projects = () => {
                     <Project key={index} {...project} />
                 ))}
             </div>
-            <h4>Last Updated 8/17/24 check my GitHub for my latest project updates. More projects coming soon!</h4>
+            <h4>Last Updated 8/30/24 check my GitHub for my latest project updates. More projects coming soon!</h4>
             <h4>Link Below!</h4>
             <SocialLinks />
         </div>
