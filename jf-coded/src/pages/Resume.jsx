@@ -75,7 +75,7 @@ const Resume = () => {
                     <div>
                         <h3>Chat RAG</h3>
                         <ul>
-                            <li>Developing an advanced, chat-based coding assistant using Retrieval-Augmented Generation technology, integrating multiple language model providers(HuggingFace, Ollama, OpenAI), and implementing a user-friendly Gradio UI.</li>
+                            <li>Developing an advanced, chat-based coding assistant using Retrieval-Augmented Generation technology, integrating multiple language model providers(HuggingFace, Ollama, NVIDIA NIMS, Anthropic, and OpenAI), and implementing a user-friendly Gradio UI.</li>
                             <li>Engineering a flexible system with dynamic model switching, custom embedding integration, and efficient memory management, showcasing proficiency in PyTorch, Llama Index, and state-of-the-art language models.</li>
                             <li>Implementing key features including context-aware document retrieval, streamed responses for real-time interaction, and quantization options, demonstrating strong skills in ML engineering and AI application design.</li>
                         </ul>
