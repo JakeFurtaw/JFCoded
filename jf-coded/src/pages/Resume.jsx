@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
 
 import "../stylesheets/Resume.css";
@@ -82,7 +83,6 @@ const Resume = () => {
                     </div>
                     <div>
                         <h3>Automatic Identification of Equivalent Mutants</h3>
-                        <p>Towson University, Towson, MD</p>
                         <ul>
                             <li>Excelled as a member of a Scrum Team, engaged in sprint planning, daily standups, and sprint reviews</li>
                             <li>Investigated and implemented the use of a transformer-based model for the task of binary classification</li>
