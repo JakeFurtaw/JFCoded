@@ -95,11 +95,13 @@ const Resume = () => {
                 <AnimatedSection>
                     <h2>Education</h2>
                     <div>
+                    <img style={{width: 200, height: 200}} src={TULogo} alt="Towson Logo" />
                         <h3>Bachelor of Science in Computer Science, Software Engineering Concentration</h3>
                         <p>Towson University, Towson, MD | Jan 2022 - Dec 2023</p>
                         <p><strong>Related Coursework:</strong> Artificial Intelligence, Database Management Systems, Software Quality Testing & Assurance, Data Structures and Algorithms, Requirement Analysis and Modeling</p>
                     </div>
                     <div>
+                    <img style={{width: 200, height: 200}}src={HCCLogo} alt="HCC Logo" />
                         <h3>Associate of Science in Computer Science</h3>
                         <p>Howard Community College, Columbia, MD | Aug 2019 - Dec 2021</p>
                     </div>
