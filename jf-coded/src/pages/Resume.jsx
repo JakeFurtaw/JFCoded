@@ -42,7 +42,7 @@ const Resume = () => {
                 <AnimatedSection>
                     <h2>Skills</h2>
                     <ul>
-                        <li><strong>Machine Learning/Data Science:</strong> PyTorch, TensorFlow, Scikit-Learn, Transformers, HuggingFace, Langchain, Llama-Index, Gradio, Pandas, NumPy, Data Preprocessing, Synthetic Data Creation, Retrieval-Augmented Generation</li>
+                        <li><strong>Machine Learning/Data Science:</strong> PyTorch, TensorFlow, Scikit-Learn, Transformers, HuggingFace, Langchain, Llama-Index, Gradio, Pandas, NumPy, Data Preprocessing, Synthetic Data Creation, <strong>Retrieval-Augmented Generation</strong></li>
                         <li><strong>Programming Languages:</strong> Python, JavaScript (Node.js), CSS, C++, Java</li>
                         <li><strong>Tools & Platforms:</strong> Git, Docker, Linux, Windows, Jupyter, PyCharm, VS Code, Nvidia AI Workbench</li>
                     </ul>
