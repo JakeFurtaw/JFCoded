@@ -20,6 +20,14 @@
     margin-left: 20px;
     margin-right: 20px;
     transition: all 0.7s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease, all 0.7s ease;
+}
+
+.project-container.fade-in {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .project-container:hover {
@@ -74,4 +82,41 @@
 
 .highlighted-projects, .ML-projects{
     margin-bottom: 40px;
+}
+
+.skills-container {
+    margin: 10px 0;
+}
+
+.skill-tag {
+    display: inline-block;
+    background-color: #072a62;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 5px;
+    font-size: 0.8rem;
+}
+
+.parallax-header {
+    font-size: 4rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+
+.section-header {
+    font-size: 2.5rem;
+    color: #165fd3;
+    margin-bottom: 20px;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.parallax-header {
+    animation: float 3s ease-in-out infinite;
 }

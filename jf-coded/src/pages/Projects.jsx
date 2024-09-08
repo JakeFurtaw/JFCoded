@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 import Navbar from '../components/Navbar';
 import SocialLinks from '../components/SocialLinks';
 import '../stylesheets/Projects.css';
@@ -29,7 +30,12 @@ import HealthGImg2 from '../images/projectImages/HealthG-Demo/WIthQuestionsAsked
 import HealthGImg3 from '../images/projectImages/HealthG-Demo/ChatbotWMemory.png';
 
 
-const Project = ({ name, description, images, githubLink }) => {
+const Project = ({ name, description, images, githubLink, skills }) => {
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+        threshold: 0.1,
+    });
+    
     const galleryRef = useRef(null);
     const [isHovering, setIsHovering] = useState(false);
 
@@ -58,22 +64,29 @@ const Project = ({ name, description, images, githubLink }) => {
 
     return (
         <div 
-            className='project-container'
+            ref={ref}
+            className={`project-container ${inView ? 'fade-in' : ''}`}
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
         >
-            <h3>{name}</h3>
+            <h2>{name}</h2>
             <p>{description}</p>
+
             <a href={githubLink} target='_blank' rel='noopener noreferrer' className='button'>View on GitHub</a>
             <div className='image-gallery' ref={galleryRef}>
                 {images.map((image, index) => (
                     <img key={index} src={image} alt={`${name} screenshot ${index + 1}`} />
                 ))}
             </div>
+            <h3>Skills</h3>
+            <div className="skills-container">
+                {skills.map((skill, index) => (
+                    <span key={index} className="skill-tag">{skill}</span>
+                ))}
+            </div>
         </div>
     );
 };
-
 const Projects = () => {
 
     const highlightedProjects = [
@@ -81,7 +94,8 @@ const Projects = () => {
             name: 'Chat RAG',
             description: 'Chat RAG is an advanced interactive coding assistant that leverages Retrieval-Augmented Generation (RAG) to provide informed responses to coding queries. Built with a user-friendly Gradio interface, it allows users to interact with various language models, customize model parameters, and upload context files from local directories or GitHub repositories for more accurate assistance.',
             images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3, ChatRAGImg4],
-            githubLink: 'https://github.com/JakeFurtaw/Chat-RAG'
+            githubLink: 'https://github.com/JakeFurtaw/Chat-RAG',
+            skills: ['Gradio', 'Natural Language Processing', 'Retrieval-Augmented Generation', 'Llama-Index', 'HuggingFace', 'Llama Parse', 'Graph RAG', "CSS", 'Conda', 'PyCharm', 'Python']
         },
         // Add more highlighted projects here
     ];
@@ -91,25 +105,30 @@ const Projects = () => {
             name: 'Image Alter',
             description: 'Image Alter is a cutting-edge Gradio-based web application that empowers users to create and edit images using advanced Stable Diffusion models. Leveraging state-of-the-art AI technology, including the Flux model by Black Forest Labs and Stable Diffusion XL Refiner 1.0 by Stability AI, the app offers two primary functionalities: Text-to-Image generation and Image-to-Image transformation. With its intuitive interface, Image Alter allows users to transform text prompts into stunning visuals and enhance existing images with AI-driven alterations. Whether you\'re a professional designer, a digital artist, or an enthusiast exploring AI-generated imagery, Image Alter provides a powerful platform to bring your creative visions to life, pushing the boundaries of digital image manipulation.',
             images: [ImgAlt1, ImgAlt2, ImgAlt3, ImgAlt4, ImgAlt5],
-            githubLink: 'https://github.com/JakeFurtaw/ImageAlter'
+            githubLink: 'https://github.com/JakeFurtaw/ImageAlter',
+            skills: ['Python', 'Gradio', 'Stable Diffusion', 'Transformers', "Diffusers", 'PIL', 'Pandas', 'NumPy']
         },
         {
             name: 'Health Bot',
             description: 'Health Bot is an intelligent health chatbot that provides personalized health-related information through natural language interactions. It uses advanced language models to deliver responsive and context-aware answers, while a user-friendly interface allows easy communication. The system manages chat histories efficiently, ensuring continuity in conversations and preserving interactions for future reference.',
             images: [HealthGImg1, HealthGImg2, HealthGImg3],
-            githubLink: 'https://github.com/JakeFurtaw/HealthReelDemo'
+            githubLink: 'https://github.com/JakeFurtaw/HealthReelDemo',
+            skills: ['Python', 'Natural Language Processing', 'Chatbot', 'Prompt Engineering', 'Llama-Index']
+
         },
         {
             name: 'Chat RAG',
             description: 'Chat RAG is an advanced interactive coding assistant that leverages Retrieval-Augmented Generation (RAG) to provide informed responses to coding queries. Built with a user-friendly Gradio interface, it allows users to interact with various language models, customize model parameters, and upload context files from local directories or GitHub repositories for more accurate assistance.',
             images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3, ChatRAGImg4],
-            githubLink: 'https://github.com/JakeFurtaw/Chat-RAG'
+            githubLink: 'https://github.com/JakeFurtaw/Chat-RAG',
+            skills: ['Gradio', 'Natural Language Processing', 'Retrieval-Augmented Generation', 'Llama-Index', 'HuggingFace', 'Llama Parse', 'Graph RAG', "CSS", 'Conda', 'PyCharm', 'Python']
         },
         {
             name: 'Repo Ripper',
             description: 'Repo Ripper is an innovative tool designed to revolutionize the way developers interact with and understand GitHub repositories, especially when dealing with unfamiliar codebases or languages. This efficient, locally-run application allows users to have intelligent conversations about any GitHub repository\'s contents using Large Language Models. I built this tool in about 3-4 hours over 2 days.',
             images:[],
-            githubLink: 'https://github.com/JakeFurtaw/RepoRipper'
+            githubLink: 'https://github.com/JakeFurtaw/RepoRipper',
+            skills: ['Python', 'Natural Language Processing', 'Retrieval-Augmented Generation', 'Llama-Index']
         }
 
         // Add more ML projects here
@@ -120,34 +139,36 @@ const Projects = () => {
             name: 'Oceans',
             description: 'Oceans is a fully functional social media website that I helped create. It has features like posting, commenting, liking, and following users. It was developed, for a college course group project, in one semester using the MERN stack and deployed using Vercel.',
             images: [OceansImg4, OceansImg1, OceansImg2, OceansImg3, OceansImg5],
-            githubLink: 'https://github.com/JakeFurtaw/Oceans'
+            githubLink: 'https://github.com/JakeFurtaw/Oceans',
+            skills: ['React', 'Node.js', 'MongoDB', 'Express', 'Node Mailer']
         },
         {
             name: 'JFCoded',
             description: 'This Website!',
             images: [JFCodedImg1, JFCodedImg3, JFCodedImg2],
-            githubLink: 'https://github.com/JakeFurtaw/JFCoded'
+            githubLink: 'https://github.com/JakeFurtaw/JFCoded',
+            skills: ['React', 'CSS', 'Responsive Design']
         }
     ];
 
     return (
         <div className='projects-container'>
             <Navbar />
-            <h1>Projects</h1>
+            <h1 className="parallax-header">Projects</h1>
             <div className='highlighted-projects'>
-                <h2>Highlighted Project</h2>
+                <h2 className="section-header">Highlighted Project</h2>
                 {highlightedProjects.map((project, index) => (
                     <Project key={index} {...project} />
                 ))}
             </div>
             <div className='ML-projects'>
-                <h2>Machine Learning Projects</h2>
+                <h2 className="section-header">Machine Learning Projects</h2>
                 {mlProjects.map((project, index) => (
                     <Project key={index} {...project} />
                 ))}
             </div>
             <div className='web-projects'>
-                <h2>Web Development Projects</h2>
+                <h2 className="section-header">Web Development Projects</h2>
                 {webProjects.map((project, index) => (
                     <Project key={index} {...project} />
                 ))}
