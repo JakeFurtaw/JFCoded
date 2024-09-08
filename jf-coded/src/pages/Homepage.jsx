@@ -1,10 +1,7 @@
 import {React, useState, useEffect, Fragment} from 'react';
-
 import JFCoded from '../images/JFCoded.jpg';
 import resumeFile from '../files/Jacob_Furtaw_Resume.pdf';
-
 import '../stylesheets/Homepage.css';
-
 import Navbar from '../components/Navbar';
 import SocialLinks from '../components/SocialLinks';
 
@@ -28,16 +25,16 @@ const Homepage = () => {
     }, 30); // Adjust delay for typing speed
     }, []);
     return (
-        <Fragment>
+        <>
             <div className="home-container">
-            <Navbar />
-                <h1>Welcome to JFCoded</h1>
+                <Navbar />
+                <h1 className="parallax-header">Welcome to JFCoded</h1>
                 <img src={JFCoded} style={{ width: 300, height: 300}} alt="jfcoded pic" />
                 <p style={{ padding: 30, fontSize: 'large', textEmphasis: 'bold' }}>{typedText}</p>
                 <a className="button" href={resumeFile} download>Download My Resume</a>
                 <SocialLinks />
             </div>
-        </Fragment>
+        </>
     );
 }
 
