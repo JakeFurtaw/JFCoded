@@ -10,7 +10,7 @@ import SocialLinks from '../components/SocialLinks';
 
 import resumeFile from '../files/Jacob_Furtaw_Resume.pdf';
 
-const AnimatedSection = ({ children, threshold = 0.1 }) => {
+const AnimatedSection = ({ children, threshold = 0.3 }) => {
     const [ref, inView] = useInView({
         threshold,
         triggerOnce: true

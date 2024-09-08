@@ -117,8 +117,8 @@ section div p {
 
 .animated-section {
     opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 1s ease-out, transform 2s ease-out;
+    transform: translateY(150px);
+    transition: opacity 1s ease-out, transform 3s ease-out;
 }
 
 .animated-section.fade-in {
