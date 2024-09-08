@@ -112,11 +112,13 @@
 }
 
 @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
-    100% { transform: translateY(0px); }
+    0%, 50%, 100% { transform: translate(0px, 0px); } /* Center */
+    20% { transform: translate(-10px, -10px); } /* Top left */
+    40% { transform: translate(10px, -10px); } /* Top right */
+    60% { transform: translate(-10px, 10px); } /* Bottom left */
+    80% { transform: translate(10px, 10px); } /* Bottom right */
 }
 
 .parallax-header {
-    animation: float 3s ease-in-out infinite;
+    animation: float 8s ease-in-out infinite;
 }
