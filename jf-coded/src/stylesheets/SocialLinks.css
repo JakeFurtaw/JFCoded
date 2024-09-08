@@ -10,12 +10,18 @@
     color: white;
     font-size: 3rem;
     transition: transform 0.3s ease, color 0.3s ease;
-    animation: pulse 2s infinite;
+    animation: pulse 2.5s infinite;
+}
+.social-icon2 {
+    color: white;
+    font-size: 3rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+    animation: pulse 3s infinite;
 }
 
-.social-icon:hover {
+.social-icon:hover, .social-icon2:hover{
     color: #072a62;
-    transform: scale(1.2);
+    transform: scale(1.5);
     animation: none;
 }
 

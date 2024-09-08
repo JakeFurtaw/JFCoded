@@ -3,10 +3,10 @@ import '../stylesheets/SocialLinks.css';
 
 const SocialLinks = () => {
     const links = [
-        { href: "https://www.linkedin.com/in/jacob-furtaw/", iconClass: "fab fa-linkedin", ariaLabel: "LinkedIn" },
-        { href: "https://www.github.com/JakeFurtaw", iconClass: "fab fa-github", ariaLabel: "GitHub" },
-        { href: "https://gitlab.com/JakeFurtaw", iconClass: "fab fa-gitlab", ariaLabel: "GitLab" },
-        { href: "mailto:jfurtaw97@gmail.com", iconClass: "fas fa-envelope", ariaLabel: "Email" }
+        { href: "https://www.linkedin.com/in/jacob-furtaw/", iconClass: "fab fa-linkedin", ariaLabel: "LinkedIn"},
+        { href: "https://www.github.com/JakeFurtaw", iconClass: "fab fa-github", ariaLabel: "GitHub"},
+        { href: "https://gitlab.com/JakeFurtaw", iconClass: "fab fa-gitlab", ariaLabel: "GitLab"},
+        { href: "mailto:jfurtaw97@gmail.com", iconClass: "fas fa-envelope", ariaLabel: "Email"}
     ];
 
     return (
@@ -17,7 +17,7 @@ const SocialLinks = () => {
                     href={link.href} 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="social-icon"
+                    className={index % 2 === 0 ? "social-icon" : "social-icon2"}
                     aria-label={link.ariaLabel}
                 >
                     <i className={link.iconClass}></i>

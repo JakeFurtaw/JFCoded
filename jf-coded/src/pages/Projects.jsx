@@ -104,7 +104,14 @@ const Projects = () => {
             description: 'Chat RAG is an advanced interactive coding assistant that leverages Retrieval-Augmented Generation (RAG) to provide informed responses to coding queries. Built with a user-friendly Gradio interface, it allows users to interact with various language models, customize model parameters, and upload context files from local directories or GitHub repositories for more accurate assistance.',
             images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3, ChatRAGImg4],
             githubLink: 'https://github.com/JakeFurtaw/Chat-RAG'
+        },
+        {
+            name: 'Repo Ripper',
+            description: 'Repo Ripper is an innovative tool designed to revolutionize the way developers interact with and understand GitHub repositories, especially when dealing with unfamiliar codebases or languages. This efficient, locally-run application allows users to have intelligent conversations about any GitHub repository\'s contents using Large Language Models. I built this tool in about 3-4 hours over 2 days.',
+            images:[],
+            githubLink: 'https://github.com/JakeFurtaw/RepoRipper'
         }
+
         // Add more ML projects here
     ];
 
