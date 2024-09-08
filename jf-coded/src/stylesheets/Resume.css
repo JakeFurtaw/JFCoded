@@ -200,6 +200,7 @@ section div p {
 
     .skill-bar {
         width: 100%;
+        height: auto;
     }
 }
 
