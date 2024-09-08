@@ -154,7 +154,7 @@ section div p {
 }
 
 .skill-level {
-    height: 20px;
+    height: 100%;
     background-color: #072a62;
     border-radius: 10px;
     transition: width 1s ease-in-out;
@@ -200,7 +200,10 @@ section div p {
 
     .skill-bar {
         width: 100%;
-        height: auto;
+        height: 15px;
+    }
+    .skill-level{
+        height: 100%;
     }
 }
 
