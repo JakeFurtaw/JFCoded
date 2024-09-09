@@ -120,5 +120,5 @@
 }
 
 .parallax-header {
-    animation: float 8s ease-in-out infinite;
+    animation: float 8s ease-in-out 1;
 }

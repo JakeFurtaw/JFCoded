@@ -2,39 +2,74 @@
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    gap: 40px; /* Reduced gap to fit within the container */
-    flex-wrap: wrap; /* Ensure the items wrap to the next line if they exceed the container width */
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
-.social-icon {
+.social-icon, .social-icon2 {
     color: white;
     font-size: 3rem;
     transition: transform 0.3s ease, color 0.3s ease;
-    animation: pulse 2.5s infinite;
-}
-.social-icon2 {
-    color: white;
-    font-size: 3rem;
-    transition: transform 0.3s ease, color 0.3s ease;
-    animation: pulse 3s infinite;
 }
 
-.social-icon:hover, .social-icon2:hover{
+.social-icon:hover, .social-icon2:hover {
     color: #072a62;
     transform: scale(1.5);
-    animation: none;
+    animation: none !important;
+}
+
+.pulse-icons .social-icon, .pulse-icons .social-icon2 {
+    animation: pulse 2.5s infinite;
+}
+
+.fly-in-icons .social-icon, .fly-in-icons .social-icon2 {
+    animation: flyInOut 4s ease-in-out forwards;
+}
+
+.fly-in-pulse-icons .social-icon, .fly-in-pulse-icons .social-icon2 {
+    animation: 
+        flyInOut 4s ease-in-out forwards,
+        pulse 2.5s infinite 4s;
+}
+
+@keyframes flyInOut {
+    0% {
+        transform: translate(-100vw, -100vh) rotate(-360deg);
+        opacity: 0;
+    }
+    25% {
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(100vw, 100vh) rotate(360deg);
+        opacity: 0;
+    }
+    75% {
+        transform: translate(0, -50vh) rotate(-180deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 1;
+    }
 }
 
 @keyframes pulse {
-    0% {
+    0%, 100% {
         transform: scale(1);
     }
     50% {
         transform: scale(1.3);
         color: #072a62;
-        
-    }
-    100% {
-        transform: scale(1);
     }
 }
+
+.fly-in-icons .social-icon:nth-child(1),
+.fly-in-pulse-icons .social-icon:nth-child(1) { animation-delay: 0s, 4s; }
+.fly-in-icons .social-icon:nth-child(2),
+.fly-in-pulse-icons .social-icon:nth-child(2) { animation-delay: 0.5s, 4.5s; }
+.fly-in-icons .social-icon:nth-child(3),
+.fly-in-pulse-icons .social-icon:nth-child(3) { animation-delay: 1s, 5s; }
+.fly-in-icons .social-icon:nth-child(4),
+.fly-in-pulse-icons .social-icon:nth-child(4) { animation-delay: 1.5s, 5.5s; }

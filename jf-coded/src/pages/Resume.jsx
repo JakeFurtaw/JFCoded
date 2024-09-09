@@ -236,7 +236,7 @@ const Resume = () => {
                         <p><strong>Coursework:</strong> Computer Science I: Intro to C++, Computer Sceince II: Advanced C++ , Intro to Python</p>
                     </div>
                 </AnimatedSection>
-                <SocialLinks />
+                <SocialLinks animationType="pulse" />
             </div>
         </Fragment>
     );

@@ -175,7 +175,7 @@ const Projects = () => {
             </div>
             <h4>Last Updated 9/4/24 check my GitHub for my latest project updates. More projects coming soon!</h4>
             <h4>Link Below!</h4>
-            <SocialLinks />
+            <SocialLinks animationType="pulse" />
         </div>
     );
 };
