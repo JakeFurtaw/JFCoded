@@ -41,7 +41,7 @@ const Resume = () => {
                         I am adept at using a large scope of Machine Learning and Data Sceince libraries such as Hugging Face, Transformers, and Diffusers to name a few. My technical skills extend to big data technologies, version control, and containerization, enabling me to develop robust, efficient AI systems. 
                         <br/><br/>While my primary expertise lies in NLP, I am eager to explore new machine learning frontiers, including multimodal learning and the application of AI in emerging fields such as healthcare and climate science. 
                         Driven by the potential of AI to transform industries and improve lives, I am committed to contributing to groundbreaking research and developing innovative solutions that redefine the possibilities in artificial intelligence.
-                        <br/><br/>Get me on the phone today and lets talk about how I can help your organization thrive!</p>
+                        <br/><br/><strong style={{fontSize:"1.8rem"}}>Get me on the phone today and lets talk about how I can help your organization thrive!</strong></p>
                 </AnimatedSection>
 
                 <AnimatedSection>
@@ -177,7 +177,7 @@ const Resume = () => {
                         <h3>Advanced Repair Agent</h3>
                         <p>Geek Squad | Mar 2022 - Present</p>
                         <ul>
-                            <li>Earned a Letter of Recommendation from Upper Management for designing and helping to implement a plan to revamp our locations day to day operations, increasing overall productivity by 157% and customer satisfaction</li>
+                            <li>Earned a Letter of Recommendation from Upper Management for designing and helping to implement a plan to revamp our locations day to day operations, increasing overall productivity and customer satisfaction by 157% </li>
                             <li>Executing tens of thousands of Software and Hardware fixes on desktops, laptops, tablets, and cell phones</li>
                             <li>Receiving an award for Top Performing ARA at our location every quarter and was in the top 3% in our District and Region</li>
                         </ul>
