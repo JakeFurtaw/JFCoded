@@ -23,30 +23,17 @@
 }
 
 .fly-in-icons .social-icon, .fly-in-icons .social-icon2 {
-    animation: flyInOut 4s ease-in-out forwards;
+    animation: flyIn 2s ease-out forwards;
 }
 
 .fly-in-pulse-icons .social-icon, .fly-in-pulse-icons .social-icon2 {
     animation: 
-        flyInOut 4s ease-in-out forwards,
-        pulse 2.5s infinite 4s;
+        flyIn 2s ease-out forwards,
+        pulse 2.5s infinite 2s;
 }
 
-@keyframes flyInOut {
+@keyframes flyIn {
     0% {
-        transform: translate(-100vw, -100vh) rotate(-360deg);
-        opacity: 0;
-    }
-    25% {
-        transform: translate(0, 0) rotate(0deg);
-        opacity: 1;
-    }
-    50% {
-        transform: translate(100vw, 100vh) rotate(360deg);
-        opacity: 0;
-    }
-    75% {
-        transform: translate(0, -50vh) rotate(-180deg);
         opacity: 0;
     }
     100% {
@@ -65,11 +52,7 @@
     }
 }
 
-.fly-in-icons .social-icon:nth-child(1),
-.fly-in-pulse-icons .social-icon:nth-child(1) { animation-delay: 0s, 4s; }
-.fly-in-icons .social-icon:nth-child(2),
-.fly-in-pulse-icons .social-icon:nth-child(2) { animation-delay: 0.5s, 4.5s; }
-.fly-in-icons .social-icon:nth-child(3),
-.fly-in-pulse-icons .social-icon:nth-child(3) { animation-delay: 1s, 5s; }
-.fly-in-icons .social-icon:nth-child(4),
-.fly-in-pulse-icons .social-icon:nth-child(4) { animation-delay: 1.5s, 5.5s; }
+.fly-in-icons .social-icon,
+.fly-in-pulse-icons .social-icon { animation-delay: 0s, 2s; }
+.fly-in-icons .social-icon2,
+.fly-in-pulse-icons .social-icon2 { animation-delay: 0.5s, 2.5s; }

@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import '../stylesheets/SocialLinks.css';
 
 const SocialLinks = ({ animationType = 'none' }) => {
+    const linksRef = useRef([]);
+
     const links = [
         { href: "https://www.linkedin.com/in/jacob-furtaw/", iconClass: "fab fa-linkedin", ariaLabel: "LinkedIn"},
         { href: "https://www.github.com/JakeFurtaw", iconClass: "fab fa-github", ariaLabel: "GitHub"},
@@ -22,11 +24,23 @@ const SocialLinks = ({ animationType = 'none' }) => {
         }
     };
 
+    useEffect(() => {
+        if (animationType === 'fly-in' || animationType === 'fly-in-pulse') {
+            linksRef.current.forEach(link => {
+                const randomX = Math.random() * 200 - 100; // Random value between -100 and 100
+                const randomY = Math.random() * 200 - 100; // Random value between -100 and 100
+                const randomRotate = Math.random() * 720 - 360; // Random value between -360 and 360
+                link.style.transform = `translate(${randomX}vw, ${randomY}vh) rotate(${randomRotate}deg)`;
+            });
+        }
+    }, [animationType]);
+
     return (
         <div className={`social-links ${getAnimationClass()}`}>
             {links.map((link, index) => (
                 <a 
-                    key={index} 
+                    key={index}
+                    ref={el => linksRef.current[index] = el}
                     href={link.href} 
                     target="_blank" 
                     rel="noopener noreferrer" 
