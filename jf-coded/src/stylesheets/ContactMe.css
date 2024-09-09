@@ -11,7 +11,6 @@ body {
 
 .contact-container {
     width: 80vw;
-    /* height: 80vh; */
     padding: 20px;
     background: radial-gradient(#15232c, #000000);
     border-radius: 10px;
@@ -21,13 +20,36 @@ body {
     padding-bottom: 100px;
 }
 
-p{
+p {
     margin-bottom: 30px;
     margin-top: 30px;
 }
 
-h1 {
+.contact-container h1 {
+    font-size: 3rem;
     margin-bottom: 20px;
+    animation: dropInBounce 1s ease-out;
+}
+
+@keyframes dropInBounce {
+    0% {
+        transform: translateY(-200%);
+    }
+    60% {
+        transform: translateY(30px);
+    }
+    75% {
+        transform: translateY(-20px);
+    }
+    85% {
+        transform: translateY(15px);
+    }
+    92% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 h2 {
@@ -48,7 +70,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 40px;
-    flex-wrap: wrap; /* Ensure the items wrap to the next line if they exceed the container width */
+    flex-wrap: wrap;
 }
 
 .social-icon {
@@ -60,4 +82,3 @@ h2 {
 .social-icon:hover {
     color: #072a62;
 }
-

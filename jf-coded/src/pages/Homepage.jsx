@@ -28,7 +28,7 @@ const Homepage = () => {
         <>
             <div className="home-container">
                 <Navbar />
-                <h1 className="parallax-header">Welcome to JFCoded</h1>
+                <h1>Welcome to JFCoded</h1>
                 <img src={JFCoded} style={{ width: 300, height: 300}} alt="jfcoded pic" />
                 <p style={{ padding: 30, fontSize: 'large', textEmphasis: 'bold' }}>{typedText}</p>
                 <a className="button" href={resumeFile} download>Download My Resume</a>

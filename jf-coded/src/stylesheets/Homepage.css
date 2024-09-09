@@ -21,9 +21,10 @@ body {
     margin-bottom: 50px;
 }
 
-h1 {
+.home-container h1 {
     font-size: 3rem;
     margin-bottom: 20px;
+    animation: headerAnimation 2s ease-in-out;
 }
 
 p {
@@ -61,5 +62,39 @@ p {
     color: #000000;
 }
 
+@keyframes headerAnimation {
+    0% {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+    25% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+    75% {
+        transform: translateX(0) translateY(-100vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes gradientPulse {
+    0% {
+        background-size: 100% 100%;
+    }
+    50% {
+        background-size: 120% 120%;
+    }
+    100% {
+        background-size: 100% 100%;
+    }
+}
 
 
