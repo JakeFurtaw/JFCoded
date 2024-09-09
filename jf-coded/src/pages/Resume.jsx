@@ -35,14 +35,13 @@ const Resume = () => {
             </header>
             <AnimatedSection>
                     <h2>Intro</h2>
-                    <p>I am an innovative Machine Learning Engineer and Researcher specializing in Natural Language Processing (NLP), actively seeking opportunities to advance AI technology. With extensive experience in developing cutting-edge AI Assistants and implementing advanced NLP techniques, including Retrieval-Augmented Generation (RAG), 
+                    <p>Hello my name is Jake and I am a Machine Learning Engineer and Researcher specializing in Natural Language Processing (NLP), actively seeking opportunities to advance AI technology. With extensive experience in developing cutting-edge AI Assistants and implementing advanced NLP techniques, including Retrieval-Augmented Generation (RAG), 
                         I excel at leveraging large language models for versatile, high-impact solutions. 
-                        <br/>My expertise spans the entire machine learning world, from data preprocessing and model fine-tuning to deploying scalable ML solutions in production environments. Proficient in Python, PyTorch, and TensorFlow, 
+                        <br/><br/>My expertise spans the entire machine learning world, from data preprocessing and model fine-tuning to deploying scalable ML solutions in production environments. Proficient in Python, PyTorch, and TensorFlow, 
                         I am adept at using a large scope of Machine Learning and Data Sceince libraries such as Hugging Face, Transformers, and Diffusers to name a few. My technical skills extend to big data technologies, version control, and containerization, enabling me to develop robust, efficient AI systems. 
-                        <br/>I am Passionate about solving complex problems and pushing AI boundaries, I focus on advancing language model capabilities, 
-                        exploring novel approaches to knowledge integration, and developing more efficient and interpretable NLP models. 
-                        <br/>While my primary expertise lies in NLP, I am eager to explore new machine learning frontiers, including multimodal learning and the application of AI in emerging fields such as healthcare and climate science. 
-                        Driven by the potential of AI to transform industries and improve lives, I am committed to contributing to groundbreaking research and developing innovative solutions that redefine the possibilities in artificial intelligence.</p>
+                        <br/><br/>While my primary expertise lies in NLP, I am eager to explore new machine learning frontiers, including multimodal learning and the application of AI in emerging fields such as healthcare and climate science. 
+                        Driven by the potential of AI to transform industries and improve lives, I am committed to contributing to groundbreaking research and developing innovative solutions that redefine the possibilities in artificial intelligence.
+                        <br/><br/>Get me on the phone today and lets talk about how I can help your organization thrive!</p>
                 </AnimatedSection>
 
                 <AnimatedSection>
