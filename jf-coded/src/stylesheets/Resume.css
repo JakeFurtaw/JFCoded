@@ -158,7 +158,18 @@ section div p {
     height: 100%;
     background-color: #072a62;
     border-radius: 10px;
-    transition: width 5s ease-in-out;
+    width: 0; 
+    transition: width 4.5s ease-in-out;
+}
+
+
+@keyframes fillSkill {
+    from { width: 0; }
+    to { width: var(--skill-level); }
+}
+
+.skill-level.animate {
+    animation: fillSkill 3s forwards;
 }
 
 @media (max-width: 768px) {

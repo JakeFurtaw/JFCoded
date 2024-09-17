@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 import "../stylesheets/Resume.css";
@@ -20,6 +20,32 @@ const AnimatedSection = ({ children, threshold = 0.3 }) => {
         <section ref={ref} className={`animated-section ${inView ? 'fade-in' : ''}`}>
             {children}
         </section>
+    );
+};
+
+const SkillBar = ({ name, level }) => {
+    const skillRef = useRef(null);
+    const [ref, inView] = useInView({
+        threshold: .5,
+        triggerOnce: true
+    });
+
+    useEffect(() => {
+        if (inView && skillRef.current) {
+
+            setTimeout(() => {
+                skillRef.current.style.width = `${level}%`;
+            }, 100);
+        }
+    }, [inView, level]);
+
+    return (
+        <div className="skill-item" ref={ref}>
+            <span className="skill-name">{name}</span>
+            <div className="skill-bar">
+                <div ref={skillRef} className="skill-level" style={{ width: '0%' }}></div>
+            </div>
+        </div>
     );
 };
 
@@ -58,40 +84,14 @@ const Resume = () => {
                 </AnimatedSection>
 
                 <AnimatedSection>
-                    <h2>Skills</h2>
+                <h2>Skills</h2>
                     <h3 style={{marginBottom:40}}><strong>Programming Languages</strong></h3>
                     <div className="skills-container">
-                        <div className="skill-item">
-                            <span className="skill-name">Python</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "90%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">Javascript</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "75%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">C++</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "50%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">Java</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "25%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">CSS</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "65%"}}></div>
-                            </div>
-                        </div>
-
+                        <SkillBar name="Python" level={90} />
+                        <SkillBar name="Javascript" level={75} />
+                        <SkillBar name="C++" level={50} />
+                        <SkillBar name="Java" level={25} />
+                        <SkillBar name="CSS" level={65} />
                     </div>
 
                     <h3><strong>Machine Learning/Data Science</strong></h3> 
@@ -101,76 +101,21 @@ const Resume = () => {
                     
                     <h3><strong>Tools & Platforms</strong></h3>
                     <div className="skills-container">
-                        <div className="skill-item">
-                            <span className="skill-name">Git</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "99%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">PyCharm</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "95%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">VS Code</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "70%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">Conda</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "90%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">Jupyter</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "35%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">Docker</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "25%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">NVIDIAs AI Workbench</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "25%"}}></div>
-                            </div>
-                        </div>
+                        <SkillBar name="Git" level={99} />
+                        <SkillBar name="PyCharm" level={95} />
+                        <SkillBar name="VS Code" level={70} />
+                        <SkillBar name="Conda" level={90} />
+                        <SkillBar name="Jupyter" level={35} />
+                        <SkillBar name="Docker" level={25} />
+                        <SkillBar name="NVIDIAs AI Workbench" level={25} />
                     </div>
             
                     <h3><strong>Operating Systems</strong></h3>
                     <div className="skills-container">
-                        <div className="skill-item">
-                            <span className="skill-name">Linux</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "85%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">Windows 11</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "95%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">Windows 10</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "95%"}}></div>
-                            </div>
-                        </div>
-                        <div className="skill-item">
-                            <span className="skill-name">MacOS</span>
-                            <div className="skill-bar">
-                                <div className="skill-level" style={{width: "55%"}}></div>
-                            </div>
-                        </div>
+                        <SkillBar name="Linux" level={85} />
+                        <SkillBar name="Windows 11" level={95} />
+                        <SkillBar name="Windows 10" level={95} />
+                        <SkillBar name="MacOS" level={55} />
                     </div>
                 </AnimatedSection>
 
@@ -227,7 +172,7 @@ const Resume = () => {
                             <li>Implemented various data handling techniques including undersampling and oversampling to address class imbalance, demonstrating understanding of machine learning best practices.</li>
                             <li>Integrated learning rate as a hyperparameter in the ASTNN estimator, showing attention to model optimization techniques.</li>
                             <li>Produced comprehensive documentation including README, diagrams, and Jupyter notebooks, facilitating project understanding and reproducibility.</li>
-                            <li>Demonstrated proficiency in a wide range of technologies and libraries including PyTorch, scikit-learn, TensorFlow, and various NLP tools, showcasing a broad skill set in AI and machine learning.</li>
+                            <li>Demonstrated proficiency in a wide range of technologies and libraries including PyTorch, Scikit-Learn, TensorFlow, and various NLP tools, showcasing a broad skill set in AI and machine learning.</li>
                             <li>Developed multiple advanced models for equivalent mutant classification, including:
                                 <ul>
                                     <li>A sequential model based on Code2Vec method embeddings</li>
