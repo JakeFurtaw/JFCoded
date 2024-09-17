@@ -78,7 +78,7 @@ const Project = ({ name, description, images, githubLink, skills }) => {
                     <img key={index} src={image} alt={`${name} screenshot ${index + 1}`} />
                 ))}
             </div>
-            <h3>Skills</h3>
+            <h3>Languages/Packages/Dependencies</h3>
             <div className="skills-container">
                 {skills.map((skill, index) => (
                     <span key={index} className="skill-tag">{skill}</span>
