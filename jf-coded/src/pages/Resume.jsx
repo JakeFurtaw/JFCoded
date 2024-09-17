@@ -35,12 +35,25 @@ const Resume = () => {
             </header>
             <AnimatedSection>
                     <h2>Intro</h2>
-                    <p>Hello my name is Jake and I am a Machine Learning Engineer and Researcher specializing in Natural Language Processing (NLP), actively seeking opportunities to advance AI technology. With extensive experience in developing cutting-edge AI Assistants and implementing advanced NLP techniques, including Retrieval-Augmented Generation (RAG), 
-                        I excel at leveraging large language models for versatile, high-impact solutions. 
-                        <br/><br/>My expertise spans the entire machine learning world, from data preprocessing and model fine-tuning to deploying scalable ML solutions in production environments. Proficient in Python, PyTorch, and TensorFlow, 
-                        I am adept at using a large scope of Machine Learning and Data Sceince libraries such as Hugging Face, Transformers, and Diffusers to name a few. My technical skills extend to big data technologies, version control, and containerization, enabling me to develop robust, efficient AI systems. 
-                        <br/><br/>While my primary expertise lies in NLP, I am eager to explore new machine learning frontiers, including multimodal learning and the application of AI in emerging fields such as healthcare and climate science. 
-                        Driven by the potential of AI to transform industries and improve lives, I am committed to contributing to groundbreaking research and developing innovative solutions that redefine the possibilities in artificial intelligence.
+                    <p>Hello my name is Jake and I am an innovative Machine Learning Engineer/Researcher specializing in Natural Language Processing (NLP), seeking
+                        opportunities to advance AI technology. I excel in designing, developing, and testing cutting-edge AI Assistants and implementing advanced 
+                        NLP techniques like Retrieval-Augmented Generation(RAG) and agentic RAG to deliver versatile, high-impact solutions. 
+                        I excel in both independent and collaborative settings, driving projects from ideationto deployment.
+                        
+                        <br/><br/>My expertise spans data preprocessing, synthetic data creation, model training and finetuning,
+                        custom AI assistant development, RAG pipeline creation, and deploying scalable Machine Learning solutions. I thrive in cross-functional 
+                        teams, fostering collaboration to deliver exceptional results. I am passionate about solving complex problems and
+                        pushing AI boundaries. 
+                        
+                        <br/><br/> Proficient in Python, PyTorch, and TensorFlow, I am adept at using a large scope of Machine Learning and Data Sceince 
+                        libraries such as HuggingFace, Langchain, Llama-Index, Transformers, and Diffusers to name a few. My technical skills extend to big 
+                        data technologies, version control, and containerization, enabling me to develop robust, efficient AI systems. 
+                        
+                        <br/><br/>While my primary expertise lies in Natural Language Processing and Stable Diffusion, I am eager to explore new machine 
+                        learning frontiers, including multimodal learning and the application of AI in emerging fields such as healthcare and climate science. 
+                        Driven by the potential of AI to transform industries and improve lives, I am committed to contributing to groundbreaking research 
+                        and developing innovative solutions that redefine the possibilities in artificial intelligence.
+                        
                         <br/><br/><strong style={{fontSize:"1.8rem"}}>Get me on the phone today and lets talk about how I can help your organization thrive!</strong></p>
                 </AnimatedSection>
 
@@ -189,35 +202,80 @@ const Resume = () => {
                     <div>
                         <h3>Chat RAG: Advanced Coding Assistant</h3>
                         <ul>
+                        <li>Designed an intuitive UI with provider-specific controls, allowing users to fine-tune model parameters such as temperature, max tokens, and context window size, facilitating easy switching between different AI providers.</li>
                             <li>Developed a sophisticated, chat-based coding assistant leveraging Retrieval-Augmented Generation (RAG) technology, integrating multiple language model providers (Ollama, HuggingFace, NVIDIA NIMs, OpenAI, and Anthropic) with a user-friendly Gradio interface.</li>
                             <li>Engineered a flexible system featuring dynamic model switching, custom embedding integration (using Hugging Face embeddings), and efficient memory management, demonstrating proficiency in PyTorch, Llama Index, and state-of-the-art language models.</li>
-                            <li>Designed an intuitive UI with provider-specific controls, allowing users to fine-tune model behavior and easily switch between different AI providers.</li>
-                            <li>Incorporated error handling, GPU memory management, and informative user notifications to enhance the application's robustness and user experience.</li>
-                            <li>Demonstrated strong skills in ML engineering, AI application design, and integration of multiple AI services into a cohesive, user-centric application.</li>
-                            <li><strong>Implemented key features including:</strong>
-                            <ul style={{paddingLeft: '20px' }}>
-                                <li>- Customizable model parameters (temperature, max tokens, top-p, context window)</li>
-                                <li>- Support for various file types including PDFs, Word documents, and code files</li>
-                                <li>- Context-aware document retrieval from local files and GitHub repositories</li>
-                                <li>- Custom prompts and chat memory management</li>
-                                <li>- Quantization options for HuggingFace models</li>
-                                <li>- Streamed responses for real-time interaction</li>
-
-
-                            </ul>
-                            </li>
-
+                            <li>Integrated advanced NLP techniques such as custom prompts, chat memory management, and context-aware responses to improve the quality and relevance of the assistant's outputs.</li>
+                            <li>Implemented advanced features including local document parsing, GitHub repository integration, and support for multiple vector stores (Neo4j, ChromaDB, Milvus) to enhance the assistant's knowledge base and contextual understanding.</li>
+                            <li>Developed a modular architecture with separate utility classes for model management, parameter updates, and chat functionality, enhancing code maintainability and scalability.</li>
+                            <li>Incorporated GPU memory optimization techniques, including dynamic CUDA cache clearing and garbage collection, to improve performance and resource utilization across different model providers.</li>
+                            <li>Implemented robust error handling, informative user notifications, and dynamic UI updates to enhance the application's reliability and user experience.</li>
+                            <li>Demonstrated strong skills in ML engineering, AI application design, and the integration of multiple AI services and data sources into a cohesive, user-centric application.</li>
                         </ul>
                     </div>
                     <div>
-                        <h3>Automatic Identification of Equivalent Mutants</h3>
+                        <h3>ASTNN: Automatic Equivalent Mutant Identifier</h3>
                         <ul>
                             <li>Excelled as a member of a Scrum Team, engaged in sprint planning, daily standups, and sprint reviews</li>
-                            <li>Investigated and implemented the use of a transformer-based model for the task of binary classification for automatic equivalent mutant identification.</li>
-                            <li>Optimized data preprocessing, added and tuned hyperparameters, and increased overall performance by 145%</li>
-                            <li>Condensed research and outcomes into a comprehensive formal report my team and I presented at a campus research fair</li>
+                            <li>Developed an Abstract Syntax Tree Neural Network (ASTNN) for automatic identification of equivalent mutants in software testing, demonstrating expertise in advanced machine learning techniques for code analysis.</li>
+                            <li>Implemented and integrated a comprehensive mutant dataset from MutantBench, showcasing skills in data preparation and management for machine learning tasks.</li>
+                            <li>Created a custom parser to insert mutations into original programs, returning mutated methods/files, highlighting proficiency in code manipulation and static analysis.</li>
+                            <li>Updated and refactored the ASTNN codebase to Python 3.10 and recent library versions, demonstrating ability to modernize and maintain complex ML projects.</li>
+                            <li>Enhanced the pipeline to support parsing of Java mutants using javalang, expanding the tool's language coverage and utility.</li>
+                            <li>Implemented model persistence and inference capabilities, allowing for trained model reuse and practical application in software testing workflows.</li>
+                            <li>Created a novel approach to equivalent mutant identification using Code2Vec's code vectors with a neural network, showcasing innovation in combining code representation techniques with deep learning.</li>
+                            <li>Implemented various data handling techniques including undersampling and oversampling to address class imbalance, demonstrating understanding of machine learning best practices.</li>
+                            <li>Integrated learning rate as a hyperparameter in the ASTNN estimator, showing attention to model optimization techniques.</li>
+                            <li>Produced comprehensive documentation including README, diagrams, and Jupyter notebooks, facilitating project understanding and reproducibility.</li>
+                            <li>Demonstrated proficiency in a wide range of technologies and libraries including PyTorch, scikit-learn, TensorFlow, and various NLP tools, showcasing a broad skill set in AI and machine learning.</li>
+                            <li>Developed multiple advanced models for equivalent mutant classification, including:
+                                <ul>
+                                    <li>A sequential model based on Code2Vec method embeddings</li>
+                                    <li>A transformer model utilizing Code2Vec method embeddings</li>
+                                    <li>A CodeBERT model leveraging natural language processing techniques</li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
+                    <div>
+                        <h3>My Campus Hubs: AI Assistant</h3>
+                        <ul>
+                            <li>Developed a sophisticated, chat-based campus assistant leveraging Retrieval-Augmented Generation (RAG) technology to retrieve the most recent information about the university</li>
+                            <li>Engineered a 13 million line structured dataset from over 40 million lines of webscrapped unstructured html data from a universities website</li>
+                            <li>Tested 10+ open-source Large Langauge models with the custom dataset to determine which model would give the ultimate user experience</li>
+                            <li>Crafted and tested a custom prompt to ensure the model had the best intructions to provide over 15,000 students with the correct and up-to-date information</li>
+                            <li>Designed a custom pipeline that pieces together this ultra-complex AI Assistant</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>HealthG: Advanced Fitness Assistant</h3>
+                        <ul>
+                            <li>Developed a sophisticated, chat-based health assistant leveraging Retrieval-Augmented Generation (RAG) technology, integrating Ollama language models with a user-friendly Gradio interface for personalized health and fitness advice.</li>
+                            <li>Engineered a flexible system featuring custom embedding integration (using Hugging Face embeddings) and efficient memory management, demonstrating proficiency in PyTorch, Llama Index, and state-of-the-art language models.</li>
+                            <li>Implemented advanced features including persistent chat storage, long-term memory, and user-specific chat history to enhance the assistant's contextual understanding and provide personalized responses.</li>
+                            <li>Designed an intuitive UI with user authentication, allowing for personalized chat experiences and easy access to past conversations.</li>
+                            <li>Developed a modular architecture with separate utility classes for Gradio integration, model loading, and chat engine setup, enhancing code maintainability and scalability.</li>
+                            <li>Incorporated GPU optimization techniques, including device-specific model loading, to improve performance and resource utilization.</li>
+                            <li>Implemented robust chat functionality with streaming responses, new chat creation, and example queries to enhance the application's usability and user experience.</li>
+                            <li>Integrated advanced NLP techniques such as custom system prompts, chat memory management, and context-aware responses to improve the quality and relevance of the assistant's health-related outputs.</li>
+                            <li>Demonstrated strong skills in ML engineering, AI application design, and the integration of RAG technology to create a focused, health-centric conversational AI application.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Image Alter</h3>
+                        <ul>
+                            <li>Developed a Gradio-based web application for image generation and editing using state-of-the-art Stable Diffusion models</li>
+                            <li>Implemented both text-to-image and image-to-image functionalities, allowing users to create and modify images with natural language prompts</li>
+                            <li>Integrated advanced Stable Diffusion models including Flux Schnell, Flux Dev, and a custom fine-tuned model</li>
+                            <li>Designed an intuitive user interface with customizable parameters such as image dimensions, number of inference steps, guidance scale, and seed selection</li>
+                            <li>Incorporated features for generating multiple images simultaneously and maintaining an output gallery for user convenience</li>
+                            <li>Optimized model loading and inference using PyTorch and CUDA for efficient GPU utilization</li>
+                            <li>Implemented responsive design elements and custom CSS styling for an enhanced user experience</li>
+                            <li>Utilized the Hugging Face Diffusers library to leverage pre-trained models and pipelines effectively</li>
+                            <li>Created a modular codebase with separate utility functions for text-to-image and image-to-image processes, promoting code reusability and maintainability</li>
+                        </ul>
+                    </div>
+                    <h2>Check out my projects page to see pictures and to get github links for these projects.</h2>
                 </AnimatedSection>
 
                 <AnimatedSection>
