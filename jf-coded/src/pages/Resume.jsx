@@ -95,7 +95,7 @@ const Resume = () => {
                     </div>
 
                     <h3><strong>Machine Learning/Data Science</strong></h3> 
-                    <p>Frameworks/Libraries: PyTorch, TensorFlow, Scikit-Learn, Transformers, Diffusers, PIL, HuggingFace, Langchain, Llama-Index, Llama Parse, Gradio, Pandas, NumPy</p>
+                    <p>Frameworks/Libraries/Dependencies: PyTorch, TensorFlow, Scikit-Learn, Transformers, Diffusers, PIL, HuggingFace, Langchain, Llama-Index, Llama Parse, Gradio, Pandas, NumPy</p>
                     <p>Data Stores: Milvus, ChromaDB, Neo4j</p>
                     <p>Skills: Retrieval-Augmented Generation, Prompt Engineering, Data Preprocessing, Synthetic Data Creation, Feature Engineering </p>
                     
@@ -173,7 +173,7 @@ const Resume = () => {
                             <li>Integrated learning rate as a hyperparameter in the ASTNN estimator, showing attention to model optimization techniques.</li>
                             <li>Produced comprehensive documentation including README, diagrams, and Jupyter notebooks, facilitating project understanding and reproducibility.</li>
                             <li>Demonstrated proficiency in a wide range of technologies and libraries including PyTorch, Scikit-Learn, TensorFlow, and various NLP tools, showcasing a broad skill set in AI and machine learning.</li>
-                            <li>Developed multiple advanced models for equivalent mutant classification, including:
+                            <li>Implemented multiple advanced models for equivalent mutant classification, including:
                                 <ul>
                                     <li>A sequential model based on Code2Vec method embeddings</li>
                                     <li>A transformer model utilizing Code2Vec method embeddings</li>
