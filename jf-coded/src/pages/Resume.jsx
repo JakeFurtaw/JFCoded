@@ -220,7 +220,7 @@ const Resume = () => {
                             <li>Created a modular codebase with separate utility functions for text-to-image and image-to-image processes, promoting code reusability and maintainability</li>
                         </ul>
                     </div>
-                    <h2>Check out my projects page to see pictures and to get github links for these projects.</h2>
+                    <h2>Check out my projects page to see pictures and to find GitHub links for these projects.</h2>
                 </AnimatedSection>
 
                 <AnimatedSection>
