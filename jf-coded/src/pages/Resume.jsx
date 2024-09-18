@@ -64,7 +64,7 @@ const Resume = () => {
                     <p>Hello my name is Jake and I am an innovative Machine Learning Engineer/Researcher specializing in Natural Language Processing (NLP), seeking
                         opportunities to advance AI technology. I excel in designing, developing, and testing cutting-edge AI Assistants and implementing advanced 
                         NLP techniques like Retrieval-Augmented Generation(RAG) and agentic RAG to deliver versatile, high-impact solutions. 
-                        I excel in both independent and collaborative settings, driving projects from ideationto deployment.
+                        I excel in both independent and collaborative settings, driving projects from ideation to deployment.
                         
                         <br/><br/>My expertise spans data preprocessing, synthetic data creation, model training and finetuning,
                         custom AI assistant development, RAG pipeline creation, and deploying scalable Machine Learning solutions. I thrive in cross-functional 
