@@ -76,9 +76,8 @@ const Resume = () => {
                         data technologies, version control, and containerization, enabling me to develop robust, efficient AI systems. 
                         
                         <br/><br/>While my primary expertise lies in Natural Language Processing and Stable Diffusion, I am eager to explore new machine 
-                        learning frontiers, including multimodal learning and the application of AI in emerging fields such as healthcare and climate science. 
-                        Driven by the potential of AI to transform industries and improve lives, I am committed to contributing to groundbreaking research 
-                        and developing innovative solutions that redefine the possibilities in artificial intelligence.
+                        learning frontiers. Driven by the potential of AI to transform industries and improve lives, I am committed to contributing to 
+                        groundbreaking research and developing innovative solutions that redefine the possibilities in artificial intelligence.
                         
                         <br/><br/><strong style={{fontSize:"1.8rem"}}>Get me on the phone today and lets talk about how I can help your organization thrive!</strong></p>
                 </AnimatedSection>
