@@ -140,7 +140,7 @@ const Projects = () => {
             language:['Python', 'CSS'],
             packages:['Gradio', 'Transformers', "Diffusers", 'PIL', 'NumPy', 'random'],
             sector:'Computer Vision',
-            skills: ['Stable Diffusion', 'Prompt Engineering', 'Custom Pipeline Design and Engineering']
+            skills: ['Stable Diffusion', 'Prompt Engineering', 'Custom Pipeline Design and Engineering', 'Image Processing', 'PyCharm', 'Conda']
         },
         {
             name: 'Automatic Equivalent Mutant Identifier',
@@ -160,7 +160,7 @@ const Projects = () => {
             language: ['Python'],
             packages:['Llama-Index', 'Gradio', 'PyTorch', 'OS'],
             sector:'Natural Language Processing',
-            skills: ['Chatbot Development', 'Prompt Engineering', 'Custom RAG Pipeline Design and Engineering' ]
+            skills: ['Chatbot Development', 'Prompt Engineering', 'Custom RAG Pipeline Design and Engineering', 'PyCharm', 'Conda' ]
 
         },        
         {
@@ -181,7 +181,7 @@ const Projects = () => {
             language: ['Python'],
             packages:['PyTorch', 'Llama-Index'],
             sector:'Natural Language Processing',
-            skills: ['Retrieval-Augmented Generation', 'Custom RAG Pipeline Design and Engineering']
+            skills: ['Retrieval-Augmented Generation', 'Custom RAG Pipeline Design and Engineering', 'PyCharm', 'Conda']
         }
 
         // Add more ML projects here
