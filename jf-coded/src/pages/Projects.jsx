@@ -84,12 +84,32 @@ const Project = ({ name, description, images, githubLink, language, packages, se
                     <img key={index} src={image} alt={`${name} screenshot ${index + 1}`} />
                 ))}
             </div>
-            <h3>Technical Details</h3>
-            <div className="technical-details">
-                <p><strong>Programming Language(s):</strong> {language.join(', ')}</p>
-                <p><strong>Packages/Dependencies:</strong> {packages.join(', ')}</p>
-                <p><strong>Sector:</strong> {sector}</p>
-                <p><strong>Skills:</strong> {skills.join(', ')}</p>
+
+            <div className="technical-info-container">
+                <h2>Technical Details</h2>
+                <h4>Sector:</h4>
+                <div className="tech-tag-container">
+                    <span className="tech-tag sector-tag">{sector}</span>
+                </div>
+                <h4>Programming Language(s):</h4>
+                <div className="tech-tag-container">
+                    {language.map((lang, index) => (
+                        <span key={index} className="tech-tag language-tag">{lang}</span>
+                    ))}
+                </div>
+                <h4>Packages/Dependencies:</h4>
+                <div className="tech-tag-container">
+                    {packages.map((pkg, index) => (
+                        <span key={index} className="tech-tag package-tag">{pkg}</span>
+                    ))}
+                </div>
+
+                <h4>Skills:</h4>
+                <div className="tech-tag-container">
+                    {skills.map((skill, index) => (
+                        <span key={index} className="tech-tag skill-tag">{skill}</span>
+                    ))}
+                </div>
             </div>
         </div>
     );
@@ -123,6 +143,16 @@ const Projects = () => {
             skills: ['Stable Diffusion', 'Prompt Engineering', 'Custom Pipeline Design and Engineering']
         },
         {
+            name: 'Automatic Equivalent Mutant Identifier',
+            description: 'This project was a research endeavor I conducted during my college studies for the Software Project Practicum class. We leveraged an existing Abstract Syntax Tree Neural Network, training and fine-tuning the model to identify equivalent mutants within a large dataset of Java and C mutants. The dataset comprised a variety of labeled equivalent and non-equivalent Java and C mutants. Our task involved updating the pipeline, data preprocessing method, embedding technique, and training script. For more detailed information about this project, please refer to the repository linked below.',
+            images: [AEMIImg1, AEMIImg2, AEMIImg3, AEMIImg4, AEMIImg5],
+            githubLink: 'https://gitlab.com/JakeFurtaw/ASTNN-COSC490',
+            language: ['Python'],
+            packages:['Pandas', 'Gensim', 'PyTorch', 'Scikit-Learn', 'Matplotlib', 'Accelerate', 'Tensorflow', 'Transformers', 'NumPy', 'rdflib', 'Pycparser', 'Javalang', 'Notebook'],
+            sector:'Natural Language Processing',
+            skills: ['Hyperparameter Tuning', 'Model Training and Finetuning', 'Binary Classification', 'Parser Development', 'Under and Over Sampling' ]
+        },
+        {
             name: 'Health Bot',
             description: 'Health Bot is an intelligent health chatbot that provides personalized health-related information through natural language interactions. It uses advanced language models to deliver responsive and context-aware answers, while a user-friendly interface allows easy communication. The system manages chat histories efficiently, ensuring continuity in conversations and preserving interactions for future reference.',
             images: [HealthGImg1, HealthGImg2, HealthGImg3],
@@ -132,17 +162,7 @@ const Projects = () => {
             sector:'Natural Language Processing',
             skills: ['Chatbot Development', 'Prompt Engineering', 'Custom RAG Pipeline Design and Engineering' ]
 
-        },        {
-            name: 'Automatic Equivalent Mutant Identifier',
-            description: 'This project was a research endeavor I conducted during my college studies for the Software Project Practicum class. We leveraged an existing Abstract Syntax Tree Neural Network, training and fine-tuning the model to identify equivalent mutants within a large dataset of Java and C mutants. The dataset comprised a variety of labeled equivalent and non-equivalent Java and C mutants. Our task involved updating the pipeline, data preprocessing method, embedding technique, and training script. For more detailed information about this project, please refer to the repository linked below.',
-            images: [AEMIImg1, AEMIImg2, AEMIImg3, AEMIImg4, AEMIImg5],
-            githubLink: 'https://gitlab.com/JakeFurtaw/ASTNN-COSC490',
-            language: ['Python'],
-            packages:['Pandas', 'Gensim', 'PyTorch', 'Scikit-Learn', 'Matplotlib', 'Accelerate', 'Tensorflow', 'Transformers', 'NumPy', 'rdflib', 'Pycparser', 'Javalang', 'Notebook'],
-            sector:'Natural Language Processing',
-            skills: ['Hyperparameter Tuning', 'Model Training', 'Binary Classification', 'Parser Development', 'Under and Over Sampling' ]
-
-        },
+        },        
         {
             name: 'Chat RAG',
             description: 'Chat RAG is an advanced interactive coding assistant that leverages Retrieval-Augmented Generation (RAG) to provide informed responses to coding queries. Built with a user-friendly Gradio interface, it allows users to interact with various language models, customize model parameters, and upload context files from local directories or GitHub repositories for more accurate assistance.',
