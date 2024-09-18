@@ -29,8 +29,14 @@ import HealthGImg1 from '../images/projectImages/HealthG-Demo/ChatWindow.png';
 import HealthGImg2 from '../images/projectImages/HealthG-Demo/WIthQuestionsAsked.png';
 import HealthGImg3 from '../images/projectImages/HealthG-Demo/ChatbotWMemory.png';
 
+import AEMIImg1 from '../images/projectImages/AEMI/ASTNN_Flow_Chart.png'
+import AEMIImg2 from '../images/projectImages/AEMI/ASTNN_Flow_Chart_2.png'
+import AEMIImg3 from '../images/projectImages/AEMI/code2vec_pipeline.png'
+import AEMIImg4 from '../images/projectImages/AEMI/codeBERT_pipeline.png'
+import AEMIImg5 from '../images/projectImages/AEMI/modded_astnn_pipeline.png'
 
-const Project = ({ name, description, images, githubLink, skills }) => {
+
+const Project = ({ name, description, images, githubLink, language, packages, sector, skills }) => {
     const [ref, inView] = useInView({
         triggerOnce: true,
         threshold: 0.1,
@@ -78,15 +84,17 @@ const Project = ({ name, description, images, githubLink, skills }) => {
                     <img key={index} src={image} alt={`${name} screenshot ${index + 1}`} />
                 ))}
             </div>
-            <h3>Skills/Languages/Packages/Dependencies</h3>
-            <div className="skills-container">
-                {skills.map((skill, index) => (
-                    <span key={index} className="skill-tag">{skill}</span>
-                ))}
+            <h3>Technical Details</h3>
+            <div className="technical-details">
+                <p><strong>Programming Language(s):</strong> {language.join(', ')}</p>
+                <p><strong>Packages/Dependencies:</strong> {packages.join(', ')}</p>
+                <p><strong>Sector:</strong> {sector}</p>
+                <p><strong>Skills:</strong> {skills.join(', ')}</p>
             </div>
         </div>
     );
 };
+
 const Projects = () => {
 
     const highlightedProjects = [
@@ -95,8 +103,11 @@ const Projects = () => {
             description: 'Chat RAG is an advanced interactive coding assistant that leverages Retrieval-Augmented Generation (RAG) to provide informed responses to coding queries. Built with a user-friendly Gradio interface, it allows users to interact with various language models, customize model parameters, and upload context files from local directories or GitHub repositories for more accurate assistance.',
             images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3, ChatRAGImg4],
             githubLink: 'https://github.com/JakeFurtaw/Chat-RAG',
-            skills: ['Python','Gradio', 'Natural Language Processing', 'Retrieval-Augmented Generation', 'Llama-Index', 'HuggingFace', 'Llama Parse', 'Graph RAG', "CSS", 'Conda', 'PyCharm', 'Chatbot Development']
-        },
+            language: ['Python', 'CSS'],
+            packages:['Gradio', 'Llama-Index', 'HuggingFace Hub', 'PyTorch', 'Transformers', 'Accelerate', 'Llama Parse', 'Dotenv', 'ChromaDB','OS', 'GC', 'glob', 'shutil', 'JSON'],
+            sector: 'Natural Language Processing',
+            skills: ['Retrieval-Augmented Generation', 'Prompt Engineering', 'Graph RAG', 'Conda', 'PyCharm', 'Chatbot Development' , 'Custom RAG Pipeline Design and Engineering']
+        }
         // Add more highlighted projects here
     ];
 
@@ -106,14 +117,30 @@ const Projects = () => {
             description: 'Image Alter is a cutting-edge Gradio-based web application that empowers users to create and edit images using advanced Stable Diffusion models. Leveraging state-of-the-art AI technology, including the Flux model by Black Forest Labs and Stable Diffusion XL Refiner 1.0 by Stability AI, the app offers two primary functionalities: Text-to-Image generation and Image-to-Image transformation. With its intuitive interface, Image Alter allows users to transform text prompts into stunning visuals and enhance existing images with AI-driven alterations. Whether you\'re a professional designer, a digital artist, or an enthusiast exploring AI-generated imagery, Image Alter provides a powerful platform to bring your creative visions to life, pushing the boundaries of digital image manipulation.',
             images: [ImgAlt1, ImgAlt2, ImgAlt3, ImgAlt4, ImgAlt5],
             githubLink: 'https://github.com/JakeFurtaw/ImageAlter',
-            skills: ['Python', 'Stable Diffusion', 'Gradio', 'Transformers', "Diffusers", 'PIL', 'NumPy']
+            language:['Python', 'CSS'],
+            packages:['Gradio', 'Transformers', "Diffusers", 'PIL', 'NumPy', 'random'],
+            sector:'Computer Vision',
+            skills: ['Stable Diffusion', 'Prompt Engineering', 'Custom Pipeline Design and Engineering']
         },
         {
             name: 'Health Bot',
             description: 'Health Bot is an intelligent health chatbot that provides personalized health-related information through natural language interactions. It uses advanced language models to deliver responsive and context-aware answers, while a user-friendly interface allows easy communication. The system manages chat histories efficiently, ensuring continuity in conversations and preserving interactions for future reference.',
             images: [HealthGImg1, HealthGImg2, HealthGImg3],
             githubLink: 'https://github.com/JakeFurtaw/HealthReelDemo',
-            skills: ['Python', 'Natural Language Processing', 'Chatbot Development', 'Prompt Engineering', 'Llama-Index']
+            language: ['Python'],
+            packages:['Llama-Index', 'Gradio', 'PyTorch', 'OS'],
+            sector:'Natural Language Processing',
+            skills: ['Chatbot Development', 'Prompt Engineering', 'Custom RAG Pipeline Design and Engineering' ]
+
+        },        {
+            name: 'Automatic Equivalent Mutant Identifier',
+            description: 'This project was a research endeavor I conducted during my college studies for the Software Project Practicum class. We leveraged an existing Abstract Syntax Tree Neural Network, training and fine-tuning the model to identify equivalent mutants within a large dataset of Java and C mutants. The dataset comprised a variety of labeled equivalent and non-equivalent Java and C mutants. Our task involved updating the pipeline, data preprocessing method, embedding technique, and training script. For more detailed information about this project, please refer to the repository linked below.',
+            images: [AEMIImg1, AEMIImg2, AEMIImg3, AEMIImg4, AEMIImg5],
+            githubLink: 'https://gitlab.com/JakeFurtaw/ASTNN-COSC490',
+            language: ['Python'],
+            packages:['Pandas', 'Gensim', 'PyTorch', 'Scikit-Learn', 'Matplotlib', 'Accelerate', 'Tensorflow', 'Transformers', 'NumPy', 'rdflib', 'Pycparser', 'Javalang', 'Notebook'],
+            sector:'Natural Language Processing',
+            skills: ['Hyperparameter Tuning', 'Model Training', 'Binary Classification', 'Parser Development', 'Under and Over Sampling' ]
 
         },
         {
@@ -121,13 +148,20 @@ const Projects = () => {
             description: 'Chat RAG is an advanced interactive coding assistant that leverages Retrieval-Augmented Generation (RAG) to provide informed responses to coding queries. Built with a user-friendly Gradio interface, it allows users to interact with various language models, customize model parameters, and upload context files from local directories or GitHub repositories for more accurate assistance.',
             images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3, ChatRAGImg4],
             githubLink: 'https://github.com/JakeFurtaw/Chat-RAG',
-            skills: ['Python','Gradio', 'Natural Language Processing', 'Retrieval-Augmented Generation', 'Llama-Index', 'HuggingFace', 'Llama Parse', 'Graph RAG', "CSS", 'Conda', 'PyCharm', 'Chatbot Development']        },
+            language: ['Python', 'CSS'],
+            packages:['Gradio', 'Llama-Index', 'HuggingFace Hub', 'PyTorch', 'Transformers', 'Accelerate', 'Llama Parse', 'Dotenv', 'ChromaDB','OS', 'GC', 'glob', 'shutil', 'JSON'],
+            sector: 'Natural Language Processing',
+            skills: ['Retrieval-Augmented Generation', 'Prompt Engineering', 'Graph RAG', 'Conda', 'PyCharm', 'Chatbot Development' , 'Custom RAG Pipeline Design and Engineering']
+        },
         {
             name: 'Repo Ripper',
             description: 'Repo Ripper is an innovative tool designed to revolutionize the way developers interact with and understand GitHub repositories, especially when dealing with unfamiliar codebases or languages. This efficient, locally-run application allows users to have intelligent conversations about any GitHub repository\'s contents using Large Language Models. I built this tool in about 3-4 hours over 2 days.',
             images:[],
             githubLink: 'https://github.com/JakeFurtaw/RepoRipper',
-            skills: ['Python', 'Natural Language Processing', 'Retrieval-Augmented Generation', 'Llama-Index']
+            language: ['Python'],
+            packages:['PyTorch', 'Llama-Index'],
+            sector:'Natural Language Processing',
+            skills: ['Retrieval-Augmented Generation', 'Custom RAG Pipeline Design and Engineering']
         }
 
         // Add more ML projects here
@@ -139,14 +173,20 @@ const Projects = () => {
             description: 'Oceans is a fully functional social media website that I helped create. It has features like posting, commenting, liking, and following users. It was developed, for a college course group project, in one semester using the MERN stack and deployed using Vercel.',
             images: [OceansImg4, OceansImg1, OceansImg2, OceansImg3, OceansImg5],
             githubLink: 'https://github.com/JakeFurtaw/Oceans',
-            skills: ['React', 'Node.js', 'MongoDB', 'Express', 'Node Mailer', 'CSS']
+            language: ['Javascript', 'CSS'],
+            packages:['React', 'MongoDB', 'Express', 'Node Mailer'],
+            sector:'Web Development',
+            skills: ['React', 'CSS', 'Responsive Design', 'Express']
         },
         {
             name: 'JFCoded',
             description: 'This Website!',
             images: [JFCodedImg1, JFCodedImg3, JFCodedImg2],
             githubLink: 'https://github.com/JakeFurtaw/JFCoded',
-            skills: ['React', 'Node.js', 'CSS', 'Responsive Design']
+            language: ['Javascript', 'CSS'],
+            packages:['React', 'Web Vitals'],
+            sector:'Web Development',
+            skills: ['React', 'CSS', 'Responsive Design']
         }
     ];
 
