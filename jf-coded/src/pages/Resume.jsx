@@ -161,25 +161,12 @@ const Resume = () => {
                     <div>
                         <h3>ASTNN: Automatic Equivalent Mutant Identifier</h3>
                         <ul>
-                            <li>Excelled as a member of a Scrum Team, engaged in sprint planning, daily standups, and sprint reviews</li>
-                            <li>Developed an Abstract Syntax Tree Neural Network (ASTNN) for automatic identification of equivalent mutants in software testing, demonstrating expertise in advanced machine learning techniques for code analysis.</li>
-                            <li>Implemented and integrated a comprehensive mutant dataset from MutantBench, showcasing skills in data preparation and management for machine learning tasks.</li>
-                            <li>Created a custom parser to insert mutations into original programs, returning mutated methods/files, highlighting proficiency in code manipulation and static analysis.</li>
-                            <li>Updated and refactored the ASTNN codebase to Python 3.10 and recent library versions, demonstrating ability to modernize and maintain complex ML projects.</li>
-                            <li>Enhanced the pipeline to support parsing of Java mutants using javalang, expanding the tool's language coverage and utility.</li>
-                            <li>Implemented model persistence and inference capabilities, allowing for trained model reuse and practical application in software testing workflows.</li>
-                            <li>Created a novel approach to equivalent mutant identification using Code2Vec's code vectors with a neural network, showcasing innovation in combining code representation techniques with deep learning.</li>
-                            <li>Implemented various data handling techniques including undersampling and oversampling to address class imbalance, demonstrating understanding of machine learning best practices.</li>
-                            <li>Integrated learning rate as a hyperparameter in the ASTNN estimator, showing attention to model optimization techniques.</li>
-                            <li>Produced comprehensive documentation including README, diagrams, and Jupyter notebooks, facilitating project understanding and reproducibility.</li>
-                            <li>Demonstrated proficiency in a wide range of technologies and libraries including PyTorch, Scikit-Learn, TensorFlow, and various NLP tools, showcasing a broad skill set in AI and machine learning.</li>
-                            <li>Implemented multiple advanced models for equivalent mutant classification, including:
-                                <ul>
-                                    <li>A sequential model based on Code2Vec method embeddings</li>
-                                    <li>A transformer model utilizing Code2Vec method embeddings</li>
-                                    <li>A CodeBERT model leveraging natural language processing techniques</li>
-                                </ul>
-                            </li>
+                            <li>Participated in Scrum practices in an agile development environment, participating in sprint planning, daily standups, and reviews</li>
+                            <li>Enhanced and modernized the ASTNN codebase by upgrading to Python 3.10, updating library dependencies, implementing model persistence and inference capabilities, and integrating learning rate as a hyperparameter in the ASTNN estimator</li>
+                            <li>Expanded data processing and mutation capabilities through integrating comprehensive mutant dataset from MutantBench, developing custom parser for mutation insertion in original programs, and extending pipeline to support Java mutants using javalang</li>
+                            <li>Innovated equivalent mutant identification techniques by creating a novel approach using Code2Vec's code vectors with neural networks and implementing advanced models including sequential and transformer models with Code2Vec embeddings, and a CodeBERT model leveraging NLP techniques</li>
+                            <li>Applied machine learning best practices by addressing class imbalance through undersampling and oversampling techniques</li>
+                            <li>Demonstrated proficiency in PyTorch, Scikit-Learn, TensorFlow, and various NLP tools</li>
                         </ul>
                     </div>
                     <div>
@@ -193,27 +180,23 @@ const Resume = () => {
                         </ul>
                     </div>
                     <div>
-                        <h3>HealthG: Advanced Fitness Assistant</h3>
+                        <h3>HealthG: Personalized Health and Fitness Assistant</h3>
                         <ul>
-                            <li>Developed a sophisticated, chat-based health assistant leveraging Retrieval-Augmented Generation (RAG) technology, integrating Ollama language models with a user-friendly Gradio interface for personalized health and fitness advice.</li>
-                            <li>Engineered a flexible system featuring custom embedding integration (using Hugging Face embeddings) and efficient memory management, demonstrating proficiency in PyTorch, Llama Index, and state-of-the-art language models.</li>
-                            <li>Implemented advanced features including persistent chat storage, long-term memory, and user-specific chat history to enhance the assistant's contextual understanding and provide personalized responses.</li>
-                            <li>Designed an intuitive UI with user authentication, allowing for personalized chat experiences and easy access to past conversations.</li>
-                            <li>Developed a modular architecture with separate utility classes for Gradio integration, model loading, and chat engine setup, enhancing code maintainability and scalability.</li>
-                            <li>Incorporated GPU optimization techniques, including device-specific model loading, to improve performance and resource utilization.</li>
-                            <li>Implemented robust chat functionality with streaming responses, new chat creation, and example queries to enhance the application's usability and user experience.</li>
-                            <li>Integrated advanced NLP techniques such as custom system prompts, chat memory management, and context-aware responses to improve the quality and relevance of the assistant's health-related outputs.</li>
-                            <li>Demonstrated strong skills in ML engineering, AI application design, and the integration of RAG technology to create a focused, health-centric conversational AI application.</li>
+                            <li>Developed a sophisticated, chat-based health assistant using Retrieval-Augmented Generation (RAG) technology, integrating Ollama language models with a Gradio interface for personalized health and fitness advice</li>
+                            <li>Engineered a flexible system with custom embedding integration (Hugging Face) and efficient memory management, showcasing proficiency in PyTorch, Llama Index, and state-of-the-art language models</li>
+                            <li>Implemented advanced features including persistent chat storage, long-term memory, and user-specific chat history for enhanced contextual understanding and personalization</li>
+                            <li>Designed an intuitive UI with user authentication, allowing personalized chat experiences and easy access to past conversations</li>
+                            <li>Developed a modular architecture with separate utility classes, incorporated GPU optimization techniques, and implemented robust chat functionality with streaming responses</li>
+                            <li>Integrated advanced NLP techniques such as custom system prompts and context-aware responses to improve the quality and relevance of health-related outputs</li>
+                            <li>Demonstrated strong skills in ML engineering, AI application design, and RAG technology integration for a focused, health-centric conversational AI application</li>
                         </ul>
-                    </div>
-                    <div>
+                        </div>
+                        <div>
                         <h3>Image Alter</h3>
                         <ul>
-                            <li>Developed a Gradio-based web application for image generation and editing using state-of-the-art Stable Diffusion models</li>
-                            <li>Implemented both text-to-image and image-to-image functionalities, allowing users to create and modify images with natural language prompts</li>
+                            <li>Developed a Gradio-based web application for image generation and editing using state-of-the-art Stable Diffusion models, implementing both text-to-image and image-to-image functionalities</li>
                             <li>Integrated advanced Stable Diffusion models including Flux Schnell, Flux Dev, and a custom fine-tuned model</li>
-                            <li>Designed an intuitive user interface with customizable parameters such as image dimensions, number of inference steps, guidance scale, and seed selection</li>
-                            <li>Incorporated features for generating multiple images simultaneously and maintaining an output gallery for user convenience</li>
+                            <li>Designed an intuitive user interface with customizable parameters (image dimensions, inference steps, guidance scale, seed selection) and features for generating multiple images simultaneously</li>
                             <li>Optimized model loading and inference using PyTorch and CUDA for efficient GPU utilization</li>
                             <li>Implemented responsive design elements and custom CSS styling for an enhanced user experience</li>
                             <li>Utilized the Hugging Face Diffusers library to leverage pre-trained models and pipelines effectively</li>
