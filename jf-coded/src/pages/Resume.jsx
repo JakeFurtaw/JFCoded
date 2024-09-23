@@ -75,7 +75,7 @@ const Resume = () => {
                         libraries such as HuggingFace, Langchain, Llama-Index, Transformers, and Diffusers to name a few. My technical skills extend to big 
                         data technologies, version control, and containerization, enabling me to develop robust, efficient AI systems. 
                         
-                        <br/><br/>While my primary expertise lies in Natural Language Processing and Stable Diffusion, I am eager to explore new machine 
+                        <br/><br/>While my primary expertise lies in Natural Language Processing and Computer Vision, I am eager to explore new machine 
                         learning frontiers. Driven by the potential of AI to transform industries and improve lives, I am committed to contributing to 
                         groundbreaking research and developing innovative solutions that redefine the possibilities in artificial intelligence.
                         
@@ -146,7 +146,7 @@ const Resume = () => {
                     <div>
                         <h3>Chat RAG: Advanced Coding Assistant</h3>
                         <ul>
-                        <li>Designed an intuitive UI with provider-specific controls, allowing users to fine-tune model parameters such as temperature, max tokens, and context window size, facilitating easy switching between different AI providers.</li>
+                            <li>Designed an intuitive UI with provider-specific controls, allowing users to fine-tune model parameters such as temperature, max tokens, and context window size, facilitating easy switching between different AI providers.</li>
                             <li>Developed a sophisticated, chat-based coding assistant leveraging Retrieval-Augmented Generation (RAG) technology, integrating multiple language model providers (Ollama, HuggingFace, NVIDIA NIMs, OpenAI, and Anthropic) with a user-friendly Gradio interface.</li>
                             <li>Engineered a flexible system featuring dynamic model switching, custom embedding integration (using Hugging Face embeddings), and efficient memory management, demonstrating proficiency in PyTorch, Llama Index, and state-of-the-art language models.</li>
                             <li>Integrated advanced NLP techniques such as custom prompts, chat memory management, and context-aware responses to improve the quality and relevance of the assistant's outputs.</li>
@@ -189,8 +189,8 @@ const Resume = () => {
                             <li>Integrated advanced NLP techniques such as custom system prompts and context-aware responses to improve the quality and relevance of health-related outputs</li>
                             <li>Demonstrated strong skills in ML engineering, AI application design, and RAG technology integration for a focused, health-centric conversational AI application</li>
                         </ul>
-                        </div>
-                        <div>
+                    </div>
+                    <div>
                         <h3>Image Alter</h3>
                         <ul>
                             <li>Developed a Gradio-based web application for image generation and editing using state-of-the-art Stable Diffusion models, implementing both text-to-image and image-to-image functionalities</li>
