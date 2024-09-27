@@ -122,19 +122,20 @@ const Resume = () => {
                     <h2>Work Experience</h2>
                     <div>
                         <h3>Machine Learning Engineer/Researcher</h3>
-                        <p>SurgePoint Software | Aug 2023 - Present</p>
+                        <p>SurgePoint Software | Aug 2023 - Sep 2024</p>
                         <ul>
-                            <li>Developing an innovative AI Assistant using open-source LLMs like Codestral 22B, Mistral 7B, Mistral-NeMo 12B, and Llama 3.1 8B</li>
-                            <li>Utilizing self-taught data engineering and data preprocessing skills to craft a 13-million-line dataset of web-scraped data</li>
-                            <li>Implementing Retrieval-Augmented Generation to increase semantic relevance scores and combat model hallucinations</li>
-                            <li>Leveraging self-taught prompt engineering skills to ensure the model has a well-structured prompt and enough context to answer any query a user might input</li>
+                            <li>Developed an innovative AI Assistant using open-source LLMs like Codestral 22B, Mistral 7B, Mistral-NeMo 12B, and Llama 3.1 8B</li>
+                            <li>Utilized self-taught data engineering and data preprocessing skills to craft a 13-million-line dataset of web-scraped data</li>
+                            <li>Implemented Retrieval-Augmented Generation to increase semantic relevance scores and combat model hallucinations</li>
+                            <li>Leveraged self-taught prompt engineering skills to ensure the model has a well-structured prompt and enough context to answer any query a user might input</li>
+                            <li>Worked with a small, diverse, and time constrained group of individuals at a startup in a remote setting</li>
                         </ul>
                     </div>
                     <div>
                         <h3>Advanced Repair Agent</h3>
                         <p>Geek Squad | Mar 2022 - Present</p>
                         <ul>
-                            <li>Earned a Letter of Recommendation from Upper Management for designing and helping to implement a plan to revamp our locations day to day operations, increasing overall productivity and customer satisfaction by 157% </li>
+                            <li>Earned a Letter of Recommendation from Upper Management for designing and helping to implement a plan to revamp our locations day to day operations, increasing overall productivity by 150% and customer satisfaction </li>
                             <li>Executing tens of thousands of Software and Hardware fixes on desktops, laptops, tablets, and cell phones</li>
                             <li>Receiving an award for Top Performing ARA at our location every quarter and was in the top 3% in our District and Region</li>
                         </ul>
