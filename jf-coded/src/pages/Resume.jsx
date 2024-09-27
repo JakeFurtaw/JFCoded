@@ -121,7 +121,7 @@ const Resume = () => {
                 <AnimatedSection>
                     <h2>Work Experience</h2>
                     <div>
-                        <h3>Machine Learning Engineer/Researcher</h3>
+                        <h3>Machine Learning Research Engineer</h3>
                         <p>SurgePoint Software | Aug 2023 - Sep 2024</p>
                         <ul>
                             <li>Developed an innovative AI Assistant using open-source LLMs like Codestral 22B, Mistral 7B, Mistral-NeMo 12B, and Llama 3.1 8B</li>
