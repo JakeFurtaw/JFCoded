@@ -142,11 +142,9 @@ const Resume = () => {
                     <div>
                         <h3>Chat RAG: Advanced Coding Assistant</h3>
                         <ul>
-                            <li>Developed a versatile RAG (Retrieval-Augmented Generation) chatbot with a Gradio user-interface, supporting multiple local models from Ollama and Hugging Face and cloud-based from OpenAI, Anthropic, and NVIDIA Nims</li>
-                            <li>Developed a sophisticated, chat-based coding assistant leveraging a Retrieval-Augmented Generation (RAG) pipeline, integrating multiple language model providers (Ollama, HuggingFace, NVIDIA NIMs, OpenAI, and Anthropic) with a user-friendly Gradio interface.</li>
-                            <li>Engineered a flexible system featuring dynamic model switching, custom embedding integration (using Hugging Face embeddings), and efficient memory management, demonstrating proficiency in PyTorch, Llama Index, and state-of-the-art language models.</li>
-                            <li>Integrated advanced NLP techniques such as custom prompts, chat memory management, and context-aware responses to improve the quality and relevance of the assistant's outputs.</li>
-                            <li>Implemented advanced features including local document parsing, GitHub repository integration, and support for multiple vector stores (Neo4j, ChromaDB, Milvus) to enhance the assistant's knowledge base and contextual understanding.</li>
+                            <li>Developed a versatile RAG (Retrieval-Augmented Generation) coding assitant chatbot with a Gradio user-interface, supporting multiple local models from Ollama and Hugging Face and cloud-based models from OpenAI, Anthropic, and NVIDIA Nims</li>
+                            <li>Engineered a flexible system featuring dynamic model switching, custom prompt integration, model parameter customization, and efficient chat memory management</li>
+                            <li>Implemented advanced features including local document parsing and injection, GitHub repository integration, and support for multiple vector stores (Neo4j, ChromaDB, Milvus) to enhance the assistant's knowledge base and contextual understanding.</li>
                             <li>Developed a modular architecture with separate utility classes for model management, parameter updates, and chat functionality, enhancing code maintainability and scalability.</li>
                             <li>Incorporated GPU memory optimization techniques, including dynamic CUDA cache clearing and garbage collection, to improve performance and resource utilization across different model providers.</li>
                             <li>Implemented robust error handling, informative user notifications, and dynamic UI updates to enhance the application's reliability and user experience.</li>
