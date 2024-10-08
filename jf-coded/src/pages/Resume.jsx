@@ -66,15 +66,22 @@ const Resume = () => {
                         NLP techniques like Retrieval-Augmented Generation(RAG) and Agentic RAG to deliver versatile, high-impact solutions. 
                         I excel in both independent and collaborative settings, driving projects from ideation to deployment.
                         
-                        <br/><br/>My expertise spans data preprocessing, synthetic data creation, model training and finetuning, custom AI assistant development, RAG pipeline creation, and deploying scalable Machine Learning solutions. I thrive in cross-functional 
+                        <br/><br/>My expertise spans data preprocessing, synthetic data creation, model training and finetuning, custom AI assistant development, 
+                        custom RAG pipeline design and development, and deploying scalable Machine Learning solutions. I thrive in cross-functional 
                         teams, fostering collaboration to deliver exceptional results. I am passionate about solving complex problems and pushing AI boundaries. 
                         
-                        <br/><br/> Proficient in Python I am adept at using a large scope of Machine Learning and Data Sceince libraries such as PyTorch, Tensorflow, Langchain, Llama-Index, Transformers, and Diffusers to name a few. 
-                        My technical skills extend to big data manipulation, version control, cloud implementation, and containerization, enabling me to develop robust, efficient AI systems. 
+                        <br/><br/> Proficient in Python I am adept at using a large scope of Machine Learning and Data Sceince libraries such as PyTorch, Tensorflow, Langchain, 
+                        Llama-Index, Transformers, and Diffusers to name a few. My technical skills extend to big data manipulation, version control, cloud implementation, and 
+                        containerization, enabling me to develop robust, efficient AI systems. 
                         
-                        <br/><br/>While my primary expertise lies in Natural Language Processing, I have started to explore Computer Vision and I am eager to explore other machine learning frontiers. Driven by the potential of AI to 
-                        transform industries and improve lives, I am committed to contributing to groundbreaking research and developing innovative solutions that redefine the possibilities in artificial intelligence.
+                        <br/><br/>While my primary expertise lies in Natural Language Processing, I have started to explore Computer Vision and I am eager to explore other machine learning 
+                        frontiers. Driven by the potential of AI to transform industries and improve lives, I am committed to contributing to groundbreaking research and developing 
+                        innovative solutions that redefine the possibilities in artificial intelligence.
                         
+                        <br/><br/><strong>While I may not have as much professional experience as some other candidates, the daily research I do and the 
+                        projects I have developed and been a part of developing in my short career make me a strong canidate for your job and will undoubtedly set me 
+                        apart from any other applicant you have received.</strong>
+
                         <br/><br/><strong style={{fontSize:"1.8rem"}}>Get me on the phone today and lets talk about how I can help your organization thrive!</strong></p>
                 </AnimatedSection>
 
@@ -90,7 +97,7 @@ const Resume = () => {
                     </div>
 
                     <h3><strong>Machine Learning/Data Science</strong></h3> 
-                    <p>Libraries/Dependencies: PyTorch, TensorFlow, Scikit-Learn, Transformers, Diffusers, PIL, HuggingFace, Langchain, Llama-Index, Llama Parse, Gradio, Pandas, NumPy, Matplotlib, Ollama</p>
+                    <p>Libraries/Dependencies: PyTorch, TensorFlow, Scikit-Learn, Accelerate, Pandas, NumPy, Matplotlib,Transformers, Diffusers, PIL, HuggingFace, Langchain, Llama-Index, Llama Parse, Gradio Ollama</p>
                     <p>Data Stores: Milvus, ChromaDB, Neo4j</p>
                     <p>Skills: Retrieval-Augmented Generation, Agentic RAG, Prompt Engineering, Data Preprocessing, Synthetic Data Creation, Model Training and Finetuning</p>
                     
@@ -130,7 +137,7 @@ const Resume = () => {
                         <h3>Advanced Repair Agent</h3>
                         <p>Geek Squad | Mar 2022 - Present</p>
                         <ul>
-                            <li>Earned a Letter of Recommendation from Upper Management for designing and helping to implement a plan to revamp our locations day to day operations, increasing overall productivity by 150% and customer satisfaction.</li>
+                            <li>Earned a Letter of Recommendation from Upper Management for designing and helping to implement a plan to revamp our locations day to day operations, increasing overall productivity and customer satisfaction by 150%.</li>
                             <li>Executing tens of thousands of Software and Hardware fixes on desktops, laptops, tablets, and cell phones that are using a variety of operating systems.</li>
                             <li>Receiving an award for Top Performing Advanced Repair Agent at our location and I am consistently in the top 3% of all of the Advanced Repair Agents in our District and Region.</li>
                         </ul>
@@ -140,9 +147,9 @@ const Resume = () => {
                 <AnimatedSection>
                     <h2>Projects</h2>
                     <div>
-                        <h3>Chat RAG: Advanced Coding Assistant</h3>
+                        <h3>Chat RAG: Advanced AI Coding Assistant</h3>
                         <ul>
-                            <li>Developed a versatile RAG (Retrieval-Augmented Generation) coding assitant chatbot with a Gradio user-interface, supporting multiple local models from Ollama and Hugging Face and cloud-based models from OpenAI, Anthropic, and NVIDIA Nims</li>
+                            <li>Developed a versatile RAG (Retrieval-Augmented Generation) coding assitant chatbot with a intricate yet simple Gradio user-interface, supporting multiple local models from Ollama and Hugging Face and cloud-based models from OpenAI, Anthropic, and NVIDIA Nims</li>
                             <li>Engineered a flexible system featuring dynamic model switching, custom prompt integration, model parameter customization, and efficient chat memory management</li>
                             <li>Implemented advanced features including local document parsing and injection, GitHub repository integration, and support for multiple vector stores (Neo4j, ChromaDB, Milvus) to enhance the assistant's knowledge base and contextual understanding.</li>
                             <li>Developed a modular architecture with separate utility classes for model management, parameter updates, and chat functionality, enhancing code maintainability and scalability.</li>
@@ -152,7 +159,7 @@ const Resume = () => {
                         </ul>
                     </div>
                     <div>
-                        <h3>ASTNN: Automatic Equivalent Mutant Identifier</h3>
+                        <h3>Using an ASTNN to Automatically Identify Equivalent Mutants</h3>
                         <ul>
                             <li>Participated in Scrum practices in an agile development environment, participating in sprint planning, daily standups, and reviews</li>
                             <li>Enhanced and modernized the ASTNN codebase by upgrading to Python 3.10, updating library dependencies, implementing model persistence and inference capabilities, and integrating learning rate as a hyperparameter in the ASTNN estimator</li>
@@ -173,27 +180,21 @@ const Resume = () => {
                         </ul>
                     </div>
                     <div>
-                        <h3>HealthG: Personalized Health and Fitness Assistant</h3>
+                        <h3>HealthG: Personalized Health and Fitness AI Assistant</h3>
                         <ul>
-                            <li>Developed a sophisticated, chat-based health assistant using Retrieval-Augmented Generation (RAG) technology, integrating Ollama language models with a Gradio interface for personalized health and fitness advice</li>
-                            <li>Engineered a flexible system with custom embedding integration (Hugging Face) and efficient memory management, showcasing proficiency in PyTorch, Llama Index, and state-of-the-art language models</li>
+                            <li>Developed a sophisticated, chat-based health assistant using Retrieval-Augmented Generation (RAG) technology, integrating NVIDIA and Mistrals Mistral-Nemo language model with a Gradio interface for personalized health and fitness advice</li>
                             <li>Implemented advanced features including persistent chat storage, long-term memory, and user-specific chat history for enhanced contextual understanding and personalization</li>
                             <li>Designed an intuitive UI with user authentication, allowing personalized chat experiences and easy access to past conversations</li>
                             <li>Developed a modular architecture with separate utility classes, incorporated GPU optimization techniques, and implemented robust chat functionality with streaming responses</li>
-                            <li>Integrated advanced NLP techniques such as custom system prompts and context-aware responses to improve the quality and relevance of health-related outputs</li>
-                            <li>Demonstrated strong skills in ML engineering, AI application design, and RAG technology integration for a focused, health-centric conversational AI application</li>
                         </ul>
                     </div>
                     <div>
                         <h3>Image Alter</h3>
                         <ul>
                             <li>Developed a Gradio-based web application for image generation and editing using state-of-the-art Stable Diffusion models, implementing both text-to-image and image-to-image functionalities</li>
-                            <li>Integrated advanced Stable Diffusion models including Flux Schnell, Flux Dev, and a custom fine-tuned model</li>
                             <li>Designed an intuitive user interface with customizable parameters (image dimensions, inference steps, guidance scale, seed selection) and features for generating multiple images simultaneously</li>
                             <li>Optimized model loading and inference using PyTorch and CUDA for efficient GPU utilization</li>
-                            <li>Implemented responsive design elements and custom CSS styling for an enhanced user experience</li>
                             <li>Utilized the Hugging Face Diffusers library to leverage pre-trained models and pipelines effectively</li>
-                            <li>Created a modular codebase with separate utility functions for text-to-image and image-to-image processes, promoting code reusability and maintainability</li>
                         </ul>
                     </div>
                     <h2>Check out my projects page to see pictures and to find GitHub links for these projects.</h2>
