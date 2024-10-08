@@ -78,9 +78,9 @@ const Resume = () => {
                         frontiers. Driven by the potential of AI to transform industries and improve lives, I am committed to contributing to groundbreaking research and developing 
                         innovative solutions that redefine the possibilities in artificial intelligence.
                         
-                        <br/><br/><strong>While I may not have as much professional experience as some other candidates, the daily research I do and the 
-                        projects I have developed and been a part of developing in my short career make me a strong canidate for your job and will undoubtedly set me 
-                        apart from any other applicant you have received.</strong>
+                        <br/><br/><strong>While I may not have as much professional experience as some other candidates, the daily research I do, the mentor I work with 
+                        daily (A Senior Data Scientist/Solutions Architect At NVIDIA) and the projects I have developed and been a part of developing in my short career 
+                        make me a strong canidate for your job and will undoubtedly set me apart from any other applicant you have received.</strong>
 
                         <br/><br/><strong style={{fontSize:"1.8rem"}}>Get me on the phone today and lets talk about how I can help your organization thrive!</strong></p>
                 </AnimatedSection>
