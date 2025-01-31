@@ -89,11 +89,10 @@ const Resume = () => {
                 <h2>Skills</h2>
                     <h3 style={{marginBottom:40}}><strong>Programming Languages</strong></h3>
                     <div className="skills-container">
-                        <SkillBar name="Python" level={90} />
-                        <SkillBar name="Javascript" level={75} />
-                        <SkillBar name="C++" level={50} />
+                        <SkillBar name="Python" level={55} />
+                        <SkillBar name="Javascript" level={40} />
+                        <SkillBar name="C++" level={25} />
                         <SkillBar name="Java" level={25} />
-                        <SkillBar name="CSS" level={65} />
                     </div>
 
                     <h3><strong>Machine Learning/Data Science</strong></h3> 
