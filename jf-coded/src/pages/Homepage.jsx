@@ -32,7 +32,7 @@ const Homepage = () => {
                 <img src={JFCoded} style={{ width: 300, height: 300}} alt="jfcoded pic" />
                 <p style={{ padding: 30, fontSize: 'large', textEmphasis: 'bold' }}>{typedText}</p>
                 <a className="button" href={resumeFile} download>Download My Resume</a>
-                <SocialLinks animationType="fly-in-pulse" />
+                <SocialLinks animationType="pulse" />
             </div>
         </>
     );

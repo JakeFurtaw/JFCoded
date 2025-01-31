@@ -30,7 +30,7 @@ const ContactMe = () => {
             <p style={{ padding: 30, fontSize: 'large', textEmphasis: 'bold' }}>{typedText}</p>
             <div className='wrapper'>
                 <h2>Professional Socials</h2>
-                <SocialLinks animationType="fly-in-pulse" />
+                <SocialLinks animationType="pulse" />
             </div>
 
         </div>
