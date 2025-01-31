@@ -123,7 +123,7 @@ const Resume = () => {
                     <h2>Work Experience</h2>
                     <div>
                         <h3>Machine Learning Research Engineer</h3>
-                        <p>SurgePoint Software | Aug 2023 - Present</p>
+                        <p>SurgePoint Software | Aug 2023 - Oct 2024</p>
                         <ul>
                             <li>Developing an innovative AI Assistant using open-source LLMs like Qwen 2.5 7B, Mistral 7B, Mistral-NeMo 12B, and Llama 3.1 8B</li>
                             <li>Utilizing self-taught data engineering and data preprocessing skills to craft a 13-million-line structured dataset from 200 million lines of unstructured web-scraped HTML and PDF data</li>
