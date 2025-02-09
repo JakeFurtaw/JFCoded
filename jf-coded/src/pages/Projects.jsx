@@ -35,6 +35,11 @@ import AEMIImg3 from '../images/projectImages/AEMI/code2vec_pipeline.png'
 import AEMIImg4 from '../images/projectImages/AEMI/codeBERT_pipeline.png'
 import AEMIImg5 from '../images/projectImages/AEMI/modded_astnn_pipeline.png'
 
+import CS1 from '../images/projectImages/Cap&SonsWebsite/capandsonshero.png'
+import CS2 from '../images/projectImages/Cap&SonsWebsite/contactUsC&S.png'
+import CS3 from '../images/projectImages/Cap&SonsWebsite/recentprojectsC&S.png'
+import CS4 from '../images/projectImages/Cap&SonsWebsite/services_section_c&s.png'
+
 
 const Project = ({ name, description, images, githubLink, language, packages, sector, skills }) => {
     const [ref, inView] = useInView({
@@ -197,6 +202,16 @@ const Projects = () => {
             packages:['React', 'MongoDB', 'Express', 'Node Mailer'],
             sector:'Web Development',
             skills: ['React', 'CSS', 'Responsive Design', 'Express']
+        },
+        {
+            name: 'Cap & Sons Excavation Corp. Website',
+            description: 'I recently built a website for a local swimming pool excavation company. They wanted to expand their online presence and try to attract more business. So they reached out to me and I got right to it. Heres what I came up with.',
+            images: [CS1, CS2, CS3, CS4],
+            githubLink: 'https://github.com/JakeFurtaw/JFCoded',
+            language: ['Javascript', 'CSS'],
+            packages:['React', 'Lucide-React'],
+            sector:'Web Development',
+            skills: ['React', 'CSS', 'Responsive Design']
         },
         {
             name: 'JFCoded',
