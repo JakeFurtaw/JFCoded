@@ -205,8 +205,8 @@ const Projects = () => {
         },
         {
             name: 'Cap & Sons Excavation Corp. Website',
-            description: 'I recently built a website for a local swimming pool excavation company. They wanted to expand their online presence and try to attract more business. So they reached out to me and I got right to it. Heres what I came up with.',
-            images: [CS1, CS2, CS3, CS4],
+            description: 'I recently built a simple single page website for a local swimming pool excavation company. ',
+            images: [CS1, CS4, CS3, CS2],
             githubLink: 'https://github.com/JakeFurtaw/JFCoded',
             language: ['Javascript', 'CSS'],
             packages:['React', 'Lucide-React'],
