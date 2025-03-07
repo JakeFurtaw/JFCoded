@@ -247,7 +247,7 @@ const Projects = () => {
                     <Project key={index} {...project} />
                 ))}
             </div>
-            <h4>Last Updated 2/9/25 check my GitHub for my latest project updates. More projects coming soon!</h4>
+            <h4>Last Updated 3/7/25 check my GitHub for my latest project updates. More projects coming soon!</h4>
             <h4>Link Below!</h4>
             <SocialLinks animationType="pulse" />
         </div>
