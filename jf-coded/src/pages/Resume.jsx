@@ -61,7 +61,7 @@ const Resume = () => {
             </header>
             <AnimatedSection>
                     <h2>Intro</h2>
-                    <p>Hello my name is Jake and I am an innovative Machine Learning Engineer/Researcher specializing in Natural Language Processing (NLP), seeking
+                    <p>Hello my name is Jake and I am an early career Machine Learning Engineer/Researcher specializing in Natural Language Processing (NLP), seeking
                         opportunities to advance AI technology. I excel in designing, developing, and testing cutting-edge AI Assistants and implementing advanced 
                         NLP techniques like Retrieval-Augmented Generation(RAG) and Agentic RAG to deliver versatile, high-impact solutions. 
                         I excel in both independent and collaborative settings, driving projects from ideation to deployment.
