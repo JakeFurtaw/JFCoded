@@ -102,7 +102,7 @@ const Project = ({ name, description, images, githubLink, language, packages, se
                         <span key={index} className="tech-tag language-tag">{lang}</span>
                     ))}
                 </div>
-                <h4>Packages/Dependencies:</h4>
+                <h4>Frameworks/Packages/Dependencies:</h4>
                 <div className="tech-tag-container">
                     {packages.map((pkg, index) => (
                         <span key={index} className="tech-tag package-tag">{pkg}</span>
@@ -128,7 +128,7 @@ const Projects = () => {
             description: 'Chat RAG is an advanced interactive coding assistant that leverages Retrieval-Augmented Generation (RAG) to provide informed responses to coding queries. Built with a user-friendly Gradio interface, it allows users to interact with various language models, customize model parameters, and upload context files from local directories or GitHub repositories for more accurate assistance.',
             images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3, ChatRAGImg4],
             githubLink: 'https://github.com/JakeFurtaw/Chat-RAG',
-            language: ['Python', 'CSS'],
+            language: ['Python'],
             packages:['Gradio', 'Llama-Index', 'HuggingFace Hub', 'PyTorch', 'Transformers', 'Accelerate', 'Llama Parse', 'Dotenv', 'ChromaDB','OS', 'GC', 'glob', 'shutil', 'JSON'],
             sector: 'Natural Language Processing',
             skills: ['Retrieval-Augmented Generation', 'Prompt Engineering', 'Graph RAG', 'Conda', 'PyCharm', 'Chatbot Development' , 'Custom RAG Pipeline Design and Engineering']
@@ -142,7 +142,7 @@ const Projects = () => {
             description: 'Image Alter is a cutting-edge Gradio-based web application that empowers users to create and edit images using advanced Stable Diffusion models. Leveraging state-of-the-art AI technology, including the Flux model by Black Forest Labs and Stable Diffusion XL Refiner 1.0 by Stability AI, the app offers two primary functionalities: Text-to-Image generation and Image-to-Image transformation. With its intuitive interface, Image Alter allows users to transform text prompts into stunning visuals and enhance existing images with AI-driven alterations. Whether you\'re a professional designer, a digital artist, or an enthusiast exploring AI-generated imagery, Image Alter provides a powerful platform to bring your creative visions to life, pushing the boundaries of digital image manipulation.',
             images: [ImgAlt1, ImgAlt2, ImgAlt3, ImgAlt4, ImgAlt5],
             githubLink: 'https://github.com/JakeFurtaw/ImageAlter',
-            language:['Python', 'CSS'],
+            language:['Python'],
             packages:['Gradio', 'Transformers', "Diffusers", 'PIL', 'NumPy', 'random'],
             sector:'Computer Vision',
             skills: ['Stable Diffusion', 'Prompt Engineering', 'Custom Pipeline Design and Engineering', 'Image Processing', 'PyCharm', 'Conda']
@@ -173,7 +173,7 @@ const Projects = () => {
             description: 'Chat RAG is an advanced interactive coding assistant that leverages Retrieval-Augmented Generation (RAG) to provide informed responses to coding queries. Built with a user-friendly Gradio interface, it allows users to interact with various language models, customize model parameters, and upload context files from local directories or GitHub repositories for more accurate assistance.',
             images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3, ChatRAGImg4],
             githubLink: 'https://github.com/JakeFurtaw/Chat-RAG',
-            language: ['Python', 'CSS'],
+            language: ['Python'],
             packages:['Gradio', 'Llama-Index', 'HuggingFace Hub', 'PyTorch', 'Transformers', 'Accelerate', 'Llama Parse', 'Dotenv', 'ChromaDB','OS', 'GC', 'glob', 'shutil', 'JSON'],
             sector: 'Natural Language Processing',
             skills: ['Retrieval-Augmented Generation', 'Prompt Engineering', 'Graph RAG', 'Conda', 'PyCharm', 'Chatbot Development' , 'Custom RAG Pipeline Design and Engineering']
@@ -198,7 +198,7 @@ const Projects = () => {
             description: 'Oceans is a fully functional social media website that I helped create. It has features like posting, commenting, liking, and following users. It was developed, for a college course group project, in one semester using the MERN stack and deployed using Vercel.',
             images: [OceansImg4, OceansImg1, OceansImg2, OceansImg3, OceansImg5],
             githubLink: 'https://github.com/JakeFurtaw/Oceans',
-            language: ['Javascript', 'CSS'],
+            language: ['Javascript'],
             packages:['React', 'MongoDB', 'Express', 'Node Mailer'],
             sector:'Web Development',
             skills: ['React', 'CSS', 'Responsive Design', 'Express']
@@ -208,7 +208,7 @@ const Projects = () => {
             description: 'I recently built a simple single page website for a local swimming pool excavation company. ',
             images: [CS1, CS4, CS3, CS2],
             githubLink: 'https://github.com/JakeFurtaw/capandsons',
-            language: ['Javascript', 'CSS'],
+            language: ['Javascript'],
             packages:['React', 'Lucide-React'],
             sector:'Web Development',
             skills: ['React', 'CSS', 'Responsive Design']
@@ -218,7 +218,7 @@ const Projects = () => {
             description: 'This Website!',
             images: [JFCodedImg1, JFCodedImg3, JFCodedImg2],
             githubLink: 'https://github.com/JakeFurtaw/JFCoded',
-            language: ['Javascript', 'CSS'],
+            language: ['Javascript'],
             packages:['React', 'Web Vitals'],
             sector:'Web Development',
             skills: ['React', 'CSS', 'Responsive Design']
