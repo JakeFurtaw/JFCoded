@@ -71,7 +71,7 @@ const Resume = () => {
                         teams, fostering collaboration to deliver exceptional results. I am passionate about solving complex problems and pushing AI boundaries. 
                         
                         <br/><br/> Proficient in Python I am adept at using a large scope of Machine Learning and Data Sceince libraries such as PyTorch, Tensorflow, Langchain, 
-                        Llama-Index, Transformers, and Diffusers to name a few. My technical skills extend to big data manipulation, version control, cloud implementation, and 
+                        Llama-Index, Transformers, and Diffusers to name a few. My technical skills extend to big data manipulation, version control, and 
                         containerization, enabling me to develop robust, efficient AI systems. 
                         
                         <br/><br/>While my primary expertise lies in Natural Language Processing, I have started to explore Computer Vision and I am eager to explore other machine learning 
@@ -129,14 +129,14 @@ const Resume = () => {
                             <li>Utilizing self-taught data engineering and data preprocessing skills to craft a 13-million-line structured dataset from 200 million lines of unstructured web-scraped HTML and PDF data</li>
                             <li>Implementing a sophisticated Retrieval-Augmented Generation pipeline to provide the most up-to-date university information to the model to increase semantic relevance scores of retrieved context and reduce model hallucinations</li>
                             <li>Leveraging self-taught prompt engineering skills to ensure each tested model has a custom well-structured prompt and enough context to answer any query a user might input</li>
-                            <li>Working with a small, diverse, and time-constrained group of individuals at a startup in a remote setting</li>
+                            <li>Working with a small, diverse, and time-constrained group of individuals at a startup in a mostly remote setting</li>
                         </ul>
                     </div>
                     <div>
                         <h3>Advanced Repair Agent</h3>
                         <p>Geek Squad | Mar 2022 - Present</p>
                         <ul>
-                            <li>Earned a Letter of Recommendation from Upper Management for designing and helping to implement a plan to revamp our locations day to day operations, increasing overall productivity and customer satisfaction by 150%.</li>
+                            <li>Earned a Letter of Recommendation from Upper Management for designing and helping to implement a plan to revamp our locations day to day operations, increasing overall productivity by 50% resulting in improved customer satisfaction.</li>
                             <li>Executing tens of thousands of Software and Hardware fixes on desktops, laptops, tablets, and cell phones that are using a variety of operating systems.</li>
                             <li>Receiving an award for Top Performing Advanced Repair Agent at our location and I am consistently in the top 3% of all of the Advanced Repair Agents in our District and Region.</li>
                         </ul>
