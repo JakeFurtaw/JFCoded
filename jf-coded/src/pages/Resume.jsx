@@ -96,7 +96,7 @@ const Resume = () => {
                     </div>
 
                     <h3><strong>Machine Learning/Data Science</strong></h3> 
-                    <p>Libraries/Dependencies: PyTorch, TensorFlow, Scikit-Learn, Accelerate, Pandas, NumPy, Matplotlib,Transformers, Diffusers, PIL, HuggingFace, Langchain, Llama-Index, Llama Parse, Gradio Ollama</p>
+                    <p>Frameworks/Dependencies: PyTorch, TensorFlow, Scikit-Learn, Accelerate, Pandas, NumPy, Matplotlib, Transformers, Diffusers, PIL, HuggingFace, Langchain, Llama-Index, Llama Parse, Gradio, Ollama</p>
                     <p>Data Stores: Milvus, ChromaDB, Neo4j</p>
                     <p>Skills: Retrieval-Augmented Generation, Agentic RAG, Prompt Engineering, Data Preprocessing, Synthetic Data Creation, Model Training and Finetuning</p>
                     
