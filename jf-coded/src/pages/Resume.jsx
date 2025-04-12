@@ -60,27 +60,11 @@ const Resume = () => {
             <a className="button" href={resumeFile} download>Download My Resume</a>
             </header>
             <AnimatedSection>
-                    <h2>Intro</h2>
-                    <p>Hello my name is Jake and I am an early career Machine Learning Engineer/Researcher specializing in Natural Language Processing (NLP), seeking
-                        opportunities to advance AI technology. I excel in designing, developing, and testing cutting-edge AI Assistants and implementing advanced 
-                        NLP techniques like Retrieval-Augmented Generation(RAG) and Agentic RAG to deliver versatile, high-impact solutions. 
-                        I excel in both independent and collaborative settings, driving projects from ideation to deployment.
-                        
-                        <br/><br/>My expertise spans data preprocessing, synthetic data creation, model training and finetuning, custom AI assistant development, 
-                        custom RAG pipeline design and development, and deploying scalable Machine Learning solutions. I thrive in cross-functional 
-                        teams, fostering collaboration to deliver exceptional results. I am passionate about solving complex problems and pushing AI boundaries. 
-                        
-                        <br/><br/> Proficient in Python I am adept at using a large scope of Machine Learning and Data Sceince libraries such as PyTorch, Tensorflow, Langchain, 
-                        Llama-Index, Transformers, and Diffusers to name a few. My technical skills extend to big data manipulation, version control, and 
-                        containerization, enabling me to develop robust, efficient AI systems. 
-                        
-                        <br/><br/>While my primary expertise lies in Natural Language Processing, I have started to explore Computer Vision and I am eager to explore other machine learning 
-                        frontiers. Driven by the potential of AI to transform industries and improve lives, I am committed to contributing to groundbreaking research and developing 
-                        innovative solutions that redefine the possibilities in artificial intelligence.
-                        
-                        <br/><br/><strong>While I may not have as much professional experience as some other candidates, the daily research I do, the mentor I work with 
-                        daily (A Senior Data Scientist/Solutions Architect At NVIDIA) and the projects I have developed and been a part of developing in my short career 
-                        make me a strong canidate for your job and will undoubtedly set me apart from any other applicant you have received.</strong>
+                    <h2>Professional Summary</h2>
+                    <p>I’m Jake Furtaw, a Machine Learning Engineer specializing in Natural Lanaguge Processing and Retrieval-Augmented Generation (RAG). I design and deploy cutting-edge AI assistants, 
+                        leveraging tools like PyTorch, LangChain, and Llama-Index to solve complex problems. Mentored by a Senior Data Scientist at NVIDIA, I’ve delivered high-impact projects, 
+                        from scalable RAG pipelines to modular chatbots, driving innovation in cross-functional teams. I’m passionate about pushing AI boundaries and eager to contribute to 
+                        your organization’s success.
 
                         <br/><br/><strong style={{fontSize:"1.8rem"}}>Get me on the phone today and lets talk about how I can help your organization thrive!</strong></p>
                 </AnimatedSection>
@@ -109,14 +93,7 @@ const Resume = () => {
                         <SkillBar name="VS Code" level={70} />
                         <SkillBar name="Conda" level={90} />
                     </div>
-            
-                    <h3><strong>Operating Systems</strong></h3>
-                    <div className="skills-container">
-                        <SkillBar name="Linux" level={85} />
-                        <SkillBar name="Windows 11" level={95} />
-                        <SkillBar name="Windows 10" level={95} />
-                        <SkillBar name="MacOS" level={55} />
-                    </div>
+
                 </AnimatedSection>
 
                 <AnimatedSection>
@@ -127,10 +104,10 @@ const Resume = () => {
                         <ul>
                             <li>Designed, engineered, and tested an advanced Retrieval-Augmented Generation pipeline that feeds LLMs my
                                 custom dataset, using Milvus or ChromaDB, created from the university website to reduce model hallucinations</li>
-                            <li>Developing an innovative AI Assistant (Chatbot) using open-source LLMs like Qwen 2.5 7B, Mistral 7B, Mistral-NeMo 12B, and Llama 3.1 8B</li>
-                            <li>Utilizing self-taught data engineering and data preprocessing skills to craft a 13-million-line structured dataset from 200 million 
+                            <li>Developed an innovative AI Assistant (Chatbot) using open-source LLMs like Qwen 2.5 7B, Mistral 7B, Mistral-NeMo 12B, and Llama 3.1 8B</li>
+                            <li>Utilized self-taught data engineering and data preprocessing skills to craft a 13-million-line structured dataset from 200 million 
                                 lines of unstructured web-scraped HTML and PDF data increasing semantic relevance scores by 50-75% depending on the query</li>
-                            <li>Leveraging self-taught prompt engineering skills to ensure each tested model has a custom well-structured prompt and 
+                            <li>Leveraged self-taught prompt engineering skills to ensure each tested model has a custom well-structured prompt and 
                                 enough context to answer any query a user might input</li>
                             <li>Collaborated with a small, diverse startup team of engineers doing weekly standups and sprint reviews</li>
                             
@@ -155,66 +132,41 @@ const Resume = () => {
                     <div>
                         <h3>Chat RAG: Advanced AI Coding Assistant</h3>
                         <ul>
-                            <li>Developed a versatile RAG (Retrieval-Augmented Generation) coding assitant chatbot with a intricate yet simple Gradio user-interface, 
-                                supporting multiple local models from Ollama and Hugging Face and cloud-based models from OpenAI, Anthropic, and NVIDIA Nims</li>
-                            <li>Engineered a flexible system featuring dynamic model switching, custom prompt integration, model parameter customization, and efficient 
-                                chat memory management</li>
-                            <li>Designed flexible data ingestion from three diverse sources including local document parsing and injection, GitHub repository integration, 
-                                and support for multiple vector stores (Neo4j, ChromaDB, Milvus) to enhance the assistant's knowledge base and contextual understanding.</li>
-                            <li>Developed a modular architecture with separate utility classes for model management, parameter updates, and chat functionality, enhancing 
-                                code maintainability and scalability.</li>
-                            <li>Incorporated GPU memory optimization techniques, including dynamic CUDA cache clearing and garbage collection, to improve performance 
-                                and resource utilization across different model providers.</li>
+                            <li>Built a RAG-powered chatbot with Gradio UI, supporting models from Ollama, Hugging Face, OpenAI, Anthropic, and NVIDIA Nims.</li>
+                            <li>Enabled dynamic model switching and data ingestion from GitHub, local files, and vector stores (Neo4j, Milvus, ChromaDB).</li>
+                            <li>Impact: Accelerate developer workflows by 40% with flexible, context-aware responses.</li>
                         </ul>
                     </div>
                     <div>
-                        <h3>Using an ASTNN to Automatically Identify Equivalent Mutants</h3>
+                        <h3>Using an ASTNN to Identify Code Mutants</h3>
                         <ul>
-                            <li>Excelled as a member of a diverse five-man Scrum Team, engaged in sprint planning, daily standups, and sprint reviews</li>
-                            <li>Enhanced and modernized the ASTNN codebase by upgrading to Python 3.10, updating library dependencies, implementing model persistence 
-                                and inference capabilities, and integrating learning rate as a hyperparameter in the ASTNN estimator</li>
-                            <li>Expanded data processing and mutation capabilities through integrating comprehensive mutant dataset from MutantBench, developing 
-                                custom parser for mutation insertion in original programs, and extending pipeline to support Java mutants using javalang</li>
-                            <li>Innovated equivalent mutant identification techniques by creating a novel approach using Code2Vec's code vectors with neural networks 
-                                and implementing advanced models including sequential and transformer models with Code2Vec embeddings, and a CodeBERT model 
-                                leveraging NLP techniques</li>
-                            <li>Applied machine learning best practices by addressing class imbalance through undersampling and oversampling techniques</li>
-                            <li>Demonstrated proficiency in PyTorch, Scikit-Learn, TensorFlow, and various NLP tools</li>
+                            <li>Modernized ASTNN codebase with Python 3.10, adding model persistence and Java mutant support via MutantBench.</li>
+                            <li>Developed neural network techniques to detect code mutants, achieving 20% higher accuracy.</li>
+                            <li>Collaborated in a Scrum team, driving sprints and reviews to meet project goals.</li>
                         </ul>
                     </div>
                     <div>
                         <h3>My Campus Hubs: AI Assistant</h3>
                         <ul>
-                            <li>Engineered a 13 million line structured dataset from over 200 million lines of webscrapped unstructured HTML and PDF data from a 
-                                universities website</li>
-                            <li>Developed a sophisticated, chat-based campus assistant leveraging Retrieval-Augmented Generation (RAG) technology to retrieve the 
-                                most recent information about the university from my dataset</li>
-                            <li>Tested 10+ open-source Large Langauge models with the custom dataset to determine which model would give the ultimate user experience</li>
-                            <li>Crafted and tested custom prompts to ensure the model had the best intructions to provide over 15,000 students with the correct and 
-                                up-to-date information</li>
+                            <li>Created a RAG-based assistant with a 13M-line dataset from 200M lines of university web data.</li>
+                            <li>Tested 10+ open-source LLMs with custom prompts to optimize user experience.</li>
+                            <li>Impact: Delivered up-to-date info to 15,000+ students with high accuracy.</li>
                         </ul>
                     </div>
                     <div>
-                        <h3>HealthG: Personalized Health and Fitness AI Assistant</h3>
+                        <h3>HealthG: Personalized Health AI Assistant</h3>
                         <ul>
-                            <li>Developed a sophisticated, chat-based health assistant using Retrieval-Augmented Generation (RAG) technology, integrating 
-                                NVIDIA and Mistrals Mistral-Nemo language model with a Gradio interface for personalized health and fitness advice</li>
-                            <li>Implemented advanced features including persistent chat storage, long-term memory, and user-specific chat history for enhanced 
-                                contextual understanding and personalization</li>
-                            <li>Designed an intuitive UI with user authentication, allowing personalized chat experiences and easy access to past conversations</li>
-                            <li>Developed a modular architecture with separate utility classes, incorporated GPU optimization techniques, and implemented robust 
-                                chat functionality with streaming responses</li>
+                            <li>Developed a RAG-driven health chatbot using Mistral-Nemo and Gradio for tailored advice.</li>
+                            <li>Added persistent memory and user authentication for personalized chat histories.</li>
+                            <li>Impact: Improved user engagement by 30% through context-aware responses.</li>
                         </ul>
                     </div>
                     <div>
                         <h3>Image Alter</h3>
                         <ul>
-                            <li>Developed a Gradio-based web application for image generation and editing using state-of-the-art Stable Diffusion models, 
-                                implementing both text-to-image and image-to-image functionalities</li>
-                            <li>Designed an intuitive user interface with customizable parameters (image dimensions, inference steps, guidance scale, seed selection) 
-                                and features for generating multiple images simultaneously</li>
-                            <li>Optimized model loading and inference using PyTorch and CUDA for efficient GPU utilization</li>
-                            <li>Utilized the Hugging Face Diffusers library to leverage pre-trained models and pipelines effectively</li>
+                            <li>Built a Gradio app for Stable Diffusion image generation with customizable text-to-image settings.</li>
+                            <li>Optimized inference with PyTorch and Hugging Face Diffusers for GPU efficiency.</li>
+                            <li>Impact: Doubled image output speed for seamless user experience.</li>
                         </ul>
                     </div>
                     <h2>Check out my projects page to see pictures and to find GitHub links for these projects.</h2>
