@@ -155,7 +155,7 @@ const Projects = () => {
             language: ['Python'],
             packages:['Pandas', 'Gensim', 'PyTorch', 'Scikit-Learn', 'Matplotlib', 'Accelerate', 'Tensorflow', 'Transformers', 'NumPy', 'rdflib', 'Pycparser', 'Javalang', 'Notebook'],
             sector:'Natural Language Processing',
-            skills: ['Hyperparameter Tuning', 'Model Training and Finetuning', 'Binary Classification', 'Parser Development', 'Under and Over Sampling' ]
+            skills: ['Hyperparameter Tuning', 'Model Training and Finetuning', 'Binary Classification', 'Parser Development', 'Undersampling and Oversampling' ]
         },
         {
             name: 'Health Bot',

@@ -125,14 +125,14 @@ const Resume = () => {
                         <h3>Machine Learning Research Engineer</h3>
                         <p>SurgePoint Software | Hybrid | August 2023 - October 2024</p>
                         <ul>
-                            <li>Collaborated with a small, diverse startup team of engineers doing weekly standups and sprint reviews</li>
+                            <li>Designed, engineered, and tested an advanced Retrieval-Augmented Generation pipeline that feeds LLMs my
+                                custom dataset, using Milvus or ChromaDB, created from the university website to reduce model hallucinations</li>
                             <li>Developing an innovative AI Assistant (Chatbot) using open-source LLMs like Qwen 2.5 7B, Mistral 7B, Mistral-NeMo 12B, and Llama 3.1 8B</li>
                             <li>Utilizing self-taught data engineering and data preprocessing skills to craft a 13-million-line structured dataset from 200 million 
                                 lines of unstructured web-scraped HTML and PDF data increasing semantic relevance scores by 50-75% depending on the query</li>
-                            <li>Designed, engineered, and tested an advanced Retrieval-Augmented Generation pipeline that feeds LLMs my
-                                custom dataset, using Milvus or ChromaDB, created from the university website to reduce model hallucinations</li>
                             <li>Leveraging self-taught prompt engineering skills to ensure each tested model has a custom well-structured prompt and 
                                 enough context to answer any query a user might input</li>
+                            <li>Collaborated with a small, diverse startup team of engineers doing weekly standups and sprint reviews</li>
                             
                         </ul>
                     </div>
