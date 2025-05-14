@@ -41,12 +41,12 @@ import CS3 from '../images/projectImages/Cap&SonsWebsite/recentprojectsC&S.png'
 import CS4 from '../images/projectImages/Cap&SonsWebsite/services_section_c&s.png'
 
 
-const Project = ({ name, description, images, githubLink, language, packages, sector, skills }) => {
+const Project = ({ name, description, images, video, githubLink, language, packages, sector, skills }) => {
     const [ref, inView] = useInView({
         triggerOnce: true,
         threshold: 0.1,
     });
-    
+
     const galleryRef = useRef(null);
     const [isHovering, setIsHovering] = useState(false);
 
@@ -64,17 +64,17 @@ const Project = ({ name, description, images, githubLink, language, packages, se
             }
         };
 
-        if (isHovering) {
-            scrollInterval = setInterval(scrollGallery, 20); // Adjust interval for speed
+        if (isHovering && !video) { // Only scroll if no video (videos don't need scrolling)
+            scrollInterval = setInterval(scrollGallery, 20);
         }
 
         return () => {
             if (scrollInterval) clearInterval(scrollInterval);
         };
-    }, [isHovering]);
+    }, [isHovering, video]);
 
     return (
-        <div 
+        <div
             ref={ref}
             className={`project-container ${inView ? 'fade-in' : ''}`}
             onMouseEnter={() => setIsHovering(true)}
@@ -82,13 +82,36 @@ const Project = ({ name, description, images, githubLink, language, packages, se
         >
             <h2>{name}</h2>
             <p>{description}</p>
+            <a href={githubLink} target="_blank" rel="noopener noreferrer" className="button">
+                View on GitHub
+            </a>
 
-            <a href={githubLink} target='_blank' rel='noopener noreferrer' className='button'>View on GitHub</a>
-            <div className='image-gallery' ref={galleryRef}>
-                {images.map((image, index) => (
-                    <img key={index} src={image} alt={`${name} screenshot ${index + 1}`} />
-                ))}
-            </div>
+            {video ? (
+                <div className="video-container">
+                    {video.type === 'youtube' ? (
+                        <iframe
+                            width="100%"
+                            height="315"
+                            src={video.url}
+                            title={`${name} demo video`}
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                    ) : (
+                        <video controls width="100%" height="auto">
+                            <source src={video.url} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    )}
+                </div>
+            ) : (
+                <div className="image-gallery" ref={galleryRef}>
+                    {images.map((image, index) => (
+                        <img key={index} src={image} alt={`${name} screenshot ${index + 1}`} />
+                    ))}
+                </div>
+            )}
 
             <div className="technical-info-container">
                 <h2>Technical Details</h2>
@@ -108,7 +131,6 @@ const Project = ({ name, description, images, githubLink, language, packages, se
                         <span key={index} className="tech-tag package-tag">{pkg}</span>
                     ))}
                 </div>
-
                 <h4>Skills:</h4>
                 <div className="tech-tag-container">
                     {skills.map((skill, index) => (
@@ -124,16 +146,19 @@ const Projects = () => {
 
     const highlightedProjects = [
         {
-            name: 'Chat RAG',
-            description: 'Chat RAG is an advanced interactive coding assistant that leverages Retrieval-Augmented Generation (RAG) to provide informed responses to coding queries. Built with a user-friendly Gradio interface, it allows users to interact with various language models, customize model parameters, and upload context files from local directories or GitHub repositories for more accurate assistance.',
-            images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3, ChatRAGImg4],
-            githubLink: 'https://github.com/JakeFurtaw/Chat-RAG',
+            name: 'Agent Qwen',
+            description: 'Agent Qwen is an innovative AI-powered assistant crafted to emulate a Geek Squad Agent, empowering customers to troubleshoot and resolve computer issues with ease. Harnessing advanced multimodal AI, it delivers personalized, context-aware solutions through an intuitive interface. By leveraging cutting-edge natural language processing, Agent Qwen streamlines technical support, offering a glimpse into the future of AI-enhanced customer service.',
+            video: {
+                type: 'youtube',
+                url: 'https://www.youtube.com/embed/Pkkr9hOr2Ys'
+            },
+            images: [],
+            githubLink: 'https://github.com/JakeFurtaw/AgentQwen',
             language: ['Python'],
-            packages:['Gradio', 'Llama-Index', 'HuggingFace Hub', 'PyTorch', 'Transformers', 'Accelerate', 'Llama Parse', 'Dotenv', 'ChromaDB','OS', 'GC', 'glob', 'shutil', 'JSON'],
+            packages: ['Gradio', 'Transformers', 'PyTorch', 'soundfile', 'numpy', 'tempfile'],
             sector: 'Natural Language Processing',
-            skills: ['Retrieval-Augmented Generation', 'Prompt Engineering', 'Graph RAG', 'Conda', 'PyCharm', 'Chatbot Development' , 'Custom RAG Pipeline Design and Engineering']
-        }
-        // Add more highlighted projects here
+            skills: ['Multimodal AI', 'Chatbot Development', 'Prompt Engineering', 'PyCharm', 'Conda']
+            }
     ];
 
     const mlProjects = [
@@ -156,6 +181,19 @@ const Projects = () => {
             packages:['Pandas', 'Gensim', 'PyTorch', 'Scikit-Learn', 'Matplotlib', 'Accelerate', 'Tensorflow', 'Transformers', 'NumPy', 'rdflib', 'Pycparser', 'Javalang', 'Notebook'],
             sector:'Natural Language Processing',
             skills: ['Hyperparameter Tuning', 'Model Training and Finetuning', 'Binary Classification', 'Parser Development', 'Undersampling and Oversampling' ]
+        },
+        {
+            name: 'Agent Qwen',
+            description: 'Agent Qwen is an innovative AI-powered assistant crafted to emulate a Geek Squad Agent, empowering customers to troubleshoot and resolve computer issues with ease. Harnessing advanced multimodal AI, it delivers personalized, context-aware solutions through an intuitive interface. By leveraging cutting-edge natural language processing, Agent Qwen streamlines technical support, offering a glimpse into the future of AI-enhanced customer service.',        video: {
+                type: 'youtube',
+                url: 'https://www.youtube.com/embed/Pkkr9hOr2Ys'
+            },
+            images: [],
+            githubLink: 'https://github.com/JakeFurtaw/AgentQwen',
+            language: ['Python'],
+            packages: ['Gradio', 'Transformers', 'PyTorch', 'soundfile', 'numpy', 'tempfile'],
+            sector: 'Natural Language Processing',
+            skills: ['Multimodal AI', 'Chatbot Development', 'Prompt Engineering', 'PyCharm', 'Conda']
         },
         {
             name: 'Health Bot',
