@@ -163,6 +163,16 @@ const Projects = () => {
 
     const mlProjects = [
         {
+            name: 'Chat RAG',
+            description: 'Chat RAG is an advanced interactive coding assistant that leverages Retrieval-Augmented Generation (RAG) to provide informed responses to coding queries. Built with a user-friendly Gradio interface, it allows users to interact with various language models, customize model parameters, and upload context files from local directories or GitHub repositories for more accurate assistance.',
+            images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3, ChatRAGImg4],
+            githubLink: 'https://github.com/JakeFurtaw/Chat-RAG',
+            language: ['Python'],
+            packages:['Gradio', 'Llama-Index', 'HuggingFace Hub', 'PyTorch', 'Transformers', 'Accelerate', 'Llama Parse', 'Dotenv', 'ChromaDB','OS', 'GC', 'glob', 'shutil', 'JSON'],
+            sector: 'Natural Language Processing',
+            skills: ['Retrieval-Augmented Generation', 'Prompt Engineering', 'Graph RAG', 'Conda', 'PyCharm', 'Chatbot Development' , 'Custom RAG Pipeline Design and Engineering']
+        },
+        {
             name: 'Image Alter',
             description: 'Image Alter is a cutting-edge Gradio-based web application that empowers users to create and edit images using advanced Stable Diffusion models. Leveraging state-of-the-art AI technology, including the Flux model by Black Forest Labs and Stable Diffusion XL Refiner 1.0 by Stability AI, the app offers two primary functionalities: Text-to-Image generation and Image-to-Image transformation. With its intuitive interface, Image Alter allows users to transform text prompts into stunning visuals and enhance existing images with AI-driven alterations. Whether you\'re a professional designer, a digital artist, or an enthusiast exploring AI-generated imagery, Image Alter provides a powerful platform to bring your creative visions to life, pushing the boundaries of digital image manipulation.',
             images: [ImgAlt1, ImgAlt2, ImgAlt3, ImgAlt4, ImgAlt5],
@@ -206,16 +216,6 @@ const Projects = () => {
             skills: ['Chatbot Development', 'Prompt Engineering', 'Custom RAG Pipeline Design and Engineering', 'PyCharm', 'Conda' ]
 
         },        
-        {
-            name: 'Chat RAG',
-            description: 'Chat RAG is an advanced interactive coding assistant that leverages Retrieval-Augmented Generation (RAG) to provide informed responses to coding queries. Built with a user-friendly Gradio interface, it allows users to interact with various language models, customize model parameters, and upload context files from local directories or GitHub repositories for more accurate assistance.',
-            images: [ChatRAGImg1, ChatRAGImg2, ChatRAGImg3, ChatRAGImg4],
-            githubLink: 'https://github.com/JakeFurtaw/Chat-RAG',
-            language: ['Python'],
-            packages:['Gradio', 'Llama-Index', 'HuggingFace Hub', 'PyTorch', 'Transformers', 'Accelerate', 'Llama Parse', 'Dotenv', 'ChromaDB','OS', 'GC', 'glob', 'shutil', 'JSON'],
-            sector: 'Natural Language Processing',
-            skills: ['Retrieval-Augmented Generation', 'Prompt Engineering', 'Graph RAG', 'Conda', 'PyCharm', 'Chatbot Development' , 'Custom RAG Pipeline Design and Engineering']
-        },
         {
             name: 'Repo Ripper',
             description: 'Repo Ripper is an innovative tool designed to revolutionize the way developers interact with and understand GitHub repositories, especially when dealing with unfamiliar codebases or languages. This efficient, locally-run application allows users to have intelligent conversations about any GitHub repository\'s contents using Large Language Models. I built this tool in about 3-4 hours over 2 days.',
