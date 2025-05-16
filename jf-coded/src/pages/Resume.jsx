@@ -82,7 +82,7 @@ const Resume = () => {
                     <h3><strong>Machine Learning/Data Science</strong></h3> 
                     <p>Frameworks/Dependencies: PyTorch, TensorFlow, Scikit-Learn, Accelerate, Pandas, NumPy, Matplotlib, Transformers, Diffusers, PIL, HuggingFace, Langchain, Llama-Index, Llama Parse, Gradio, Ollama</p>
                     <p>Data Stores: Milvus, ChromaDB, Neo4j</p>
-                    <p>Skills: Retrieval-Augmented Generation, Agentic RAG, Prompt Engineering, Data Preprocessing, Synthetic Data Creation, Model Training and Finetuning</p>
+                    <p>Skills: Retrieval-Augmented Generation, Prompt Engineering, Data Engineering, Data Preprocessing, Synthetic Data Creation, Model Training and Finetuning</p>
                     
                     <h3><strong>Tools & Platforms</strong></h3>
                     <div className="skills-container">
@@ -129,6 +129,14 @@ const Resume = () => {
 
                 <AnimatedSection>
                     <h2>Projects</h2>
+                                        <div>
+                        <h3>Agent Qwen: Multimodal Geek Squad AI Agent</h3>
+                        <ul>
+                            <li>Developed a Gradio-based chatbot using Qwen2.5-Omni-7B, supporting text, image, audio, and video inputs for device troubleshooting.</li>
+                            <li>Implemented custom prompt engineering and report generation to summarize user issues for technicians, enhancing support efficiency.</li>
+                            <li>Integrated audio output to provide spoken responses, improving accessibility for a more diverse set of customers, including those preferring auditory feedback.</li>
+                        </ul>
+                    </div>
                     <div>
                         <h3>Chat RAG: Advanced AI Coding Assistant</h3>
                         <ul>
