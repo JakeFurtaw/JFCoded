@@ -147,7 +147,7 @@ const Projects = () => {
     const highlightedProjects = [
         {
             name: 'Agent Qwen',
-            description: 'Agent Qwen is an innovative AI-powered assistant crafted to emulate a Geek Squad Agent, empowering customers to troubleshoot and resolve computer issues with ease. Harnessing advanced multimodal AI, it delivers personalized, context-aware solutions through an intuitive interface. By leveraging cutting-edge natural language processing, Agent Qwen streamlines technical support, offering a glimpse into the future of AI-enhanced customer service.',
+            description: 'Agent Qwen is an innovative AI-powered assistant crafted to emulate a Geek Squad Agent, empowering customers to troubleshoot and resolve computer issues with ease. Harnessing advanced multimodal AI, it delivers personalized, context-aware solutions through an intuitive interface. Agent Qwen streamlines technical support, offering a glimpse into the future of AI-enhanced customer service.',
             video: {
                 type: 'youtube',
                 url: 'https://www.youtube.com/embed/Pkkr9hOr2Ys'
@@ -194,8 +194,7 @@ const Projects = () => {
         },
         {
             name: 'Agent Qwen',
-            description: 'Agent Qwen is an innovative AI-powered assistant crafted to emulate a Geek Squad Agent, empowering customers to troubleshoot and resolve computer issues with ease. Harnessing advanced multimodal AI, it delivers personalized, context-aware solutions through an intuitive interface. By leveraging cutting-edge natural language processing, Agent Qwen streamlines technical support, offering a glimpse into the future of AI-enhanced customer service.',        
-            video: {
+            description: 'Agent Qwen is an innovative AI-powered assistant crafted to emulate a Geek Squad Agent, empowering customers to troubleshoot and resolve computer issues with ease. Harnessing advanced multimodal AI, it delivers personalized, context-aware solutions through an intuitive interface. Agent Qwen streamlines technical support, offering a glimpse into the future of AI-enhanced customer service.',            video: {
                 type: 'youtube',
                 url: 'https://www.youtube.com/embed/Pkkr9hOr2Ys'
             },
