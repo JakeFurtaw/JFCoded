@@ -150,7 +150,7 @@ const Projects = () => {
             description: 'Agent Qwen is an innovative AI-powered assistant crafted to emulate a Geek Squad Agent, empowering customers to troubleshoot and resolve computer issues with ease. Harnessing advanced multimodal AI, it delivers personalized, context-aware solutions through an intuitive interface. Agent Qwen streamlines technical support, offering a glimpse into the future of AI-enhanced customer service.',
             video: {
                 type: 'youtube',
-                url: 'https://www.youtube.com/embed/Pkkr9hOr2Ys'
+                url: 'https://www.youtube.com/embed/videoseries?si=vbcIHSlmHY1LibHV&amp;list=PLvdeGpEVyxEHyU-9AhVK7GgXj_PEXFpKX'
             },
             images: [],
             githubLink: 'https://github.com/JakeFurtaw/AgentQwen',
@@ -196,7 +196,7 @@ const Projects = () => {
             name: 'Agent Qwen',
             description: 'Agent Qwen is an innovative AI-powered assistant crafted to emulate a Geek Squad Agent, empowering customers to troubleshoot and resolve computer issues with ease. Harnessing advanced multimodal AI, it delivers personalized, context-aware solutions through an intuitive interface. Agent Qwen streamlines technical support, offering a glimpse into the future of AI-enhanced customer service.',            video: {
                 type: 'youtube',
-                url: 'https://www.youtube.com/embed/Pkkr9hOr2Ys'
+                url: 'https://www.youtube.com/embed/videoseries?si=vbcIHSlmHY1LibHV&amp;list=PLvdeGpEVyxEHyU-9AhVK7GgXj_PEXFpKX'
             },
             images: [],
             githubLink: 'https://github.com/JakeFurtaw/AgentQwen',
