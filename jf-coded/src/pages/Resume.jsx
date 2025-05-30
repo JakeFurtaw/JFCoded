@@ -100,7 +100,7 @@ const Resume = () => {
                     <h2>Work Experience</h2>
                     <div>
                         <h3>Machine Learning Research Engineer</h3>
-                        <p>SurgePoint Software | Hybrid | August 2023 - Present</p>
+                        <p>SurgePoint Software | Hybrid | August 2023 - April 2025</p>
                         <ul>
                             <li>Designed, engineered, and tested an advanced Retrieval-Augmented Generation pipeline that feeds LLMs my
                                 custom dataset, using Milvus or ChromaDB, created from the university website to reduce model hallucinations</li>
