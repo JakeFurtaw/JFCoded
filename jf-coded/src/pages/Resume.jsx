@@ -61,7 +61,7 @@ const Resume = () => {
             </header>
             <AnimatedSection>
                     <h2>Professional Summary</h2>
-                    <p>I’m Jake Furtaw, a Machine Learning Engineer specializing in Natural Language Processing and Retrieval-Augmented Generation (RAG). I design and deploy cutting-edge AI assistants, 
+                    <p>I’m Jake Furtaw, a Machine Learning Researcher and Engineer specializing in Natural Language Processing and Retrieval-Augmented Generation (RAG). I design and deploy cutting-edge AI assistants, 
                         leveraging tools like PyTorch, LangChain, and Llama-Index to solve complex problems. Mentored by a Senior Data Scientist at NVIDIA, I’ve delivered high-impact projects, 
                         from scalable RAG pipelines to modular chatbots, driving innovation in cross-functional teams. I’m passionate about pushing AI boundaries and eager to contribute to 
                         your organization’s success.
