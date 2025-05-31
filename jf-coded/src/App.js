@@ -16,6 +16,7 @@ function App() {
           <Route path='/resume' element={<VirtualResume/>} />
           <Route path='/projects' element={<Projects/>} />
           <Route path='/contact' element={<ContactMe/>} />
+          {/* <Route path='/setup' element={<Setup/>} /> */}
           <Route path='/*' element={<h1>404 Error. This page doesnt exist!</h1>} />
         </Routes>
       </BrowserRouter>
