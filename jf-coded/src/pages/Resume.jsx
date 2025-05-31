@@ -140,31 +140,31 @@ const Resume = () => {
                     <div>
                         <h3>Chat RAG: Advanced AI Coding Assistant</h3>
                         <ul>
-                            <li>Built a RAG-powered chatbot with Gradio UI, supporting models from Ollama, Hugging Face, OpenAI, Anthropic, and NVIDIA Nims.</li>
-                            <li>Enabled dynamic model switching and data ingestion from GitHub, local files, and vector stores (Neo4j, Milvus, ChromaDB).</li>
-                            <li>Impact: Accelerate developer workflows by 40% with flexible, context-aware responses.</li>
+                            <li>Created a RAG-powered chatbot with a Gradio user interface, supporting local and API inference from any of the hundreds of Ollama and HuggingFace models, as well as any models from OpenAI, Anthropic, and NVIDIA NIMS </li>
+                            <li>Designed flexible data ingestion from three diverse sources GitHub repositories, local files, and vector stores (Neo4j, Milvus, ChromaDB).</li>
+                            <li>Engineered a modular Python architecture with 5+ utilities for model management featuring dynamic model switching, custom prompt integration, model parameter tuning, quantization options, and many more</li>
                         </ul>
                     </div>
                     <div>
                         <h3>Using an ASTNN to Identify Equivalent and Non-Equivalent Code Mutants</h3>
                         <ul>
-                            <li>Modernized ASTNN codebase with Python 3.10, adding model persistence and Java mutant support via MutantBench.</li>
-                            <li>Developed neural network techniques to detect code mutants, achieving 20% higher accuracy.</li>
-                            <li>Collaborated in a Scrum team, driving sprints and reviews to meet project goals.</li>
+                            <li>Modernized ASTNN codebase with Python 3.10, Optimized data preprocessing by creating a custom Python parser, added new and tuned existing hyperparameters, and customized Python training scripts.</li>
+                            <li>Investigated and implemented the use of a transformer-based model (CodeBERT) for binary classification</li>
+                            <li>Increased the model's F1 and accuracy scores from an average of 79% to 92% using oversampling and undersampling to balance our mutant dataset</li>
                         </ul>
                     </div>
                     <div>
                         <h3>My Campus Hubs: AI Assistant</h3>
                         <ul>
-                            <li>Created a RAG-based assistant with a 13M-line dataset from 200M lines of university web data.</li>
-                            <li>Tested 10+ open-source LLMs with custom prompts to optimize user experience.</li>
+                            <li>Utilizing data engineering skills to reduce 200 million lines of unstructured data into a 13-million-line structured dataset, increasing semantic relevance scores by 50-75%</li>
+                            <li>Designing and implementing a Retrieval-Augmented Generation (RAG) pipeline, integrating vector databases (Milvus, ChromaDB) to supply LLMs with custom datasets, optimizing accuracy and scalability for production use.</li>
                             <li>Impact: Delivered up-to-date info to 15,000+ students with high accuracy.</li>
                         </ul>
                     </div>
                     <div>
                         <h3>HealthG: Personalized Health AI Assistant</h3>
                         <ul>
-                            <li>Developed a RAG-driven health chatbot using Mistral-Nemo and Gradio for tailored advice.</li>
+                            <li>Developed a RAG-driven health chatbot using Mistral-Nemo and Gradio for tailored health advice.</li>
                             <li>Added persistent memory and user authentication for personalized chat histories.</li>
                             <li>Impact: Improved user engagement by 30% through context-aware responses.</li>
                         </ul>
