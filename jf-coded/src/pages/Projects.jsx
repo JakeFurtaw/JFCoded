@@ -173,16 +173,6 @@ const Projects = () => {
             skills: ['Retrieval-Augmented Generation', 'Prompt Engineering', 'Graph RAG', 'Conda', 'PyCharm', 'Chatbot Development' , 'Custom RAG Pipeline Design and Engineering']
         },
         {
-            name: 'Image Alter',
-            description: 'Image Alter is a cutting-edge Gradio-based web application that empowers users to create and edit images using advanced Stable Diffusion models. Leveraging state-of-the-art AI technology, including the Flux model by Black Forest Labs and Stable Diffusion XL Refiner 1.0 by Stability AI, the app offers two primary functionalities: Text-to-Image generation and Image-to-Image transformation. With its intuitive interface, Image Alter allows users to transform text prompts into stunning visuals and enhance existing images with AI-driven alterations. Whether you\'re a professional designer, a digital artist, or an enthusiast exploring AI-generated imagery, Image Alter provides a powerful platform to bring your creative visions to life, pushing the boundaries of digital image manipulation.',
-            images: [ImgAlt1, ImgAlt2, ImgAlt3, ImgAlt4, ImgAlt5],
-            githubLink: 'https://github.com/JakeFurtaw/ImageAlter',
-            language:['Python'],
-            packages:['Gradio', 'Transformers', "Diffusers", 'PIL', 'NumPy', 'random'],
-            sector:'Computer Vision',
-            skills: ['Stable Diffusion', 'Prompt Engineering', 'Custom Pipeline Design and Engineering', 'Image Processing', 'PyCharm', 'Conda']
-        },
-        {
             name: 'Automatic Equivalent Mutant Identifier',
             description: 'This project was a research endeavor I conducted during my college studies for the Software Project Practicum class. We leveraged an existing Abstract Syntax Tree Neural Network, training and fine-tuning the model to identify equivalent mutants within a large dataset of Java and C mutants. The dataset comprised a variety of labeled equivalent and non-equivalent Java and C mutants. Our task involved updating the pipeline, data preprocessing method, embedding technique, and training script. For more detailed information about this project, please refer to the repository linked below.',
             images: [AEMIImg1, AEMIImg2, AEMIImg3, AEMIImg4, AEMIImg5],
@@ -191,6 +181,16 @@ const Projects = () => {
             packages:['Pandas', 'Gensim', 'PyTorch', 'Scikit-Learn', 'Matplotlib', 'Accelerate', 'Tensorflow', 'Transformers', 'NumPy', 'rdflib', 'Pycparser', 'Javalang', 'Notebook'],
             sector:'Natural Language Processing',
             skills: ['Hyperparameter Tuning', 'Model Training and Finetuning', 'Binary Classification', 'Parser Development', 'Undersampling and Oversampling' ]
+        },
+        {
+            name: 'Image Alter',
+            description: 'Image Alter is a cutting-edge Gradio-based web application that empowers users to create and edit images using advanced Stable Diffusion models. Leveraging state-of-the-art AI technology, including the Flux model by Black Forest Labs and Stable Diffusion XL Refiner 1.0 by Stability AI, the app offers two primary functionalities: Text-to-Image generation and Image-to-Image transformation. With its intuitive interface, Image Alter allows users to transform text prompts into stunning visuals and enhance existing images with AI-driven alterations. Whether you\'re a professional designer, a digital artist, or an enthusiast exploring AI-generated imagery, Image Alter provides a powerful platform to bring your creative visions to life, pushing the boundaries of digital image manipulation.',
+            images: [ImgAlt1, ImgAlt2, ImgAlt3, ImgAlt4, ImgAlt5],
+            githubLink: 'https://github.com/JakeFurtaw/ImageAlter',
+            language:['Python'],
+            packages:['Gradio', 'Transformers', "Diffusers", 'PIL', 'NumPy', 'random'],
+            sector:'Computer Vision',
+            skills: ['Stable Diffusion', 'Prompt Engineering', 'Custom Pipeline Design and Engineering', 'Image Processing', 'PyCharm', 'Conda']
         },
         {
             name: 'Agent Qwen',
