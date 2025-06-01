@@ -102,14 +102,13 @@ const Resume = () => {
                         <h3>Machine Learning Research Engineer</h3>
                         <p>SurgePoint Software | Hybrid | August 2023 - April 2025</p>
                         <ul>
-                            <li>Designed, engineered, and tested an advanced Retrieval-Augmented Generation pipeline that feeds LLMs my
-                                custom dataset, using Milvus or ChromaDB, created from the university website to reduce model hallucinations</li>
-                            <li>Developed an innovative AI Assistant (Chatbot) using open-source LLMs like Qwen 2.5 7B, Mistral 7B, Mistral-NeMo 12B, and Llama 3.1 8B</li>
-                            <li>Utilized self-taught data engineering and data preprocessing skills to craft a 13-million-line structured dataset from 200 million 
-                                lines of unstructured web-scraped HTML and PDF data increasing semantic relevance scores by 50-75% depending on the query</li>
-                            <li>Leveraged self-taught prompt engineering skills to ensure each tested model has a custom well-structured prompt and 
-                                enough context to answer any query a user might input</li>
-                            <li>Collaborated with a small, diverse startup team of engineers doing weekly standups and sprint reviews</li>
+                            <li>Developed an innovative AI Assistant (Chatbot) testing open-source LLMs like Qwen 2.5 7B, Mistral 7B, Mistral-NeMo 12B, and Llama 3.1 8B</li>
+                            <li>Utilizing data engineering skills to reduce 200 million lines of unstructured data into a 13-million-line structured dataset, 
+                                increasing semantic relevance scores by 50-75%</li>
+                            <li>Designing and implementing a Retrieval-Augmented Generation (RAG) pipeline, integrating vector databases (Milvus, ChromaDB) 
+                                to supply LLMs with custom datasets, optimizing accuracy and scalability for production use.</li>
+                            <li>Collaborating with a 6-person cross-functional startup team in weekly standups and sprint reviews, delivering actionable insights, and 
+                                aligning technical efforts with business goals</li>
                             
                         </ul>
                     </div>
@@ -117,12 +116,14 @@ const Resume = () => {
                         <h3>Advanced Repair Agent</h3>
                         <p>Geek Squad | Mar 2022 - Present</p>
                         <ul>
-                            <li>Earned a Letter of Recommendation from Upper Management for designing and helping to implement a plan to revamp our 
-                                locations day to day operations, increasing overall productivity by 50% resulting in improved customer satisfaction.</li>
+                            <li>Consistently ranked in the top 3% of all Advanced Repair Agents across our marketplace, resolving hundreds of hardware 
+                                and software repairs across diverse devices and operating systems </li>
+                            <li>Designing operational improvements alongside new management that increased the team's productivity by over 50% and earned 
+                                me a letter of recommendation from upper management </li>
                             <li>Executing tens of thousands of Software and Hardware fixes on desktops, laptops, tablets, and cell phones that are using a variety of 
                                 operating systems.</li>
-                            <li>Receiving an award for Top Performing Advanced Repair Agent at our location and consistently in the top 3% of all of the Advanced Repair Agents 
-                                in our Micro Market and District.</li>
+                            <li>Streamlining repair workflows with automation and creating documentation, reducing repair time by 20%-40%</li>
+
                         </ul>
                     </div>
                 </AnimatedSection>
