@@ -266,7 +266,7 @@ const Projects = () => {
     return (
         <div className='projects-container'>
             <Navbar />
-            <h1 className="parallax-header">Projects</h1>
+            <h1 className="parallax-header">Research Projects</h1>
             <div className='highlighted-projects'>
                 <h2 className="section-header">Highlighted Project</h2>
                 {highlightedProjects.map((project, index) => (
