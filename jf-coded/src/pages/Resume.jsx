@@ -149,9 +149,9 @@ const Resume = () => {
                     <div>
                         <h3>Using an ASTNN to Identify Equivalent and Non-Equivalent Code Mutants</h3>
                         <ul>
-                            <li>Modernized ASTNN codebase with Python 3.10, Optimized data preprocessing by creating a custom Python parser, added new and tuned existing hyperparameters, and customized Python training scripts.</li>
+                            <li>Modernized ASTNN codebase with Python 3.10, Optimized data preprocessing by creating a custom Python parser, added new and tuned existing hyperparameters, and modernized and customized Python training scripts.</li>
                             <li>Investigated and implemented the use of a transformer-based model (CodeBERT) for binary classification</li>
-                            <li>Increased the model's F1 and accuracy scores from an average of 79% to 92% using oversampling and undersampling to balance our mutant dataset</li>
+                            <li>Increased the model's F1 and accuracy scores from an average of 79% to 92% using oversampling and undersampling to balance our Java and C mutant dataset</li>
                         </ul>
                     </div>
                     <div>
