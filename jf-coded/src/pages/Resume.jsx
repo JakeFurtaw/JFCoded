@@ -61,10 +61,12 @@ const Resume = () => {
             </header>
             <AnimatedSection>
                     <h2>Professional Summary</h2>
-                    <p>I’m Jake Furtaw, a Machine Learning Researcher and Engineer specializing in Natural Language Processing and Retrieval-Augmented Generation (RAG). I design and deploy cutting-edge AI assistants, 
-                        leveraging tools like PyTorch, LangChain, and Llama-Index to solve complex problems. Mentored by a Senior Data Scientist at NVIDIA, I’ve delivered high-impact projects, 
-                        from scalable RAG pipelines to modular chatbots, driving innovation in cross-functional teams. I’m passionate about pushing AI boundaries and eager to contribute to 
-                        your organization’s success.
+                    <p>I’m Jake Furtaw, a Machine Learning Engineer with four years of experience across academia and professional experience in AI-driven 
+                        research and full-stack software development, specializing in Agenic AI development, Large Language Models (LLMs), 
+                        Retrieval-Augmented Generation (RAG), and wrangling and pre-processing large datasets. Proficient in rapid prototyping 
+                        of local, scalable, production-grade AI applications. Adept at collaborating with cross-functional teams to deliver 
+                        data-driven solutions aligned with business goals, with a proven track record of optimizing workflows and enhancing 
+                        system performance.
 
                         <br/><br/><strong style={{fontSize:"1.8rem"}}>Get me on the phone today and lets talk about how I can help your organization thrive!</strong></p>
                 </AnimatedSection>
@@ -80,7 +82,7 @@ const Resume = () => {
                     </div>
 
                     <h3><strong>Machine Learning/Data Science</strong></h3> 
-                    <p>Frameworks/Dependencies: PyTorch, TensorFlow, Scikit-Learn, Accelerate, Pandas, NumPy, Matplotlib, Transformers, Diffusers, PIL, HuggingFace, Langchain, Llama-Index, Llama Parse, Gradio, Ollama</p>
+                    <p>Frameworks/Dependencies: PyTorch, TensorFlow, Scikit-Learn, Accelerate, Pandas, NumPy, Matplotlib, FastAPI, Transformers, Diffusers, PIL, HuggingFace, Langchain, Llama-Index, Llama Parse, Gradio, Ollama</p>
                     <p>Data Stores: Milvus, ChromaDB, Neo4j</p>
                     <p>Skills: Retrieval-Augmented Generation, Prompt Engineering, Data Engineering, Data Preprocessing, Synthetic Data Creation, Model Training and Finetuning</p>
                     
@@ -116,7 +118,7 @@ const Resume = () => {
                         <h3>Advanced Repair Agent</h3>
                         <p>Geek Squad | Mar 2022 - Present</p>
                         <ul>
-                            <li>Consistently ranked in the top 3% of all Advanced Repair Agents across our marketplace, resolving hundreds of hardware 
+                            <li>Consistently ranked the top Advanced Repair Agent across our marketplace, resolving hundreds of hardware 
                                 and software repairs across diverse devices and operating systems </li>
                             <li>Designing operational improvements alongside new management that increased the team's productivity by over 50% and earned 
                                 me a letter of recommendation from upper management </li>
